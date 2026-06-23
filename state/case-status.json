@@ -1,9 +1,9 @@
 {
   "BC落地页": {
     "case_file": "BC落地页.md",
-    "content_hash": "17b641767a1f",
+    "content_hash": "f8f56e942d5d",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs": {
     "status": "ignored",
@@ -11,27 +11,27 @@
   },
   "Miscs/WanLi改造": {
     "case_file": "Miscs-PRD转可视化评审页.md",
-    "content_hash": "fae6ce6d0bec",
+    "content_hash": "caa035638a4e",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs/course-marketing-rhetoric": {
     "case_file": "Miscs-课程营销话术蒸馏.md",
-    "content_hash": "dfe73dfba5c8",
+    "content_hash": "64f6357771a1",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs/learning-ielts-writing": {
     "case_file": "Miscs-社区Skill安装与快速验证.md",
-    "content_hash": "c5b95c948b7e",
+    "content_hash": "cf8b74b178bc",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs/proto-drip-annotations-package": {
     "case_file": "Miscs-产品Demo重复工作流的技能化封装.md",
-    "content_hash": "0d1b87d1a76d",
+    "content_hash": "9d89738ab284",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs/test_course-marketing-rhetoric": {
     "status": "ignored",
@@ -39,27 +39,27 @@
   },
   "Miscs/押题班画像": {
     "case_file": "Miscs-押题班画像.md",
-    "content_hash": "f2688f0fb9ea",
+    "content_hash": "ed50b1fded52",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs/签转": {
     "case_file": "Miscs-销售签转率表格数据快速处理与画图.md",
-    "content_hash": "f4fb6f669ffe",
+    "content_hash": "5f96ee17f40d",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs/视频分析": {
     "case_file": "Miscs-视频分析.md",
-    "content_hash": "0b0493e166f7",
+    "content_hash": "978564f622b8",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Miscs/躺着学用户画像": {
     "case_file": "Miscs-躺着学用户画像.md",
-    "content_hash": "a46d6eec482a",
+    "content_hash": "6841bdb0fbbe",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "Nature Futures": {
     "status": "ignored",
@@ -67,9 +67,9 @@
   },
   "Nature Futures 2.0": {
     "case_file": "网络数据爬取并整理成电子书.md",
-    "content_hash": "7318da71a668",
+    "content_hash": "cb87f3948e3b",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "openspec": {
     "status": "ignored",
@@ -81,9 +81,9 @@
   },
   "中国留学数据库": {
     "case_file": "中国留学数据库.md",
-    "content_hash": "7c8d2e088ec5",
+    "content_hash": "61b77481e946",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "其他": {
     "status": "ignored",
@@ -91,9 +91,9 @@
   },
   "创客中国申报": {
     "case_file": "创客中国项目申报.md",
-    "content_hash": "ba64f3b80971",
+    "content_hash": "4990576b47c1",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   "躺着学命中数据库": {
     "case_file": "躺着学命中数据库.md",
@@ -119,9 +119,9 @@
   },
   "雅思写作仿人工批改": {
     "case_file": "雅思写作仿人工批改.md",
-    "content_hash": "bb0dba7f6a4d",
+    "content_hash": "9bb4b0d5f62b",
     "status": "draft",
-    "updated_at": "2026-06-23T15:51:57+00:00"
+    "updated_at": "2026-06-23T16:15:11+00:00"
   },
   ".cursor": {
     "case_file": ".cursor.md",

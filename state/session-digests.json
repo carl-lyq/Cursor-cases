@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-06-23T15:51:57+00:00",
+  "updated_at": "2026-06-23T16:15:11+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
-  "scanned_files_last_run": 2,
+  "scanned_files_last_run": 1,
   "unmapped_count": 0,
   "projects": {
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-06-23T23:51:03.485159",
+        "mtime": "2026-06-24T00:14:54.042728",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
-        "last_assistant": "已改成 **每天 22:00**（北京时间）。模板和 PRD、使用文档都已同步。 若还没装过定时任务 按新时间安装即可： 若已经装过（需要重载） 时间节奏说明 - **22:00** 本机扫对话、脱敏、push digest - **次日 09:00** 云端 Action 把 digest 合并进案例卡 晚上 22:00 时 Mac 需是醒着的（合盖睡眠不会跑）。若那天没跑成，开机后手动执行一次 即可。 [REDACTED]",
+        "last_assistant": "**案例库运维 — 请选择要执行的操作** **A · 重载定时任务** 卸载并重新加载本机 22:00 定时任务（改过 plist 或仓库路径时用）。 **什么时候用**：调整过 ；换了案例库目录；想确保 launchd 用的是最新配置。 **会做什么**： → 复制新 plist → **不会**：立刻执行同步（若要马上同步请选 **B**）。 **说明**：首次安装定时任务见 （本 skill 不提供该项）。 **B · 同步并推送（最常用）** 本机全量扫描 + 对话脱敏 + 更新案例卡 + **提交并 push 到 **。 **什么时候用**…",
         "touched_paths": [
           "projects",
           "image-eca5ce20-37ce-4f99-b4e9-3be58aea1b96.png",
