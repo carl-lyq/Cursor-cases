@@ -3,3 +3,25 @@
   项目：20 · 新案例：0 · 更新：13
   待确认清单：reviews/LATEST.md
   状态：有待确认项 → state/PENDING_REVIEW
+[portfolio-draft e923a35] chore(portfolio): daily local scan with sanitized sessions 2026-06-23
+ Committer: Carl Lu <mac@MacBook-Bro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 23 files changed, 2113 insertions(+), 50 deletions(-)
+ create mode 100644 inbox/2026-06-24-scan.json
+ create mode 100644 reviews/2026-06-24-review.md
+ create mode 100644 state/PENDING_REVIEW
+ create mode 100644 state/logs/daily-sync-20260624.log
+To github.com:carl-lyq/Cursor-cases.git
+   5fbc76e..e923a35  portfolio-draft -> portfolio-draft
+=== 2026-06-24T00:15:21+08:00 daily-local-sync done ===

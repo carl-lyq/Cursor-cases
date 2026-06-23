@@ -12,9 +12,9 @@
   <key>StartCalendarInterval</key>
   <dict>
     <key>Hour</key>
-    <integer>8</integer>
+    <integer>22</integer>
     <key>Minute</key>
-    <integer>15</integer>
+    <integer>0</integer>
   </dict>
   <key>StandardOutPath</key>
   <string>/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Cursor案例库/state/logs/launchd-stdout.log</string>

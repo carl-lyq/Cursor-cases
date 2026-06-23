@@ -45,7 +45,7 @@ git push -u origin portfolio-draft
 
 推荐流程：
 
-1. 本机每日 08:15：`daily-local-sync.sh`（全量 scan + push digest）
+1. 本机每日 22:00：`daily-local-sync.sh`（全量 scan + push digest）
 2. Action 09:00 更新 `portfolio-draft`（仓库 + digest）
 3. 或手动：`git pull` → `scan` → `git push`
 4. 确认后：`confirm` → merge / push `main`
