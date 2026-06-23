@@ -33,6 +33,9 @@ SKIP_DIR_NAMES = {
     "__pycache__",
     "Cursor案例库",
     "躺着学AI项目库",
+    "其他",
+    "openspec",
+    "test_course-marketing-rhetoric",
 }
 
 # 用于推断项目简介的文档（按优先级）

@@ -1,0 +1,18 @@
+{
+  "ignored": [
+    "openspec",
+    "Miscs",
+    "其他",
+    ".cursor",
+    "躺着学资讯页2.0（OpenSpec）",
+    "躺着学命中数据库",
+    "躺着学爬虫"
+  ],
+  "merged_into": {
+    "test_course-marketing-rhetoric": "Miscs/course-marketing-rhetoric",
+    "Miscs/test_course-marketing-rhetoric": "Miscs/course-marketing-rhetoric",
+    "营销话术蒸馏": "Miscs/course-marketing-rhetoric",
+    "躺着学资讯页2.0（SpecKit）": "躺着学资讯页2.0（OpenSpec）",
+    "Nature Futures": "Nature Futures 2.0"
+  }
+}

@@ -1,32 +1,50 @@
 # 项目事实卡片（可选）
 # 放在子项目根目录：.cursor/ai-impact.yaml
-# 扫描器会优先使用此处内容，覆盖自动推断。
 
 project: 押题班画像
-domain: 数据分析 / 运营
+domain: 数据分析
 one_liner: 把 Excel 学生表变成可交互画像看板，辅助开班决策
 
+users: 押题班运营、管理层
+scenario: 开班前 1–2 周需要看清学员结构
+
 background: |
-  押题班运营需要快速看清学员结构、目标分分布、躺着学 vs 非躺着学差异。
-  以往每次开班前都要人工做表，口径还容易不一致。
+  运营需要快速看清学员目标分、承诺类型、躺着学 vs 外部学员差异。
+
+solution: 把 Excel 变成可筛选、可演示的画像看板，口径写在 PRD 里。
+
+pain_points:
+  - Excel 改维度就要重做透视
+  - 口径靠人记，统计结果不一致
+  - 不便向管理层做可交互演示
+
+deliverables_summary: 可筛选、可对比的 HTML 画像看板。
+
+deliverables:
+  - "输入：线下班 Excel 收集表"
+  - "产出：`学生画像看板.html`"
 
 traditional:
-  workflow: 运营用 Excel 透视 + 手工图表，改维度要重做
-  pain: 迭代慢、口径难统一、不便汇报演示
+  workflow: Excel 透视 + 手工图表
+  pain: 迭代慢、口径难统一
   baseline: 约 2–3 天一版
 
 with_cursor:
-  tools:
-    - Cursor Agent
+  capabilities:
+    - Cursor Agent 对话式协作
     - PRD 驱动开发
-    - Python 脚本生成看板
+  tools:
+    - Python + HTML 看板
   workflow: |
-    先写 PRD 定统计口径 → 用自然语言让 Agent 写提取脚本和 HTML 看板 →
-    按需改 Tab/筛选，当天可出可演示版本。
+    写 PRD 定口径
+    对话生成提取脚本与看板
+    按需改筛选维度
 
 impact:
   time_ratio: 首版约 1 天内可演示
-  quality: 口径与 PRD 一致，可交互筛选
-  enabled: 非技术同事也能用对话改统计维度
+  quality: 口径与 PRD 一致
+  enabled: 非技术同事可对话改维度
+
+beneficiaries: 运营、管理层
 
 status: active

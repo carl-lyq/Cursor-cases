@@ -16,6 +16,7 @@ import json
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 # 保证 scripts/ 在 path 中
 SCRIPTS_DIR = Path(__file__).resolve().parent
@@ -24,6 +25,7 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 from config import DIRS, PORTFOLIO_ROOT  # noqa: E402
 from confirm import confirm_cases  # noqa: E402
 from generate_review import generate_review  # noqa: E402
+from lib.sanitize import sanitize_sessions_for_storage  # noqa: E402
 from lib.utils import load_json, save_json, utc_now_iso, write_text  # noqa: E402
 from scan_projects import scan_all_projects  # noqa: E402
 from scan_transcripts import scan_transcripts  # noqa: E402
@@ -75,6 +77,78 @@ def _match_session_to_child(
     return None
 
 
+def _apply_project_overrides(case_status: dict) -> dict:
+    """应用 state/project-overrides.json 中的忽略与合并规则。"""
+    overrides = load_json(DIRS["state"] / "project-overrides.json", default={})
+    for name in overrides.get("ignored", []):
+        case_status.setdefault(name, {})
+        case_status[name]["status"] = "ignored"
+    for name, canonical in (overrides.get("merged_into") or {}).items():
+        case_status.setdefault(name, {})
+        case_status[name]["status"] = "ignored"
+        case_status[name]["merged_into"] = canonical
+    return case_status
+
+
+SESSION_DIGESTS_FILE = "session-digests.json"
+
+
+def _load_session_digests(state_dir: Path) -> dict[str, Any]:
+    return load_json(state_dir / SESSION_DIGESTS_FILE, default={}) or {}
+
+
+def _merge_sanitized_projects(
+    existing: dict[str, list[dict]],
+    incoming: dict[str, list[dict]],
+    *,
+    per_project_limit: int = 15,
+) -> dict[str, list[dict]]:
+    merged: dict[str, dict[str, dict]] = {}
+    for proj, sessions in {**existing, **incoming}.items():
+        bucket = merged.setdefault(proj, {})
+        for s in sessions:
+            sid = s.get("session_id") or s.get("mtime") or ""
+            if sid:
+                bucket[sid] = s
+    out: dict[str, list[dict]] = {}
+    for proj, by_id in merged.items():
+        out[proj] = sorted(by_id.values(), key=lambda x: x.get("mtime", ""), reverse=True)[
+            :per_project_limit
+        ]
+    return out
+
+
+def _save_session_digests(
+    state_dir: Path,
+    projects: dict[str, list[dict]],
+    *,
+    scanned_files: int = 0,
+    unmapped_count: int = 0,
+) -> None:
+    existing = _load_session_digests(state_dir)
+    merged = _merge_sanitized_projects(existing.get("projects") or {}, projects)
+    payload = {
+        "updated_at": utc_now_iso(),
+        "sanitized": True,
+        "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
+        "scanned_files_last_run": scanned_files,
+        "unmapped_count": unmapped_count,
+        "projects": merged,
+    }
+    save_json(state_dir / SESSION_DIGESTS_FILE, payload)
+
+
+def _transcript_data_from_digests(state_dir: Path) -> dict:
+    digests = _load_session_digests(state_dir)
+    return {
+        "scanned_files": 0,
+        "projects": digests.get("projects") or {},
+        "unmapped": [],
+        "from_digest": True,
+        "digest_updated_at": digests.get("updated_at"),
+    }
+
+
 def cmd_scan(args: argparse.Namespace) -> int:
     run_id = datetime.now().strftime("%Y-%m-%d")
     mode = "full"
@@ -87,6 +161,7 @@ def cmd_scan(args: argparse.Namespace) -> int:
     state_dir.mkdir(parents=True, exist_ok=True)
     last_scan = load_json(state_dir / "last-scan.json", default={})
     case_status = load_json(state_dir / "case-status.json", default={})
+    case_status = _apply_project_overrides(case_status)
 
     projects: list[dict] = []
     transcript_data: dict = {"projects": {}, "scanned_files": 0}
@@ -97,12 +172,25 @@ def cmd_scan(args: argparse.Namespace) -> int:
     if mode in ("full", "transcripts-only"):
         since_ts = None
         prev_ts = last_scan.get("transcript_last_mtime")
-        if prev_ts:
+        if prev_ts and mode == "full":
             since_ts = float(prev_ts)
-        transcript_data = scan_transcripts(since_mtime=since_ts)
-        # 追平模式：若距上次扫描超过 24h，全量重扫对话评分
-        if not prev_ts:
+        if mode == "transcripts-only" and prev_ts:
+            since_ts = float(prev_ts)
+        if mode == "full" and not prev_ts:
             transcript_data = scan_transcripts(since_mtime=None)
+        else:
+            transcript_data = scan_transcripts(since_mtime=since_ts)
+
+        sanitized = sanitize_sessions_for_storage(transcript_data.get("projects") or {})
+        transcript_data["projects"] = sanitized
+        _save_session_digests(
+            state_dir,
+            sanitized,
+            scanned_files=transcript_data.get("scanned_files", 0),
+            unmapped_count=len(transcript_data.get("unmapped") or []),
+        )
+    elif mode == "repo-only":
+        transcript_data = _transcript_data_from_digests(state_dir)
 
     # 合并项目 + 对话
     project_map = {p["name"]: p for p in projects}
@@ -141,8 +229,17 @@ def cmd_scan(args: argparse.Namespace) -> int:
         if status.get("status") == "ignored":
             continue
 
+        if status.get("status") == "locked" and status.get("case_file"):
+            case_file = status["case_file"]
+            case_path = cases_dir / case_file
+            if case_path.is_file():
+                md = case_path.read_text(encoding="utf-8")
+                title = _title_from_md(md)
+                case_entries.append((name, title, case_file))
+                continue
+
         md = synthesize_case_markdown(project, sessions, status)
-        case_file = write_case_file(cases_dir, project, md)
+        case_file = write_case_file(cases_dir, project, md, status)
         content_hash = hashlib.sha256(md.encode()).hexdigest()[:12]
 
         prev_hash = status.get("content_hash")
@@ -204,6 +301,8 @@ def cmd_scan(args: argparse.Namespace) -> int:
             "scanned_files": transcript_data.get("scanned_files", 0),
             "project_keys": list(transcript_data.get("projects", {}).keys()),
             "unmapped_count": len(transcript_data.get("unmapped", [])),
+            "from_digest": bool(transcript_data.get("from_digest")),
+            "digest_updated_at": transcript_data.get("digest_updated_at"),
         },
     }
     write_text(

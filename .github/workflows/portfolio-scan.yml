@@ -28,6 +28,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run repo-only scan
+        # 读取 state/session-digests.json（由本机 daily-local-sync 脱敏推送），不访问 ~/.cursor
         env:
           # 若整个 AI Projects 作为 monorepo 推送，在仓库根配置 AI_PROJECTS_ROOT 为仓库根
           AI_PROJECTS_ROOT: ${{ vars.AI_PROJECTS_ROOT || github.workspace }}

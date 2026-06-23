@@ -1,140 +1,139 @@
 {
   "BC落地页": {
     "case_file": "BC落地页.md",
-    "content_hash": "41cae6a31109",
+    "content_hash": "17b641767a1f",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs": {
-    "case_file": "Miscs.md",
-    "content_hash": "647311e52342",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "status": "ignored",
+    "reason": "父目录汇总项，不单独建案例"
   },
   "Miscs/WanLi改造": {
-    "case_file": "Miscs-WanLi改造.md",
-    "content_hash": "d220535286ec",
+    "case_file": "Miscs-PRD转可视化评审页.md",
+    "content_hash": "fae6ce6d0bec",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs/course-marketing-rhetoric": {
-    "case_file": "Miscs-course-marketing-rhetoric.md",
-    "content_hash": "3b1c80932df3",
+    "case_file": "Miscs-课程营销话术蒸馏.md",
+    "content_hash": "dfe73dfba5c8",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs/learning-ielts-writing": {
-    "case_file": "Miscs-learning-ielts-writing.md",
-    "content_hash": "7fcee9928235",
+    "case_file": "Miscs-社区Skill安装与快速验证.md",
+    "content_hash": "c5b95c948b7e",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs/proto-drip-annotations-package": {
-    "case_file": "Miscs-proto-drip-annotations-package.md",
-    "content_hash": "cce521ec6f59",
+    "case_file": "Miscs-产品Demo重复工作流的技能化封装.md",
+    "content_hash": "0d1b87d1a76d",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs/test_course-marketing-rhetoric": {
-    "case_file": "Miscs-test_course-marketing-rhetoric.md",
-    "content_hash": "34b1afdf50fd",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "status": "ignored",
+    "merged_into": "Miscs/course-marketing-rhetoric"
   },
   "Miscs/押题班画像": {
     "case_file": "Miscs-押题班画像.md",
-    "content_hash": "e8fd4a845ce3",
+    "content_hash": "f2688f0fb9ea",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs/签转": {
-    "case_file": "Miscs-签转.md",
-    "content_hash": "6c4853f0d6fd",
+    "case_file": "Miscs-销售签转率表格数据快速处理与画图.md",
+    "content_hash": "f4fb6f669ffe",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs/视频分析": {
     "case_file": "Miscs-视频分析.md",
-    "content_hash": "f5ba94624f32",
+    "content_hash": "0b0493e166f7",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Miscs/躺着学用户画像": {
     "case_file": "Miscs-躺着学用户画像.md",
-    "content_hash": "85d04025a7f5",
+    "content_hash": "a46d6eec482a",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "Nature Futures": {
-    "case_file": "Nature-Futures.md",
-    "content_hash": "0b4e0b146599",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "status": "ignored",
+    "merged_into": "Nature Futures 2.0"
   },
   "Nature Futures 2.0": {
-    "case_file": "Nature-Futures-2-0.md",
-    "content_hash": "eb649d9f8164",
+    "case_file": "网络数据爬取并整理成电子书.md",
+    "content_hash": "7318da71a668",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "openspec": {
-    "case_file": "openspec.md",
-    "content_hash": "e8bc24c3d2af",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "status": "ignored",
+    "reason": "工具库，非业务案例"
   },
   "test_course-marketing-rhetoric": {
-    "case_file": "test_course-marketing-rhetoric.md",
-    "content_hash": "b705d0cdd79c",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "status": "ignored",
+    "merged_into": "Miscs/course-marketing-rhetoric"
   },
   "中国留学数据库": {
     "case_file": "中国留学数据库.md",
-    "content_hash": "57c3ccbe00e3",
+    "content_hash": "7c8d2e088ec5",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "其他": {
-    "case_file": "其他.md",
-    "content_hash": "aa854113210d",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "status": "ignored",
+    "reason": "兜底目录，非独立案例"
   },
   "创客中国申报": {
-    "case_file": "创客中国申报.md",
-    "content_hash": "a6f95154740f",
+    "case_file": "创客中国项目申报.md",
+    "content_hash": "ba64f3b80971",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
   },
   "躺着学命中数据库": {
     "case_file": "躺着学命中数据库.md",
-    "content_hash": "5819e9ae30ee",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "content_hash": "c64529c934ac",
+    "status": "ignored",
+    "updated_at": "2026-06-23T14:37:12+00:00"
   },
   "躺着学爬虫": {
     "case_file": "躺着学爬虫.md",
-    "content_hash": "a94cb219f663",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "content_hash": "4faf081feb56",
+    "status": "ignored",
+    "updated_at": "2026-06-23T14:37:12+00:00"
   },
   "躺着学资讯页2.0（OpenSpec）": {
     "case_file": "躺着学资讯页2-0-OpenSpec.md",
-    "content_hash": "da73898d673a",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "content_hash": "8c9f677b1979",
+    "status": "ignored",
+    "updated_at": "2026-06-23T14:36:04+00:00"
   },
   "躺着学资讯页2.0（SpecKit）": {
-    "case_file": "躺着学资讯页2-0-SpecKit.md",
-    "content_hash": "f05d11c50978",
-    "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "status": "ignored",
+    "merged_into": "躺着学资讯页2.0（OpenSpec）"
   },
   "雅思写作仿人工批改": {
     "case_file": "雅思写作仿人工批改.md",
-    "content_hash": "b97fa0a66c3b",
+    "content_hash": "bb0dba7f6a4d",
     "status": "draft",
-    "updated_at": "2026-06-23T11:18:22+00:00"
+    "updated_at": "2026-06-23T15:30:52+00:00"
+  },
+  ".cursor": {
+    "case_file": ".cursor.md",
+    "content_hash": "5ae5ec9ef7db",
+    "status": "ignored",
+    "updated_at": "2026-06-23T12:17:22+00:00"
+  },
+  "营销话术蒸馏": {
+    "case_file": "营销话术蒸馏.md",
+    "content_hash": "75ebc395343d",
+    "status": "ignored",
+    "updated_at": "2026-06-23T14:40:30+00:00",
+    "merged_into": "Miscs/course-marketing-rhetoric"
   }
 }

@@ -44,6 +44,8 @@ python3 scripts/portfolio.py confirm --cases Miscs/押题班画像
 
 ## 文档索引
 
+**产品需求（唯一真相来源）**：[PRD.md](docs/PRD.md)
+
 0. [设置说明](docs/00-设置说明.md) — **GitHub / 首次配置**
 1. [架构说明](docs/01-架构说明.md)
 2. [使用手册](docs/02-使用手册.md)

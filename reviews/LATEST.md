@@ -2,56 +2,12 @@
 
 ## 本次扫描概况
 
-- **扫描时间**：2026-06-23T11:18:22+00:00
-- **扫描模式**：full
-- **项目总数**：23
+- **扫描时间**：2026-06-23T15:30:52+00:00
+- **扫描模式**：repo-only
+- **项目总数**：20
 - **新增 Agent 会话（建议关注）**：1
 
-> ⚠️ 本次包含 **积压对话补扫**（电脑曾关机或离线期间的新会话）。
-
-## 需要你拍板的项
-
-### ✏️ 更新 · BC-writing-landing-page
-
-- **项目**：`BC落地页`
-- **当前状态**：draft
-- **变更**：自动扫描检测到内容更新
-- [查看案例卡](../cases/BC落地页.md)
-
-### ✏️ 更新 · Miscs
-
-- **项目**：`Miscs`
-- **当前状态**：draft
-- **变更**：自动扫描检测到内容更新
-- [查看案例卡](../cases/Miscs.md)
-
-### ✏️ 更新 · Miscs/WanLi改造
-
-- **项目**：`Miscs/WanLi改造`
-- **当前状态**：draft
-- **变更**：自动扫描检测到内容更新
-- [查看案例卡](../cases/Miscs-WanLi改造.md)
-
-### ✏️ 更新 · 课程营销话术分析与优化框架
-
-- **项目**：`Miscs/course-marketing-rhetoric`
-- **当前状态**：draft
-- **变更**：自动扫描检测到内容更新
-- [查看案例卡](../cases/Miscs-course-marketing-rhetoric.md)
-
-### ✏️ 更新 · 课程营销话术分析与优化框架
-
-- **项目**：`Miscs/test_course-marketing-rhetoric`
-- **当前状态**：draft
-- **变更**：自动扫描检测到内容更新
-- [查看案例卡](../cases/Miscs-test_course-marketing-rhetoric.md)
-
-### ✏️ 更新 · 课程营销话术分析与优化框架
-
-- **项目**：`test_course-marketing-rhetoric`
-- **当前状态**：draft
-- **变更**：自动扫描检测到内容更新
-- [查看案例卡](../cases/test_course-marketing-rhetoric.md)
+**本次无案例卡变更。** 若你刚完成重要协作，可稍后再跑一次扫描。
 
 ## 快速操作
 

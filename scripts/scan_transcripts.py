@@ -31,7 +31,7 @@ def map_cursor_folder_to_project(cursor_folder: str) -> str | None:
     if not suffix:
         return "."
 
-  # 尝试用实际目录名匹配（支持中文文件夹）
+    # 尝试用实际目录名匹配（支持中文文件夹）
     parts = suffix.split("-")
     resolved = _resolve_path_parts(parts)
     return resolved
