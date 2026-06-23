@@ -1,7 +1,7 @@
 {
   "run_id": "2026-06-23",
-  "mode": "repo-only",
-  "finished_at": "2026-06-23T15:30:52+00:00",
+  "mode": "full",
+  "finished_at": "2026-06-23T15:51:57+00:00",
   "projects": [
     {
       "id": "BC落地页",
@@ -1787,12 +1787,12 @@
     }
   ],
   "transcripts": {
-    "scanned_files": 0,
+    "scanned_files": 2,
     "project_keys": [
       ".cursor"
     ],
     "unmapped_count": 0,
-    "from_digest": true,
-    "digest_updated_at": "2026-06-23T15:30:45+00:00"
+    "from_digest": false,
+    "digest_updated_at": null
   }
 }

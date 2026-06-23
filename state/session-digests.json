@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T15:30:45+00:00",
+  "updated_at": "2026-06-23T15:51:57+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
   "scanned_files_last_run": 2,
@@ -8,19 +8,19 @@
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-06-23T23:21:35.286516",
+        "mtime": "2026-06-23T23:51:03.485159",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
-        "last_assistant": "**结论先说：每日自动更新默认不包括智能体对话。** 对话只在你的 Mac 上跑全量/补扫时才会进案例库。 两套引擎，分工不同 | 引擎 | 什么时候跑 | 扫什么 | 对话算不算 | |------|------------|--------|------------| | **云端（GitHub Action）** | 每天北京时间约 09:00 | | **不算** | | **本机** | 你手动跑 | 仓库 + 对话 | **算** | 云端 Action 只能访问推到 GitHub 的内容（PRD、README、、Git 提交等），**读不…",
+        "last_assistant": "已改成 **每天 22:00**（北京时间）。模板和 PRD、使用文档都已同步。 若还没装过定时任务 按新时间安装即可： 若已经装过（需要重载） 时间节奏说明 - **22:00** 本机扫对话、脱敏、push digest - **次日 09:00** 云端 Action 把 digest 合并进案例卡 晚上 22:00 时 Mac 需是醒着的（合盖睡眠不会跑）。若那天没跑成，开机后手动执行一次 即可。 [REDACTED]",
         "touched_paths": [
           "projects",
+          "image-eca5ce20-37ce-4f99-b4e9-3be58aea1b96.png",
           "Users-mac-Library-CloudStorage-OneDrive-AI-Projects-Miscs",
           "900915a9-a1f5-4e7d-8ffc-8cbba1a7e74d.jsonl",
           "agent-transcripts",
           "skills",
           "SKILL.md",
-          "SKILL.md",
-          "AI"
+          "SKILL.md"
         ]
       }
     ]
