@@ -1,0 +1,577 @@
+{
+  "run_id": "2026-06-23",
+  "mode": "full",
+  "finished_at": "2026-06-23T11:18:22+00:00",
+  "projects": [
+    {
+      "id": "BC落地页",
+      "name": "BC落地页",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/BC落地页",
+      "relative_to_ai_projects": "BC落地页",
+      "doc": {
+        "source": "README.md",
+        "title": "BC-writing-landing-page",
+        "excerpt": "# BC-writing-landing-page"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/BC落地页",
+        "relative_path": ".",
+        "commits_recent": 15,
+        "authors_recent": [
+          "Carl Lu",
+          "carl-lyq"
+        ],
+        "last_commit_date": "2026-06-15 17:36:35 +0800",
+        "changed_files_recent": [
+          "\"BC\\345\\244\\207\\350\\200\\203\\345\\271\\263\\345\\217\\260logo/Property 1=\\345\\217\\215\\347\\231\\275.png\"",
+          "\"BC\\345\\244\\207\\350\\200\\203\\345\\271\\263\\345\\217\\260logo/Property 1=\\345\\217\\215\\351\\273\\221.png\"",
+          "\"BC\\345\\244\\207\\350\\200\\203\\345\\271\\263\\345\\217\\260logo/Property 1=\\351\\273\\230\\350\\256\\244.png\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265-UI\\344\\272\\244\\346\\216\\245.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265Demo.html\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265PRD.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265PRD_6.5.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265ToDo-\\346\\211\\213\\345\\206\\231.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265ToDo.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/3Ups_Partner_LandingPage_Tracking_Guide.pdf\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\345\\237\\213\\347\\202\\271\\345\\274\\200\\345\\217\\221\\350\\257\\264\\346\\230\\216.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\345\\244\\207\\350\\200\\203\\345\\271\\263\\345\\217\\260logo/Property 1=\\345\\217\\215\\347\\231\\275.png\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\345\\244\\207\\350\\200\\203\\345\\271\\263\\345\\217\\260logo/Property 1=\\345\\217\\215\\351\\273\\221.png\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\345\\244\\207\\350\\200\\203\\345\\271\\263\\345\\217\\260logo/Property 1=\\351\\273\\230\\350\\256\\244.png\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265-\\345\\274\\200\\345\\217\\221\\344\\272\\244\\346\\216\\245.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\345\\237\\213\\347\\202\\271\\345\\274\\200\\345\\217\\221\\350\\257\\264\\346\\230\\216.md\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265-\\350\\277\\220\\350\\220\\245\\347\\240\\201.png\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265-\\351\\224\\200\\345\\224\\256\\347\\240\\201.png\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\213\\257\\346\\225\\221\\345\\244\\247\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\344\\270\\216\\345\\233\\236\\345\\272\\224/3\\345\\210\\206\\351\\222\\237\\346\\213\\257\\346\\225\\221\\345\\244\\247\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\344\\270\\216\\345\\233\\236\\345\\272\\224-\\345\\260\\201\\351\\235\\242.jpg\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\213\\257\\346\\225\\221\\345\\244\\247\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\344\\270\\216\\345\\233\\236\\345\\272\\224/3\\345\\210\\206\\351\\222\\237\\346\\213\\257\\346\\225\\221\\345\\244\\247\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\344\\270\\216\\345\\233\\236\\345\\272\\224.mp4\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\244\\247\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\244\\247\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245-\\345\\260\\201\\351\\235\\242.jpg\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\244\\247\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\244\\247\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245.mp4\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\345\\256\\214\\346\\210\\220\\346\\203\\205\\345\\206\\265/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\345\\256\\214\\346\\210\\220\\346\\203\\205\\345\\206\\265-\\345\\260\\201\\351\\235\\242.jpg\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\345\\256\\214\\346\\210\\220\\346\\203\\205\\345\\206\\265/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\344\\273\\273\\345\\212\\241\\345\\256\\214\\346\\210\\220\\346\\203\\205\\345\\206\\265.mp4\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245-\\345\\260\\201\\351\\235\\242.jpg\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\345\\260\\217\\344\\275\\234\\346\\226\\207\\350\\277\\236\\350\\264\\257\\344\\270\\216\\350\\241\\224\\346\\216\\245.mp4\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\345\\206\\231\\344\\275\\234\\350\\257\\255\\346\\263\\225/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\345\\206\\231\\344\\275\\234\\350\\257\\255\\346\\263\\225-\\345\\260\\201\\351\\235\\242.jpg\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\345\\206\\231\\344\\275\\234\\350\\257\\255\\346\\263\\225/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\345\\206\\231\\344\\275\\234\\350\\257\\255\\346\\263\\225.mp4\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\350\\257\\215\\346\\261\\207\\345\\210\\206/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\350\\257\\215\\346\\261\\207\\345\\210\\206-\\345\\260\\201\\351\\235\\242.jpg\"",
+          "\"BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\344\\272\\244\\344\\273\\230\\345\\274\\200\\345\\217\\221/BC\\350\\220\\275\\345\\234\\260\\351\\241\\2656.8\\350\\241\\245\\345\\205\\205/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265\\350\\257\\276\\347\\250\\213\\345\\260\\201\\351\\235\\242\\345\\222\\214\\350\\247\\206\\351\\242\\221/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\350\\257\\215\\346\\261\\207\\345\\210\\206/3\\345\\210\\206\\351\\222\\237\\346\\217\\220\\345\\215\\207\\351\\233\\205\\346\\200\\235\\350\\257\\215\\346\\261\\207\\345\\210\\206.mp4\""
+        ],
+        "recent_subjects": [
+          "feat(demo): 标注列表联动与 Tweaks 面板设置 v1.0.46",
+          "feat(proto): 原型水滴 v2 手写协作与 PRD 同步",
+          "feat(demo): 优化 Tweaks 调试面板并统一 Toast 至顶栏",
+          "feat(nav): 主站出站链接新标签打开",
+          "feat(tracking): BC 语义化埋点、Logo 主站跳转与路径02超时"
+        ]
+      }
+    },
+    {
+      "id": "Miscs",
+      "name": "Miscs",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs",
+      "relative_to_ai_projects": "Miscs",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Nature-Futures",
+      "name": "Nature Futures",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Nature Futures",
+      "relative_to_ai_projects": "Nature Futures",
+      "doc": {
+        "source": "README.md",
+        "title": "Nature Futures 文章爬虫项目",
+        "excerpt": "# Nature Futures 文章爬虫项目\n\n## 项目简介\n\n本项目用于抓取 Nature Futures 网站的所有文章及其相关信息。\n\n- **目标网站**: https://www.nature.com/nature/articles?type=futures\n- **文章总数**: 约1174篇\n- **分页数**: 59页\n\n## 项目结构\n\n```\nNature Futures/\n├── README.md                 # 项目说明文档\n├── requirements.txt         # Python依赖包\n├── crawler.py              # 主爬虫脚本\n├── site_analysis.md       # 网站结构分析文档\n├── data/                   # 数据存储目录\n│   ├── articles.json      # 文章数据（JSON格式）\n│   └── articles.csv       # 文章数据（CSV格式）\n└── logs/                   # 日志目录\n```\n\n## 功能特性\n\n- ✅ 抓取所有文章列表（标题、作者、日期、链接等）\n- ✅ 支持分页自动遍历（59页）\n- ✅ 数据导出为JSON和CSV格式\n- ✅ 错误处理和日志记录\n- ✅ 请求限速，避免被封禁\n\n## 安装依赖\n\n```bash\npip install -r requirements.txt\n```\n\n## 使用方法\n\n### 基础用法（仅抓取文章列表）\n\n```bash\npython crawler.py\n```\n\n### 高级用法\n\n```bash\n# 抓取文章详情页内容（需要更长时间）\npython crawler.py --details\n\n# 只抓取前10页\npython crawler.py --pages 10\n\n# 组合使用\npython crawler.py --details --pages 5\n```\n\n## 数据字段\n\n每篇文章包含以下字段：\n- `title`: 文章标题\n- `subtitle`: 副标题/描述\n- `author`: 作者\n- `date`: 发布日期\n- `article_type`: 文章类型（Futures）\n- `url`: 文章链接\n- `article_id`: 文章ID\n- `content`: 文章正文内容（需要运行 `fetch_content.py` 获取）\n\n## 抓取文章正文\n\n基础爬虫只抓取文章列表信息。要获取文章正文内容，需要运行额外的脚本：\n\n```bash\n# 抓取所有文章的正文内容（需要约30分钟）\nNATURE_VERIFY_SSL=false python3 fetch_content.py\n```\n\n详细说明请查看 `FETCH_CONTENT_README.md`\n\n## 注意事项\n\n- 请遵守网站的robots.txt和使用条款\n- 建议设置合理的请求间隔，避免对服务器造成压力\n- 数据仅供学习和研究使用\n\n## 环境问题\n\n### SSL证书验证问题\n\n如果在某些受限环境（如某些sandbox）中遇到SSL错误，可以设置环境变量：\n\n```bash\n# 禁用SSL验证（不推荐，仅用于测试环境）\nexport NATURE_VERIFY_SSL=false\npython crawler.py\n```\n\n**注意**：禁用SSL验证会降低安全性，仅在必要时使用。\n\n### 依赖安装问题\n\n如果遇到依赖安装问题，代码已经做了兼容处理：\n- `tqdm` 和 `pandas` 是可选的，未安装时会使用替代方案\n- `lxml` 是可选的，会回退到 `html.parser`\n\n基础功能只需要：\n- `requests`\n- `beautifulsoup4`\n\n这两个包通常已经安装或容易安装。\n\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Nature Futures",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Nature-Futures-2-0",
+      "name": "Nature Futures 2.0",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Nature Futures 2.0",
+      "relative_to_ai_projects": "Nature Futures 2.0",
+      "doc": {
+        "source": "README.md",
+        "title": "Nature Futures 2.0 - 改进版爬虫项目",
+        "excerpt": "# Nature Futures 2.0 - 改进版爬虫项目\n\n**项目状态**: ✅ **已完成** (2026-01-08)\n\n## 项目概述\n\n这是对原 Nature Futures 爬虫项目的改进版本，主要解决以下问题：\n\n1. **文章内容不完整**：部分文章可能需要登录才能查看完整内容 ✅ 已解决\n2. **误抓非正文内容**：抓取时误将相关推荐、工作信息等非正文内容也抓取了 ✅ 已解决\n\n## 📊 项目成果\n\n- **总文章数**: 1,174\n- **已获取内容**: 1,173 (99.9%)\n- **完整内容**: 1,174 (100.0%)\n- **EPUB文件**: 已生成 (3.95 MB, 1,173篇文章)\n\n## 问题分析\n\n### 问题1：文章内容不完整\n\n**原因分析**：\n- Nature 网站对未登录用户可能显示部分内容\n- 页面中有\"Enjoying our latest content? Log in or create an account to continue\"提示\n- 某些文章可能需要登录或订阅才能查看完整内容\n\n**解决方案**：\n- 实现登录功能（可选）\n- 检测内容完整性\n- 使用更精确的CSS选择器定位正文区域\n- 处理需要登录的情况\n\n### 问题2：误抓非正文内容\n\n**原因分析**：\n- 原代码使用过于宽泛的选择器（如 `article > p`）\n- 没有排除\"Related Articles\"、\"Latest on:\"、\"Nature Careers\"等区域\n- 过滤逻辑不够精确\n\n**解决方案**：\n- 使用更精确的CSS选择器定位正文容器\n- 明确排除非正文区域（sidebar、related articles、careers等）\n- 改进内容过滤逻辑\n- 验证提取内容的完整性\n\n## 技术栈\n\n- Python 3.9+\n- requests - HTTP请求\n- BeautifulSoup4 - HTML解析\n- lxml - 快速HTML解析（可选）\n- Selenium/Playwright - 处理需要JavaScript渲染的页面（可选）\n\n## 项目结构\n\n```\nNature Futures 2.0/\n├── README.md\n├── requirements.txt\n├── crawler.py          # 主爬虫脚本\n├── content_extractor.py  # 内容提取模块\n├── login_handler.py    # 登录处理（可选）\n├── data/              # 数据目录\n├── logs/              # 日志目录\n└── specs/             # 规范文档\n    ├── spec.md\n    ├── plan.md\n    └── tasks.md\n```\n\n## 快速开始\n\n### 安装依赖\n\n```bash\npip install -r requirements.txt\n```\n\n### 运行爬虫\n\n```bash\n# 基本使用（从原项目数据读取）\npython3 crawler.py\n\n# 指定输入输出文件\npython3 crawler.py --input ../Nature\\ Futures/data/articles.json --output data/articles_with_content.json\n\n# 只处理前10篇文章（测试用）\npython3 crawler.py --max 10\n```\n\n详细使用说明请查看 [USAGE.md](USAGE.md)\n\n## 主要改进\n\n### 1. 精确的内容提取\n- ✅ 使用精确的CSS选择器定位正文容器\n- ✅ 排除非正文区域（Related Articles、Latest on、Careers等）\n- ✅ 改进的文本过滤逻辑，过滤掉所有非正文内容\n\n### 2. 内容完整性检测\n- ✅ 检测登录提示\n- ✅ 检测内容长度异常\n- ✅ 记录提取过程中的问题\n\n### 3. 实时进度跟踪\n- ✅ 控制台实时显示进度信息\n- ✅ 进度文件支持后台监控\n- ✅ 预计剩余时间计算\n\n### 4. EPUB导出\n- ✅ 自动生成EPUB文件\n- ✅ 完整目录支持\n- ✅ 优化的阅读样式，适合手机阅读\n\n## 项目结构\n\n```\nNature Futures 2.0/\n├── crawler.py              # 主爬虫脚本\n├── content_extractor.py    # 内容提取核心逻辑\n├── progress_tracker.py     # 进度跟踪"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Nature Futures 2.0",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "openspec",
+      "name": "openspec",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/openspec",
+      "relative_to_ai_projects": "openspec",
+      "doc": {
+        "source": "AGENTS.md",
+        "title": "OpenSpec Instructions",
+        "excerpt": "# OpenSpec Instructions\n\nInstructions for AI coding assistants using OpenSpec for spec-driven development.\n\n## TL;DR Quick Checklist\n\n- Search existing work: `openspec spec list --long`, `openspec list` (use `rg` only for full-text search)\n- Decide scope: new capability vs modify existing capability\n- Pick a unique `change-id`: kebab-case, verb-led (`add-`, `update-`, `remove-`, `refactor-`)\n- Scaffold: `proposal.md`, `tasks.md`, `design.md` (only if needed), and delta specs per affected capability\n- Write deltas: use `## ADDED|MODIFIED|REMOVED|RENAMED Requirements`; include at least one `#### Scenario:` per requirement\n- Validate: `openspec validate [change-id] --strict` and fix issues\n- Request approval: Do not start implementation until proposal is approved\n\n## Three-Stage Workflow\n\n### Stage 1: Creating Changes\nCreate proposal when you need to:\n- Add features or functionality\n- Make breaking changes (API, schema)\n- Change architecture or patterns  \n- Optimize performance (changes behavior)\n- Update security patterns\n\nTriggers (examples):\n- \"Help me create a change proposal\"\n- \"Help me plan a change\"\n- \"Help me create a proposal\"\n- \"I want to create a spec proposal\"\n- \"I want to create a spec\"\n\nLoose matching guidance:\n- Contains one of: `proposal`, `change`, `spec`\n- With one of: `create`, `plan`, `make`, `start`, `help`\n\nSkip proposal for:\n- Bug fixes (restore intended behavior)\n- Typos, formatting, comments\n- Dependency updates (non-breaking)\n- Configuration changes\n- Tests for existing behavior\n\n**Workflow**\n1. Review `openspec/project.md`, `openspec list`, and `openspec list --specs` to understand current context.\n2. Choose a unique verb-led `change-id` and scaffold `proposal.md`, `tasks.md`, optional `design.md`, and spec deltas under `openspec/changes/<id>/`.\n3. Draft spec deltas using `## ADDED|MODIFIED|REMOVED Requirements` with at least one `#### Scenario:` per requirement.\n4. Run `openspec validate <id> --strict` and resolve any issues before sharing t"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "openspec",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "test_course-marketing-rhetoric",
+      "name": "test_course-marketing-rhetoric",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/test_course-marketing-rhetoric",
+      "relative_to_ai_projects": "test_course-marketing-rhetoric",
+      "doc": {
+        "source": "README.md",
+        "title": "课程营销话术分析与优化框架",
+        "excerpt": "# 课程营销话术分析与优化框架\n\n基于「躺着学」雅思四门试听课逐字稿的系统性分析，为后续撰写、审计、优化课程营销话术，以及封装 Cursor Skill 提供知识库。\n\n## 文档结构\n\n| 文档 | 内容 | 适用场景 |\n|------|------|----------|\n| [samples/transcripts/](./samples/transcripts/) | **四门试听课完整逐字稿**（写作/听力/阅读/口语） | 样本对照、Skill 测试、风格模仿 |\n| [docs/01-style-and-pattern-analysis.md](./docs/01-style-and-pattern-analysis.md) | 定性分析：风格、10 大话术模式、语言特征、填空模板 | 理解「怎么说」、模仿语气 |\n| [docs/02-quantitative-academic-analysis.md](./docs/02-quantitative-academic-analysis.md) | 定量分析：结构占比、修辞诉求、Cialdini 映射、KPI | 理解「说多少、何时说」、学术论证 |\n| [docs/03-actionable-framework.md](./docs/03-actionable-framework.md) | **整合版**：10 原则、七段框架、7 类营销块、QA 清单、Skill I/O | 执行优化、开发 Skill |\n\n## 推荐阅读顺序\n\n1. **快速上手** → 直接读 `03-actionable-framework.md` 第十二节「快速参考卡」\n2. **写新稿** → `03` 二、三、四节 + `01` 七节填空模板\n3. **审计旧稿** → `03` 八节 QA Checklist + `02` 九节 KPI\n4. **开发 Skill** → `03` 九、十一节 + `SKILL.md`（待完善）\n\n## Skill 安装位置（跨项目可用）\n\n个人 Skill 已安装于：\n\n**`~/.cursor/skills/course-marketing-rhetoric/`**\n\n```\n~/.cursor/skills/course-marketing-rhetoric/\n├── SKILL.md        # 主流程：审计 → 改写/增补 → 输出\n├── reference.md    # 块类型、句式、QA、合规\n└── examples.md     # 优化前后对照\n```\n\n**触发方式**：在任意项目中提及「优化课程话术」「增加营销话术」「改写逐字稿」等，或 `@course-marketing-rhetoric`。\n\n**用途**：根据现有课程逐字稿，从营销角度修改话术、增加嵌入式营销块，保留干货不动。\n\n## 文档与 Skill 关系\n\n| 本目录 `docs/` | Skill 文件 | 关系 |\n|----------------|------------|------|\n| 01 定性分析 | reference.md §10 | 研究与参考 |\n| 02 定量分析 | reference.md §11 | KPI 目标区间 |\n| 03 可执行框架 | SKILL.md + reference.md | 已提炼为执行规则 |\n\n## 开发状态\n\n- [x] 定性风格分析文档\n- [x] 定量学术分析文档\n- [x] 可执行原则与框架整合\n- [x] 个人 Skill（`~/.cursor/skills/course-marketing-rhetoric/`）\n- [x] reference.md + examples.md\n\n## 样本来源\n\n四门雅思试听课逐字稿：写作（Ying）、听力（Edith）、阅读（Tammy）、口语（Spencer）。\n\n## 合规提示\n\n分析文档描述的是现有话术机制，不等于推荐原样复用。优化时应通过 `compliance_level: strict` 过滤高风险表述（绝对承诺、学术不诚信教唆等）。\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "test_course-marketing-rhetoric",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "中国留学数据库",
+      "name": "中国留学数据库",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/中国留学数据库",
+      "relative_to_ai_projects": "中国留学数据库",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "中国留学数据库",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "其他",
+      "name": "其他",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/其他",
+      "relative_to_ai_projects": "其他",
+      "doc": {
+        "source": "AGENTS.md",
+        "title": "OpenSpec Instructions",
+        "excerpt": "<!-- OPENSPEC:START -->\n# OpenSpec Instructions\n\nThese instructions are for AI assistants working in this project.\n\nAlways open `@/openspec/AGENTS.md` when the request:\n- Mentions planning or proposals (words like proposal, spec, change, plan)\n- Introduces new capabilities, breaking changes, architecture shifts, or big performance/security work\n- Sounds ambiguous and you need the authoritative spec before coding\n\nUse `@/openspec/AGENTS.md` to learn:\n- How to create and apply change proposals\n- Spec format and conventions\n- Project structure and guidelines\n\nKeep this managed block so 'openspec update' can refresh the instructions.\n\n<!-- OPENSPEC:END -->"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "其他",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "创客中国申报",
+      "name": "创客中国申报",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/创客中国申报",
+      "relative_to_ai_projects": "创客中国申报",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "创客中国申报",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "躺着学命中数据库",
+      "name": "躺着学命中数据库",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/躺着学命中数据库",
+      "relative_to_ai_projects": "躺着学命中数据库",
+      "doc": {
+        "source": "README.md",
+        "title": "躺着学命中数据库",
+        "excerpt": "# 躺着学命中数据库\n\n## 项目简介\n\n本项目用于管理和分析\"躺着学\"相关的命中数据。\n\n## 项目结构\n\n（待完善）\n\n## 开始使用\n\n（待完善）\n\n\n\n\n\n\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "躺着学命中数据库",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "躺着学爬虫",
+      "name": "躺着学爬虫",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/躺着学爬虫",
+      "relative_to_ai_projects": "躺着学爬虫",
+      "doc": {
+        "source": "README.md",
+        "title": "躺着学爬虫",
+        "excerpt": "# 躺着学爬虫\n\n一个现代化的 Python 爬虫项目框架\n\n## 项目结构\n\n```\n躺着学爬虫/\n├── README.md              # 项目说明\n├── requirements.txt       # 依赖包\n├── .gitignore            # Git 忽略文件\n├── config.py             # 配置文件\n├── crawler.py            # 主爬虫脚本\n├── utils.py              # 工具函数\n├── data/                 # 数据存储目录\n│   └── .gitkeep\n├── logs/                 # 日志目录\n│   └── .gitkeep\n└── specs/                # 项目规范文档\n    └── .gitkeep\n```\n\n## 快速开始\n\n### 1. 安装依赖\n\n```bash\npip install -r requirements.txt\n```\n\n### 2. 配置项目\n\n编辑 `config.py` 文件，设置你的爬虫参数（URL、请求头、保存路径等）。\n\n### 3. 运行爬虫\n\n```bash\npython crawler.py\n```\n\n## 功能特性\n\n- ✅ 现代化的爬虫框架\n- ✅ 支持多种请求方式（GET、POST）\n- ✅ 自动重试机制\n- ✅ 日志记录\n- ✅ 数据持久化（JSON/CSV）\n- ✅ 错误处理\n\n## 技术栈\n\n- Python 3.8+\n- Requests - HTTP 请求库\n- BeautifulSoup4 - HTML 解析\n- lxml - XML/HTML 解析器\n- Logging - 日志记录\n\n## 使用示例\n\n```python\nfrom crawler import Crawler\n\n# 创建爬虫实例\ncrawler = Crawler()\n\n# 爬取单个页面\ndata = crawler.fetch_page(\"https://example.com\")\n\n# 保存数据\ncrawler.save_data(data, \"output.json\")\n```\n\n## 注意事项\n\n- 遵守网站的 robots.txt 规则\n- 设置合理的请求间隔，避免对服务器造成压力\n- 注意处理反爬虫机制（验证码、IP封禁等）\n- 遵守相关法律法规\n\n## 许可证\n\nMIT License\n\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "躺着学爬虫",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "躺着学资讯页2-0-OpenSpec",
+      "name": "躺着学资讯页2.0（OpenSpec）",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/躺着学资讯页2.0（OpenSpec）",
+      "relative_to_ai_projects": "躺着学资讯页2.0（OpenSpec）",
+      "doc": {
+        "source": "AGENTS.md",
+        "title": "OpenSpec Instructions",
+        "excerpt": "<!-- OPENSPEC:START -->\n# OpenSpec Instructions\n\nThese instructions are for AI assistants working in this project.\n\nAlways open `@/openspec/AGENTS.md` when the request:\n- Mentions planning or proposals (words like proposal, spec, change, plan)\n- Introduces new capabilities, breaking changes, architecture shifts, or big performance/security work\n- Sounds ambiguous and you need the authoritative spec before coding\n\nUse `@/openspec/AGENTS.md` to learn:\n- How to create and apply change proposals\n- Spec format and conventions\n- Project structure and guidelines\n\nKeep this managed block so 'openspec update' can refresh the instructions.\n\n<!-- OPENSPEC:END -->"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "躺着学资讯页2.0（OpenSpec）",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "躺着学资讯页2-0-SpecKit",
+      "name": "躺着学资讯页2.0（SpecKit）",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/躺着学资讯页2.0（SpecKit）",
+      "relative_to_ai_projects": "躺着学资讯页2.0（SpecKit）",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "躺着学资讯页2.0（SpecKit）",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "雅思写作仿人工批改",
+      "name": "雅思写作仿人工批改",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/雅思写作仿人工批改",
+      "relative_to_ai_projects": "雅思写作仿人工批改",
+      "doc": {
+        "source": "PRD.md",
+        "title": "雅思写作仿人工批改 — 产品需求文档（PRD）",
+        "excerpt": "# 雅思写作仿人工批改 — 产品需求文档（PRD）\n\n**文档版本**: v1.9  \n**创建日期**: 2026-05-29  \n**最后更新**: 2026-05-29  \n**状态**: 已定稿  \n**关联文档**: [research.md](./research.md)（技术可行性调研） · [批改规范-AI接入.md](./批改规范-AI接入.md)（样式、参数映射、JSON schema、接入验收）\n\n---\n\n## 1. 产品概述\n\n### 1.1 背景与痛点\n\n雅思写作老师批改作文时，习惯在 Word 中使用修订、批注、高亮、颜色等方式，在原文上留下痕迹，并在文末给出 TR / CC / LR / GRA 等维度评分与总评。人工批改质量高，但耗时长、风格难以统一、重复性修改占用大量精力。\n\n本产品提供**在线自动批改**能力：老师上传学生作文（Word），系统生成**看起来像真人老师用 Word 批改过**的文档，老师预览满意后下载，必要时在 Word 中做少量手工调整。\n\n### 1.2 产品目标\n\n| 目标 | 说明 |\n|------|------|\n| **仿真人工** | 批改结果以 Word 原生审阅标记呈现（修订、批注、高亮等），而非纯文本评语 |\n| **在线可用** | 在线部署，老师通过浏览器完成上传、配置、预览、下载（初期内部使用） |\n| **可个性化** | 支持细致程度、评分维度、标记方式等选项 |\n| **可模仿风格** | 支持上传老师历史批改样例，学习并复现其批改习惯 |\n| **真人感** | **可选三档**（更像真人 / 适中 / 更工整）；默认「适中」对齐赵梦琪 demo；可叠加「中文错别字」 |\n| **输出风格基准** | 「适中」档以 [`demo_赵梦琪_Task2大作文批改.docx`](./demo_赵梦琪_Task2大作文批改.docx) 为准（见 §4.3.5、§4.7） |\n\n**核心价值（一句话）**：让老师在几分钟内获得「像自己批改过」的 Word 批改稿，而不是一份条理过分整齐、每句必改的 AI 腔文档。\n\n### 1.3 目标用户\n\n| 用户角色 | 描述 | 核心需求 |\n|----------|------|----------|\n| **雅思写作老师（主用户）** | 独立老师或机构教师，日常用 Word 批改作文 | 省时、风格像自己、输出可直接发给学生 |\n| **学生（间接用户）** | 接收老师发回的批改 Word | 能看懂修订/批注，体验与老师手工批改一致 |\n\n### 1.4 产品边界（首期）\n\n| ✅ 包含 | ❌ 首期不包含 |\n|---------|----------------|\n| 上传 `.docx` 学生作文 | 上传 `.doc` / PDF（提示转换后重传） |\n| 下载带批改标记的 `.docx` | 在线像 Word 一样逐字手工编辑 |\n| 批改前配置项 + 批改后预览 | 学生端账号、作业管理系统 |\n| Task 1 / Task 2 区分批改；Task 1 支持题目图与参考范文 | 对外开放注册、商业化计费 |\n| 历史批改样例分析与风格模仿 | 批量班级管理、机构管理员后台（后续版本） |\n| 根据老师文字意见重新生成一版（每任务最多 3 次） | 风格档案导出/导入 |\n| 仿真人批改风格（稀疏标记、适度随机，§4.7） | 全覆盖式批改、成套【句评/段评】模板 |\n| 可选「中文错别字」增强真人感 | 在学生英文作文中注入错别字 |\n\n---\n\n## 2. 已确认的产品决策\n\n以下根据 2026-05-29 需求确认结果写入，作为 PRD 基准：\n\n| 事项 | 决策 |\n|------|------|\n| 账号模式（首期） | **无需注册登录**；通过浏览器会话使用（见 §4.6 分阶段说明） |\n| 部署形态 | **初期内部使用**（指定人员访问）；在线 Web 部署；后续可扩展公网与账号体系 |\n| 使用额度 | 每会话**每日最多 20 次**批改（含重新生成计入规则见 §6.2） |\n| 作文输入 | **仅支持上传 `.docx`**；**题目必填** |\n| 题型 | **区分 Task 1（小作文）与 Task 2（大作文）**；Task 1 另需**题目图片**与**参考范文** |\n| 重新生成上限 | 每任务最多 **3 次**；超出后引导下载现有版本，在本地 Word 手动修改 |\n| 风格档案 | 不提供导出/导入；随会话保存，丢失需重新配置 |\n| 批注作者名 | 老师**可自行设置**（用于 Word 修订/批注作者栏） |\n| 中文错别字 | 可"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/雅思写作仿人工批改",
+        "relative_path": ".",
+        "commits_recent": 3,
+        "authors_recent": [
+          "Carl Lu"
+        ],
+        "last_commit_date": "2026-06-15 01:18:14 +0800",
+        "changed_files_recent": [
+          "\"C11T1t1\\351\\245\\274\\347\\212\\266\\345\\233\\276\\350\\214\\203\\346\\226\\207\\347\\273\\203\\344\\271\\240(4).docx\"",
+          "\"\\345\\204\\277\\347\\253\\245\\347\\234\\213\\347\\224\\265\\350\\247\\206\\347\\232\\204\\345\\210\\251\\345\\274\\212.docx\"",
+          "\"\\345\\212\\237\\350\\203\\275\\347\\256\\200\\344\\273\\213.md\"",
+          "\"\\345\\255\\246\\347\\224\\237\\344\\275\\234\\346\\226\\207.docx\"",
+          "\"\\345\\255\\246\\347\\224\\237\\344\\275\\234\\346\\226\\207\\346\\211\\271\\346\\224\\271\\347\\211\\210.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/2025.7.9\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/Sara\\351\\233\\205\\346\\200\\235\\344\\275\\234\\346\\226\\207.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/Ustinian\\344\\275\\234\\346\\226\\207\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\270\\201\\346\\230\\261\\345\\277\\203\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2712.3.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\270\\245\\346\\226\\207\\351\\252\\217\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\27111.24.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\274\\215\\346\\230\\225\\346\\200\\2417.11\\345\\260\\217\\344\\275\\234\\346\\226\\207\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\274\\215\\346\\230\\225\\346\\200\\2417.12\\345\\260\\217\\344\\275\\234\\346\\226\\207\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\274\\215\\346\\230\\225\\346\\200\\2417.14\\345\\260\\217\\344\\275\\234\\346\\226\\207\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\274\\215\\346\\230\\225\\346\\200\\241\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\274\\215\\346\\230\\225\\346\\200\\241\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2717.25.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\344\\275\\234\\346\\226\\207\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\210\\230\\344\\271\\211\\350\\225\\276\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2711.28.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\210\\230\\346\\264\\213\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2718.1.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\220\\264\\346\\254\\242\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2718.4.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\220\\264\\346\\266\\246\\345\\215\\232\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2717.16.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\224\\220\\345\\255\\220\\350\\266\\212\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2719.4.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\224\\220\\345\\255\\220\\350\\266\\212\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2719.9.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\224\\220\\345\\255\\220\\350\\266\\212\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2719.9_2.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\256\\213\\344\\275\\263\\347\\222\\2207.14.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\256\\213\\344\\275\\263\\347\\222\\2207.14_\\345\\211\\257\\346\\234\\254.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\273\\226\\345\\220\\214\\345\\255\\246\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\271.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\273\\226\\345\\220\\214\\345\\255\\246\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2712.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\274\\240\\345\\217\\257\\347\\233\\210\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2718.24.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\274\\240\\345\\245\\207\\345\\213\\213\\350\\257\\212\\346\\226\\255.docx\"",
+          "\"\\346\\211\\271\\346\\224\\271/\\345\\274\\240\\347\\245\\216\\345\\206\\231\\344\\275\\234\\346\\211\\271\\346\\224\\2717.25.docx\""
+        ],
+        "recent_subjects": [
+          "feat: improve Tweaks panel UX and add grading Word samples.",
+          "Document GitHub repo URL and Pages deploy path for the web demo.",
+          "Rebuild 躺着批 demo site and establish project baseline."
+        ]
+      }
+    },
+    {
+      "id": "Miscs-WanLi改造",
+      "name": "Miscs/WanLi改造",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/WanLi改造",
+      "relative_to_ai_projects": "Miscs/WanLi改造",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/WanLi改造",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-course-marketing-rhetoric",
+      "name": "Miscs/course-marketing-rhetoric",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/course-marketing-rhetoric",
+      "relative_to_ai_projects": "Miscs/course-marketing-rhetoric",
+      "doc": {
+        "source": "README.md",
+        "title": "课程营销话术分析与优化框架",
+        "excerpt": "# 课程营销话术分析与优化框架\n\n基于「躺着学」雅思四门试听课逐字稿的系统性分析，为后续撰写、审计、优化课程营销话术，以及封装 Cursor Skill 提供知识库。\n\n## 文档结构\n\n| 文档 | 内容 | 适用场景 |\n|------|------|----------|\n| [samples/transcripts/](./samples/transcripts/) | **四门试听课完整逐字稿**（写作/听力/阅读/口语） | 样本对照、Skill 测试、风格模仿 |\n| [docs/01-style-and-pattern-analysis.md](./docs/01-style-and-pattern-analysis.md) | 定性分析：风格、10 大话术模式、语言特征、填空模板 | 理解「怎么说」、模仿语气 |\n| [docs/02-quantitative-academic-analysis.md](./docs/02-quantitative-academic-analysis.md) | 定量分析：结构占比、修辞诉求、Cialdini 映射、KPI | 理解「说多少、何时说」、学术论证 |\n| [docs/03-actionable-framework.md](./docs/03-actionable-framework.md) | **整合版**：10 原则、七段框架、7 类营销块、QA 清单、Skill I/O | 执行优化、开发 Skill |\n\n## 推荐阅读顺序\n\n1. **快速上手** → 直接读 `03-actionable-framework.md` 第十二节「快速参考卡」\n2. **写新稿** → `03` 二、三、四节 + `01` 七节填空模板\n3. **审计旧稿** → `03` 八节 QA Checklist + `02` 九节 KPI\n4. **开发 Skill** → `03` 九、十一节 + `SKILL.md`（待完善）\n\n## Skill 安装位置（跨项目可用）\n\n个人 Skill 已安装于：\n\n**`~/.cursor/skills/course-marketing-rhetoric/`**\n\n```\n~/.cursor/skills/course-marketing-rhetoric/\n├── SKILL.md        # 主流程：审计 → 改写/增补 → 输出\n├── reference.md    # 块类型、句式、QA、合规\n└── examples.md     # 优化前后对照\n```\n\n**触发方式**：在任意项目中提及「优化课程话术」「增加营销话术」「改写逐字稿」等，或 `@course-marketing-rhetoric`。\n\n**用途**：根据现有课程逐字稿，从营销角度修改话术、增加嵌入式营销块，保留干货不动。\n\n## 文档与 Skill 关系\n\n| 本目录 `docs/` | Skill 文件 | 关系 |\n|----------------|------------|------|\n| 01 定性分析 | reference.md §10 | 研究与参考 |\n| 02 定量分析 | reference.md §11 | KPI 目标区间 |\n| 03 可执行框架 | SKILL.md + reference.md | 已提炼为执行规则 |\n\n## 开发状态\n\n- [x] 定性风格分析文档\n- [x] 定量学术分析文档\n- [x] 可执行原则与框架整合\n- [x] 个人 Skill（`~/.cursor/skills/course-marketing-rhetoric/`）\n- [x] reference.md + examples.md\n\n## 样本来源\n\n四门雅思试听课逐字稿：写作（Ying）、听力（Edith）、阅读（Tammy）、口语（Spencer）。\n\n## 合规提示\n\n分析文档描述的是现有话术机制，不等于推荐原样复用。优化时应通过 `compliance_level: strict` 过滤高风险表述（绝对承诺、学术不诚信教唆等）。\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/course-marketing-rhetoric",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-learning-ielts-writing",
+      "name": "Miscs/learning-ielts-writing",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/learning-ielts-writing",
+      "relative_to_ai_projects": "Miscs/learning-ielts-writing",
+      "doc": {
+        "source": "MISSION.md",
+        "title": "Mission: 雅思学术类写作 5.5 → 6",
+        "excerpt": "# Mission: 雅思学术类写作 5.5 → 6\n\n## Why\n为留学申请达标，需要在约一个月内将写作从 5.5 提升到 6 分。写作 6 分意味着考官能清楚读懂你的观点，文章结构完整，语法错误存在但不影响理解——这是多数院校申请的常见门槛。\n\n## Success looks like\n- Task 2 能在 40 分钟内写出 ≥250 词、四段式完整议论文，覆盖题目所有要求\n- 每段有清晰主题句，段落之间逻辑连贯，衔接词使用自然（不过度堆砌）\n- 能稳定使用 2–3 种复杂句型（定语从句、让步句、条件句），语法错误不阻碍沟通\n- 模考写作单项稳定在 6 分（或老师/自评达到 Band 6 描述标准）\n\n## Constraints\n- 考试时间：约 1 个月后\n- 考试类型：IELTS Academic\n- 主要薄弱：Task 2 议论文 + 语法\n- 学习方式：模板框架、范文对比、互动练习混合\n- 每次学习专注一个可完成的小目标（工作记忆有限）\n\n## Out of scope\n- Task 1 图表描述的系统训练（考前第二周再介入，占分较低）\n- 追求 7 分以上的高级词汇和地道表达（先稳 6，再往上走）\n- 口语、听力、阅读单科训练\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/learning-ielts-writing",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-proto-drip-annotations-package",
+      "name": "Miscs/proto-drip-annotations-package",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/proto-drip-annotations-package",
+      "relative_to_ai_projects": "Miscs/proto-drip-annotations-package",
+      "doc": {
+        "source": "README.md",
+        "title": "proto-drip-annotations 技能包",
+        "excerpt": "# proto-drip-annotations 技能包\n\nCursor Agent Skill：在交互原型 / Demo HTML 上叠加 **备注气泡**（蓝色）与 **待办气泡**（橙色），支持弹层说明与左侧工具栏开关。正式版必须移除。\n\n## 包内容\n\n```\nproto-drip-annotations-package/\n├── README.md                          ← 本文件（安装说明）\n└── proto-drip-annotations/            ← 复制此目录即为完整技能\n    ├── SKILL.md                       ← Agent 主指令\n    ├── reference.md                   ← 集成参考与 API 说明\n    ├── examples.md                    ← 布局与用法示例\n    ├── prd-snippet.md                 ← PRD「Demo 专用」声明模板\n    └── assets/\n        ├── proto-drip.css             ← 完整样式\n        ├── proto-drip-components.jsx  ← React 组件源码\n        └── minimal-starter.html       ← 最小可运行 Demo\n```\n\n## 安装（Cursor）\n\n### 个人技能（所有项目可用）\n\n```bash\ncp -R proto-drip-annotations ~/.cursor/skills/proto-drip-annotations\n```\n\n### 项目技能（随仓库共享）\n\n```bash\nmkdir -p .cursor/skills\ncp -R proto-drip-annotations .cursor/skills/proto-drip-annotations\n```\n\n安装后重启 Cursor，或在对话中提及「加备注气泡」「原型标注」「DripAnchor」等，Agent 会自动匹配该技能。\n\n## 快速试用 Demo\n\n用浏览器打开（需联网加载 React CDN）：\n\n```bash\nopen proto-drip-annotations/assets/minimal-starter.html\n```\n\n或本地起一个静态服务：\n\n```bash\ncd proto-drip-annotations/assets\npython3 -m http.server 8080\n# 访问 http://localhost:8080/minimal-starter.html\n```\n\n## 在新原型中集成\n\n1. 复制 `assets/proto-drip.css` 到 Demo 页面\n2. 复制并配置 `assets/proto-drip-components.jsx` 中的 `DOC_LINKS`、`PAGE_TODOS`\n3. 用 `<DripProvider>` 包裹 App，渲染 `<DripToolbar />`\n4. 在按钮 / 标题旁使用 `<DripAnchor>` + `<NoteDrip inline />` / `<TodoDrip inline />`\n5. 在 PRD 中加入 [prd-snippet.md](proto-drip-annotations/prd-snippet.md) 声明\n\n详细步骤见 [SKILL.md](proto-drip-annotations/SKILL.md)。\n\n## 分发给他人\n\n将整个 `proto-drip-annotations-package` 文件夹或 `proto-drip-annotations-package.zip` 发送即可。对方只需复制 `proto-drip-annotations/` 到 Cursor skills 目录。\n\n## 许可与边界\n\n- 组件仅供 **Demo / 原型** 交接使用\n- 生产构建前须移除全部 drip 相关代码与样式（见 SKILL.md「正式版边界」）\n\n## 版本\n\n- 技能名：`proto-drip-annotations`\n- 打包日期：2026-06-09\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/proto-drip-annotations-package",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-test_course-marketing-rhetoric",
+      "name": "Miscs/test_course-marketing-rhetoric",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/test_course-marketing-rhetoric",
+      "relative_to_ai_projects": "Miscs/test_course-marketing-rhetoric",
+      "doc": {
+        "source": "README.md",
+        "title": "课程营销话术分析与优化框架",
+        "excerpt": "# 课程营销话术分析与优化框架\n\n基于「躺着学」雅思四门试听课逐字稿的系统性分析，为后续撰写、审计、优化课程营销话术，以及封装 Cursor Skill 提供知识库。\n\n## 文档结构\n\n| 文档 | 内容 | 适用场景 |\n|------|------|----------|\n| [samples/transcripts/](./samples/transcripts/) | **四门试听课完整逐字稿**（写作/听力/阅读/口语） | 样本对照、Skill 测试、风格模仿 |\n| [docs/01-style-and-pattern-analysis.md](./docs/01-style-and-pattern-analysis.md) | 定性分析：风格、10 大话术模式、语言特征、填空模板 | 理解「怎么说」、模仿语气 |\n| [docs/02-quantitative-academic-analysis.md](./docs/02-quantitative-academic-analysis.md) | 定量分析：结构占比、修辞诉求、Cialdini 映射、KPI | 理解「说多少、何时说」、学术论证 |\n| [docs/03-actionable-framework.md](./docs/03-actionable-framework.md) | **整合版**：10 原则、七段框架、7 类营销块、QA 清单、Skill I/O | 执行优化、开发 Skill |\n\n## 推荐阅读顺序\n\n1. **快速上手** → 直接读 `03-actionable-framework.md` 第十二节「快速参考卡」\n2. **写新稿** → `03` 二、三、四节 + `01` 七节填空模板\n3. **审计旧稿** → `03` 八节 QA Checklist + `02` 九节 KPI\n4. **开发 Skill** → `03` 九、十一节 + `SKILL.md`（待完善）\n\n## Skill 安装位置（跨项目可用）\n\n个人 Skill 已安装于：\n\n**`~/.cursor/skills/course-marketing-rhetoric/`**\n\n```\n~/.cursor/skills/course-marketing-rhetoric/\n├── SKILL.md        # 主流程：审计 → 改写/增补 → 输出\n├── reference.md    # 块类型、句式、QA、合规\n└── examples.md     # 优化前后对照\n```\n\n**触发方式**：在任意项目中提及「优化课程话术」「增加营销话术」「改写逐字稿」等，或 `@course-marketing-rhetoric`。\n\n**用途**：根据现有课程逐字稿，从营销角度修改话术、增加嵌入式营销块，保留干货不动。\n\n## 文档与 Skill 关系\n\n| 本目录 `docs/` | Skill 文件 | 关系 |\n|----------------|------------|------|\n| 01 定性分析 | reference.md §10 | 研究与参考 |\n| 02 定量分析 | reference.md §11 | KPI 目标区间 |\n| 03 可执行框架 | SKILL.md + reference.md | 已提炼为执行规则 |\n\n## 开发状态\n\n- [x] 定性风格分析文档\n- [x] 定量学术分析文档\n- [x] 可执行原则与框架整合\n- [x] 个人 Skill（`~/.cursor/skills/course-marketing-rhetoric/`）\n- [x] reference.md + examples.md\n\n## 样本来源\n\n四门雅思试听课逐字稿：写作（Ying）、听力（Edith）、阅读（Tammy）、口语（Spencer）。\n\n## 合规提示\n\n分析文档描述的是现有话术机制，不等于推荐原样复用。优化时应通过 `compliance_level: strict` 过滤高风险表述（绝对承诺、学术不诚信教唆等）。\n"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/test_course-marketing-rhetoric",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-押题班画像",
+      "name": "Miscs/押题班画像",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/押题班画像",
+      "relative_to_ai_projects": "Miscs/押题班画像",
+      "doc": {
+        "source": "PRD.md",
+        "title": "雅思线下押题班 · 学生画像看板 PRD",
+        "excerpt": "# 雅思线下押题班 · 学生画像看板 PRD\n\n## 背景与目标\n\n面向押题班运营与管理层，将 Excel 收集表中的学生信息转化为可交互画像看板，支持按维度查看分布、对比躺着学与非躺着学群体差异，辅助开班筹备与学员管理决策。\n\n## 数据源\n\n- 文件：`雅思线下押题班学生信息情况收集表.xlsx`\n- 生成：`python3 build_dashboard.py` → `学生画像看板.html`、`学生画像数据.xlsx`（各 Tab 一个 Sheet）、`dashboard-data.json`\n\n### Excel 导出（`学生画像数据.xlsx`）\n\n与看板 Tab 一一对应，共 9 个 Sheet。每个 Sheet 自上而下包含：\n\n1. **统计汇总**（及年级/特殊承诺等多块汇总表）\n2. **躺着学 vs 非躺着学 · 组内占比**（如有）\n3. **学生明细**（姓名、原始填写、归类结果等）\n\n## Tab 列表（顺序）\n\n1. 分校  \n2. 是否新通办留学  \n3. 年级  \n4. 目标国家  \n5. 目标分  \n6. 目标分总分  \n7. 入学分  \n8. 分差  \n9. **特殊承诺**（新增）\n\nTab 栏吸顶；各 Tab 底部含「躺着学 vs 非躺着学」占比对比（统计明细上方）。\n\n---\n\n## 特殊承诺 Tab\n\n### 字段说明\n\nExcel 列「特殊承诺」：顾问填写的**超出标准合同**的额外约定、运营备注或学员背景说明。文本高度异构，需规则归类后做定量统计，并保留原文做定性查阅。\n\n### 用户路径\n\n1. 打开「特殊承诺」Tab  \n2. 阅读顶部**定性分析 · 主要发现**（自动生成的要点摘要）  \n3. 查看**定量图表**：有无承诺、主类型、主题标签、提分幅度  \n4. 查看**躺着学 vs 非躺着学**主类型占比对比  \n5. 在**学生明细**中按主类型/主题筛选、搜索姓名或原文  \n6. 查阅**归类规则**了解口径\n\n### 定量分析\n\n| 模块 | 说明 |\n|------|------|\n| 有无额外承诺 | 二分类：无特殊承诺 / 有特殊承诺 |\n| 承诺主类型 | 互斥归类，一人一类：无特殊承诺、保分承诺、保分+重读、重读/刷题、退费相关、增值权益、考务/行程备注、背景/诉求、费用说明、其他/未归类 |\n| 主题标签 | 可叠加，一人可多标签：保分承诺、重读/跟班、退费条款、增值权益、考务/行程、背景/诉求、保密/特殊、费用说明 |\n| 提分幅度 | 从文本识别保分/提分数值（如 0.5、1 分），无法识别则不计入 |\n\n统计按**姓名去重**（102 人），与入学分 Tab 一致。\n\n### 定性分析\n\n- **主要发现**：基于全量数据自动生成的 4–6 条文字洞察（有承诺占比、主类型分布、主题叠加、提分幅度、保密条款等）  \n- **学生明细**：展示原始填写全文、主类型、主题标签、提分幅度、**摘要解读**（一句话归纳承诺要点）  \n- 支持按主类型、主题标签筛选及全文搜索\n\n### 归类原则（产品口径）\n\n- 「无 / 暂无 / 否 / 正常 / / / 按合同」→ **无特殊承诺**  \n- 同时含保分与重读/刷题 → **保分+重读**  \n- 主题标签与主类型独立：标签用于交叉分析，主类型用于分布与对比  \n- 保密、退费比例等特殊条款在标签与摘要中单独标注，便于运营关注\n\n### 交互\n\n- 环形图 / 横向柱图与其他 Tab 一致（tooltip 显示占比与人数）  \n- 明细表支持搜索与双维度筛选（主类型 + 主题）\n\n---\n\n## 其他 Tab（摘要）\n\n各 Tab 规则见看板内「归类规则」表；入学分、分差、目标分等口径以看板说明为准。\n\n---\n\n## 线下押题班学生管理表汇总（衍生数据）\n\n### 背景\n\n企微侧「线下押题班学生管理表」按每期一个 Sheet 维护，需汇总为一张宽表，供运营分析与后续看板扩展使用。\n\n### 数据源与产出\n\n- 源文件：`线下押题班学生管理表.xlsx`（仅提取「日期+线下押题班」命名的 Sheet）\n- 脚本：`python3 extract_offline_class_sheets.py`\n- 产出：`押题班画像/线下押题班学生管理表_汇总.xlsx`（含「全部学生」「汇总统计」「汇总统计_躺着学」「汇总统计_非躺着学」「时间序列统计」「时间序列统计_躺着学」「时间序列统计_非躺着学」「期次年份说明」等 Sheet）\n\n### 汇总统计 Sheet\n\n将全部期次学生池化后，按统一结构输出各维度分布（值 / 人数 / 占比）：\n\n| 模块 | 取值字段 | 说明 |\n|------|-------"
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/押题班画像",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-签转",
+      "name": "Miscs/签转",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/签转",
+      "relative_to_ai_projects": "Miscs/签转",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/签转",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-视频分析",
+      "name": "Miscs/视频分析",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/视频分析",
+      "relative_to_ai_projects": "Miscs/视频分析",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/视频分析",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "Miscs-躺着学用户画像",
+      "name": "Miscs/躺着学用户画像",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Miscs/躺着学用户画像",
+      "relative_to_ai_projects": "Miscs/躺着学用户画像",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "Miscs/躺着学用户画像",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    }
+  ],
+  "transcripts": {
+    "scanned_files": 1,
+    "project_keys": [
+      "Miscs",
+      "Miscs/course-marketing-rhetoric"
+    ],
+    "unmapped_count": 0
+  }
+}

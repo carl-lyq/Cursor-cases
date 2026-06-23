@@ -1,0 +1,35 @@
+---
+description: 用户确认 Cursor 案例库草稿并发布到 published/ 与 GitHub main
+globs:
+alwaysApply: false
+---
+
+# Portfolio 确认发布
+
+当用户说 **「确认 portfolio」**、**「确认 portfolio <项目名>」** 或类似表述时：
+
+## 前置检查
+
+1. 工作目录应在 `Cursor案例库` 仓库，或先 `cd` 到：
+   `/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Cursor案例库`
+2. 阅读 `reviews/LATEST.md`，确认用户要发布的范围
+3. **不要**在未确认时修改 `published/`
+
+## 执行
+
+```bash
+python3 scripts/portfolio.py confirm
+# 或指定项目：
+python3 scripts/portfolio.py confirm --cases <项目路径>
+```
+
+## 发布后
+
+1. 将 `published/`、`state/case-status.json` 的变更 commit
+2. 若已配置 remote，push 到 `main` 分支
+3. 向用户简要说明：已确认哪些项目、正式文档路径 `published/AI-Projects-Portfolio.md`
+
+## 禁止
+
+- 不要跳过 `portfolio.py confirm` 直接手改 `published/` 总览（除非用户明确要求手工编辑定稿）
+- 不要将 `draft/` 当作对外汇报版本推荐给用户

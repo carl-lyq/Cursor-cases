@@ -1,0 +1,48 @@
+name: Portfolio weekly scan
+
+on:
+  schedule:
+    # 每周一 01:00 UTC（北京时间 09:00）
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: portfolio-draft
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run repo-only scan
+        env:
+          # 若整个 AI Projects 作为 monorepo 推送，在仓库根配置 AI_PROJECTS_ROOT 为仓库根
+          AI_PROJECTS_ROOT: ${{ vars.AI_PROJECTS_ROOT || github.workspace }}
+        run: python3 scripts/portfolio.py scan --repo-only
+
+      - name: Commit draft
+        run: |
+          git config user.name "portfolio-bot"
+          git config user.email "portfolio-bot@users.noreply.github.com"
+          git add draft/ cases/ reviews/ inbox/ state/ || true
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore(portfolio): weekly repo scan $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  # 飞书：见 docs/05-飞书通知（待接入）.md

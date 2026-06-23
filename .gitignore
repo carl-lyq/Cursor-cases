@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+*.local.json
+
+# 运行时 inbox 体积可能较大；结构化摘要会进入 cases/
+inbox/sessions/*.json
