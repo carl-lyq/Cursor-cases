@@ -1,9 +1,9 @@
-name: Portfolio weekly scan
+name: Portfolio daily scan
 
 on:
   schedule:
-    # 每周一 01:00 UTC（北京时间 09:00）
-    - cron: "0 1 * * 1"
+    # 每天 01:00 UTC（北京时间 09:00）
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -41,7 +41,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "chore(portfolio): weekly repo scan $(date -u +%Y-%m-%d)"
+            git commit -m "chore(portfolio): daily repo scan $(date -u +%Y-%m-%d)"
             git push
           fi
 

@@ -33,7 +33,7 @@ git push -u origin portfolio-draft
 
 工作流：[.github/workflows/portfolio-scan.yml](../.github/workflows/portfolio-scan.yml)
 
-- **触发**：每周一 09:00（UTC+8 需自行改 cron）+ 手动 `workflow_dispatch`
+- **触发**：每天 09:00（北京时间，cron `0 1 * * *` UTC）+ 手动 `workflow_dispatch`
 - **执行**：`portfolio.py scan --repo-only`
 - **推送**：commit 到 `portfolio-draft` 分支
 
@@ -53,7 +53,7 @@ git push -u origin portfolio-draft
 
 ## 电脑关机时
 
-- **周一 Action 仍运行**（在 GitHub 云端）
+- **每日 Action 仍运行**（在 GitHub 云端）
 - 你回来后 `git pull` + 本机 `scan` 追平对话
 - `reviews/LATEST.md` 会注明是否含积压补扫
 
