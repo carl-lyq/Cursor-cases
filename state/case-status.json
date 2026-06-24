@@ -135,5 +135,59 @@
     "status": "ignored",
     "updated_at": "2026-06-23T14:40:30+00:00",
     "merged_into": "Miscs/course-marketing-rhetoric"
+  },
+  "cases": {
+    "case_file": "cases.md",
+    "content_hash": "897a4d01b264",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "docs": {
+    "case_file": "docs.md",
+    "content_hash": "d04d6cf30bc6",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "draft": {
+    "case_file": "draft.md",
+    "content_hash": "8e0cdfa334e9",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "inbox": {
+    "case_file": "inbox.md",
+    "content_hash": "20af2550314c",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "published": {
+    "case_file": "published.md",
+    "content_hash": "776a4cca822b",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "reviews": {
+    "case_file": "reviews.md",
+    "content_hash": "8fd681c74183",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "scripts": {
+    "case_file": "scripts.md",
+    "content_hash": "142b0c6fa3ba",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "state": {
+    "case_file": "state.md",
+    "content_hash": "55ed50e029da",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
+  },
+  "templates": {
+    "case_file": "templates.md",
+    "content_hash": "05053a1af3b0",
+    "status": "draft",
+    "updated_at": "2026-06-24T05:01:34+00:00"
   }
 }
