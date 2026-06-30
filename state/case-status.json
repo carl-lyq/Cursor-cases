@@ -141,5 +141,59 @@
     "content_hash": "6c40ddae2394",
     "status": "draft",
     "updated_at": "2026-06-30T02:48:07+00:00"
+  },
+  "cases": {
+    "case_file": "cases.md",
+    "content_hash": "6aa27b143d5d",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "docs": {
+    "case_file": "docs.md",
+    "content_hash": "d2e700963b1d",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "draft": {
+    "case_file": "draft.md",
+    "content_hash": "c3a8501c5210",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "inbox": {
+    "case_file": "inbox.md",
+    "content_hash": "8521e5df4be2",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "published": {
+    "case_file": "published.md",
+    "content_hash": "b5ac637c6216",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "reviews": {
+    "case_file": "reviews.md",
+    "content_hash": "368d0440cd97",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "scripts": {
+    "case_file": "scripts.md",
+    "content_hash": "c294231baf9c",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "state": {
+    "case_file": "state.md",
+    "content_hash": "e28a98c39a33",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
+  },
+  "templates": {
+    "case_file": "templates.md",
+    "content_hash": "70d9c92bc2f5",
+    "status": "draft",
+    "updated_at": "2026-06-30T05:02:16+00:00"
   }
 }
