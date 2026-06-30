@@ -1,9 +1,9 @@
 {
   "BC落地页": {
     "case_file": "BC落地页.md",
-    "content_hash": "f8f56e942d5d",
+    "content_hash": "1130854964bc",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs": {
     "status": "ignored",
@@ -11,27 +11,27 @@
   },
   "Miscs/WanLi改造": {
     "case_file": "Miscs-PRD转可视化评审页.md",
-    "content_hash": "caa035638a4e",
+    "content_hash": "0fd18dd05f4c",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs/course-marketing-rhetoric": {
     "case_file": "Miscs-课程营销话术蒸馏.md",
-    "content_hash": "64f6357771a1",
+    "content_hash": "4d1aefb682c9",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs/learning-ielts-writing": {
     "case_file": "Miscs-社区Skill安装与快速验证.md",
-    "content_hash": "cf8b74b178bc",
+    "content_hash": "f1eaa4ff5125",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs/proto-drip-annotations-package": {
     "case_file": "Miscs-产品Demo重复工作流的技能化封装.md",
-    "content_hash": "9d89738ab284",
+    "content_hash": "9028fe3050d9",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs/test_course-marketing-rhetoric": {
     "status": "ignored",
@@ -39,27 +39,27 @@
   },
   "Miscs/押题班画像": {
     "case_file": "Miscs-押题班画像.md",
-    "content_hash": "ed50b1fded52",
+    "content_hash": "48f0f690998c",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs/签转": {
     "case_file": "Miscs-销售签转率表格数据快速处理与画图.md",
-    "content_hash": "5f96ee17f40d",
+    "content_hash": "0cc4276df537",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs/视频分析": {
     "case_file": "Miscs-视频分析.md",
-    "content_hash": "978564f622b8",
+    "content_hash": "a03686c9db26",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Miscs/躺着学用户画像": {
     "case_file": "Miscs-躺着学用户画像.md",
-    "content_hash": "6841bdb0fbbe",
+    "content_hash": "cf56f14ba820",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "Nature Futures": {
     "status": "ignored",
@@ -67,9 +67,9 @@
   },
   "Nature Futures 2.0": {
     "case_file": "网络数据爬取并整理成电子书.md",
-    "content_hash": "cb87f3948e3b",
+    "content_hash": "0bf7b381fc44",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "openspec": {
     "status": "ignored",
@@ -81,9 +81,9 @@
   },
   "中国留学数据库": {
     "case_file": "中国留学数据库.md",
-    "content_hash": "61b77481e946",
+    "content_hash": "41c6bf76837a",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "其他": {
     "status": "ignored",
@@ -91,9 +91,9 @@
   },
   "创客中国申报": {
     "case_file": "创客中国项目申报.md",
-    "content_hash": "4990576b47c1",
+    "content_hash": "878fdeec618e",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   "躺着学命中数据库": {
     "case_file": "躺着学命中数据库.md",
@@ -119,9 +119,9 @@
   },
   "雅思写作仿人工批改": {
     "case_file": "雅思写作仿人工批改.md",
-    "content_hash": "9bb4b0d5f62b",
+    "content_hash": "080a76a0b978",
     "status": "draft",
-    "updated_at": "2026-06-23T16:15:11+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   },
   ".cursor": {
     "case_file": ".cursor.md",
@@ -136,58 +136,10 @@
     "updated_at": "2026-06-23T14:40:30+00:00",
     "merged_into": "Miscs/course-marketing-rhetoric"
   },
-  "cases": {
-    "case_file": "cases.md",
-    "content_hash": "d72afd5442f3",
+  "Miscs/wellington-ai-lecture": {
+    "case_file": "Miscs-wellington-ai-lecture.md",
+    "content_hash": "6c40ddae2394",
     "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "docs": {
-    "case_file": "docs.md",
-    "content_hash": "393539131fd8",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "draft": {
-    "case_file": "draft.md",
-    "content_hash": "56c9de7fea19",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "inbox": {
-    "case_file": "inbox.md",
-    "content_hash": "6b3cf4dd897a",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "published": {
-    "case_file": "published.md",
-    "content_hash": "0eaa817bc401",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "reviews": {
-    "case_file": "reviews.md",
-    "content_hash": "2c35e8a710cb",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "scripts": {
-    "case_file": "scripts.md",
-    "content_hash": "b06c63fe367d",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "state": {
-    "case_file": "state.md",
-    "content_hash": "ac5f60619c77",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
-  },
-  "templates": {
-    "case_file": "templates.md",
-    "content_hash": "859fca80fd2a",
-    "status": "draft",
-    "updated_at": "2026-06-29T05:50:03+00:00"
+    "updated_at": "2026-06-30T02:48:07+00:00"
   }
 }

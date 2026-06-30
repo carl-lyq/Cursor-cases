@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-23T16:15:11+00:00",
+  "updated_at": "2026-06-30T02:48:07+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
-  "scanned_files_last_run": 1,
+  "scanned_files_last_run": 5,
   "unmapped_count": 0,
   "projects": {
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-06-24T00:14:54.042728",
+        "mtime": "2026-06-30T10:48:05.038174",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
         "last_assistant": "**案例库运维 — 请选择要执行的操作** **A · 重载定时任务** 卸载并重新加载本机 22:00 定时任务（改过 plist 或仓库路径时用）。 **什么时候用**：调整过 ；换了案例库目录；想确保 launchd 用的是最新配置。 **会做什么**： → 复制新 plist → **不会**：立刻执行同步（若要马上同步请选 **B**）。 **说明**：首次安装定时任务见 （本 skill 不提供该项）。 **B · 同步并推送（最常用）** 本机全量扫描 + 对话脱敏 + 更新案例卡 + **提交并 push 到 **。 **什么时候用**…",
@@ -21,6 +21,65 @@
           "skills",
           "SKILL.md",
           "SKILL.md"
+        ]
+      }
+    ],
+    "Miscs": [
+      {
+        "session_id": "5e1b7ffb-6553-4163-a775-e4f623446d65",
+        "mtime": "2026-06-27T12:26:27.485385",
+        "score": 6,
+        "first_query": "我要去惠灵顿中学给学生们做一场关于AI在企业场景应用的讲座。查询杭州新通教育总部大楼到惠灵顿中学杭州校区路线图，分析不同路线在周五下午的出行速度，选择最快的一条，并把这条路线图略微抽象化和风格化，加上沿途的标志性建筑地标，并用GPT image 2做成活动海报。 注意： 1.海报上的路线、地图需要是基于实际路线截图的，要看起来像一个地图导航，基本的方位、形状都需要准确。 2.海报上不需要推荐路线部分。 3.注意地图坐标位置的准确性。",
+        "last_assistant": "终点在开源地图里对应到“杭州惠立学校 / Wellington 校区”一带，坐标源之间有少量差异；我会优先用官方地址与学校 POI 边界，并在最终图上把终点落在学知路2399号校区范围内。 **Validating coordinates** It looks like Nominatim found Huilin School, but not Wellington. The coordinates for Huilin are 120.3379, 30.2307, which differs from the earlier search of a…",
+        "touched_paths": []
+      },
+      {
+        "session_id": "3b29282f-ba64-4c1d-beab-596f4b2f81e7",
+        "mtime": "2026-06-26T11:24:41.228307",
+        "score": 7,
+        "first_query": "讲座大纲：未来企业工作模式——AI智能体应用简介 适用对象：国际高中学生 | 时长：60-90分钟 核心灵魂：AI不再是“对话框”，而是有手有脚、能自己干活的“数字员工” 第一部分：破冰——重新认识AI（5分钟） · 灵魂拷问：你用的ChatGPT是“学霸”还是“实习生”？（它能告诉你答案，但能帮你把PPT做了吗？） · 认知颠覆：我们正从 ChatGPT时代 跨入 Agent（智能体）时代——AI从“回答问题”进化到“接受目标，自主完成”。 第二部分：拆解智能体（Agent）——它到底长什么样？（20分钟） 具象化理解（重点） · 传统AI = 大脑…",
+        "last_assistant": "已对地点和日期做了设计： - 整体做成一个胶囊徽章，带半透明背景、细边框和毛玻璃效果，和封面整体风格一致。 - 地点前加了定位图标，日期前加了日历图标，图标用主题强调色。 - 中间用一个发光圆点分隔，比原来的「·」更精致。 检查无报错。",
+        "touched_paths": [
+          "___X____-51b5fb04-2da6-4424-b794-40cbea79818f.png",
+          "image-595dadbd-8cfe-4f17-bd64-46e32a92aac0.png",
+          "image-a583ec8d-b101-4a4e-b49c-2a8695cda337.png",
+          "image-b7e242a9-6d5c-49f3-a299-02fc1c90d207.png",
+          "image-e9625436-35dc-4dc0-b832-ec7577daf8a7.png",
+          "SKILL.md",
+          "Miscs",
+          "wellington-ai-lecture"
+        ]
+      },
+      {
+        "session_id": "42959279-b9ba-4d00-b0ef-9d2aa272b0d4",
+        "mtime": "2026-06-26T10:55:10.529298",
+        "score": 8,
+        "first_query": "我要去惠灵顿中学给学生们做一场关于AI在企业场景应用的讲座。查询杭州新通教育总部大楼到惠灵顿中学杭州校区路线图，分析不同路线在周五下午的出行速度，选择最快的一条，并把这条路线图略微抽象化和风格化，加上沿途的标志性建筑地标，并用GPT image 2做成活动海报。 注意： 1.海报上的路线、地图需要是基于实际路线截图的，要看起来像一个地图导航，基本的方位、形状都需要准确。 2.海报上不需要推荐路线部分。 3.注意地图坐标位置的准确性。",
+        "last_assistant": "路线分析结论 **起点：** 新通教育总部大厦，西湖区西溪路528号（120.1037°E, 30.2673°N） **终点：** 惠灵顿中学杭州校区，萧山区学知路2399号（120.3398°E, 30.2340°N） 基于 OSRM 路网数据，对比了 4 条常见驾车路线，并结合杭州周五下午（15:00–17:30）晚高峰路况做了估算： | 排名 | 路线方案 | 里程 | 平峰 | 周五下午预估 | |------|----------|------|------|--------------| | **1（推荐）** | **钱塘快速路 → 空港…",
+        "touched_paths": [
+          "wellington-ai-lecture-poster-v2.png",
+          "wellington-ai-lecture-poster.png",
+          "Miscs",
+          "wellington-ai-lecture",
+          "route-map.html",
+          "route-screenshot.png"
+        ]
+      },
+      {
+        "session_id": "6fcc8b8c-3cbe-4c09-85bd-c913ac62d4b2",
+        "mtime": "2026-06-26T10:37:28.554115",
+        "score": 9,
+        "first_query": "我要去惠灵顿中学给学生们做一场关于AI在企业场景应用的讲座。查询杭州新通教育总部大楼到惠灵顿中学杭州校区路线图，分析不同路线在周五下午的出行速度，选择最快的一条，并把这条路线图抽象化和风格化，并用GPT image 2做成活动海报。",
+        "last_assistant": "**问题原因：** 之前误用了「萧山高教园」的坐标（约 30.185°N），那是浙江建设职业技术学院一带的学知路，不是惠灵顿所在位置。 **正确位置：** 惠灵顿/惠立校区在 **萧山科技城 · 宁围街道 · 学知路2399号**，传化科创大厦南侧（约 **120.3388°E, 30.2340°N**），在钱塘江以东、偏东北方向。 **已更新文件：** - 路线截图： - 海报 v3： 地图上惠灵顿现在应落在萧山区东部、钱塘江以南的正确位置。若你本地打开后仍觉得有偏差，可以说一下你期望的参照物（例如「应在传化科创大厦附近」），我可以再微调坐标。 [R…",
+        "touched_paths": [
+          "wellington-ai-lecture-poster-v2.png",
+          "wellington-ai-lecture-poster-v2.png`",
+          "wellington-ai-lecture-poster-v3.png",
+          "wellington-ai-lecture-poster.png",
+          "wellington-ai-lecture-poster.png`",
+          "AI",
+          "Miscs",
+          "route-map-screenshot.png"
         ]
       }
     ]
