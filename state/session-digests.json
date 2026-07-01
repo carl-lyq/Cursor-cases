@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-30T02:48:07+00:00",
+  "updated_at": "2026-07-01T03:02:02+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
   "scanned_files_last_run": 5,
-  "unmapped_count": 0,
+  "unmapped_count": 3,
   "projects": {
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-06-30T10:48:05.038174",
+        "mtime": "2026-07-01T11:02:00.251103",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
         "last_assistant": "**案例库运维 — 请选择要执行的操作** **A · 重载定时任务** 卸载并重新加载本机 22:00 定时任务（改过 plist 或仓库路径时用）。 **什么时候用**：调整过 ；换了案例库目录；想确保 launchd 用的是最新配置。 **会做什么**： → 复制新 plist → **不会**：立刻执行同步（若要马上同步请选 **B**）。 **说明**：首次安装定时任务见 （本 skill 不提供该项）。 **B · 同步并推送（最常用）** 本机全量扫描 + 对话脱敏 + 更新案例卡 + **提交并 push 到 **。 **什么时候用**…",
