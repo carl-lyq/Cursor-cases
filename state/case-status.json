@@ -154,5 +154,59 @@
     "status": "locked",
     "updated_at": "2026-07-01T03:18:49+00:00",
     "note": "案例卡已按 PRD 人工修订，锁定防自动覆盖"
+  },
+  "cases": {
+    "case_file": "cases.md",
+    "content_hash": "6a55be694d37",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "docs": {
+    "case_file": "docs.md",
+    "content_hash": "f777e4363b6b",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "draft": {
+    "case_file": "draft.md",
+    "content_hash": "0d2951d325e1",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "inbox": {
+    "case_file": "inbox.md",
+    "content_hash": "af44c0fc0f5f",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "published": {
+    "case_file": "published.md",
+    "content_hash": "ca629d2d3d29",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "reviews": {
+    "case_file": "reviews.md",
+    "content_hash": "df4f7fe7d6c1",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "scripts": {
+    "case_file": "scripts.md",
+    "content_hash": "0a2cf5070531",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "state": {
+    "case_file": "state.md",
+    "content_hash": "531b6cddce4d",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
+  },
+  "templates": {
+    "case_file": "templates.md",
+    "content_hash": "21351ad07a63",
+    "status": "draft",
+    "updated_at": "2026-07-01T05:20:45+00:00"
   }
 }
