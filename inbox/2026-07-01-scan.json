@@ -1,7 +1,7 @@
 {
   "run_id": "2026-07-01",
   "mode": "full",
-  "finished_at": "2026-07-01T03:02:02+00:00",
+  "finished_at": "2026-07-01T03:07:55+00:00",
   "projects": [
     {
       "id": "BC落地页",
@@ -629,6 +629,71 @@
         "has_git": true,
         "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
         "relative_path": "创客中国申报",
+        "commits_recent": 0,
+        "authors_recent": [],
+        "last_commit_date": null,
+        "changed_files_recent": []
+      }
+    },
+    {
+      "id": "小红书监控",
+      "name": "小红书监控",
+      "path": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/小红书监控",
+      "relative_to_ai_projects": "小红书监控",
+      "doc": {
+        "source": "README.md",
+        "title": "小红书话题监控",
+        "excerpt": "# 小红书话题监控\n\n本机偶尔运行的小红书关键词/话题笔记采集工具。\n\n## 功能\n\n- Playwright 浏览器采集（8 个关键词，100 条/词/次）\n- 笔记链接 + 正文 + 去重并更新互动数\n- 每条笔记 AI 总结（需配置 LLM Key）\n- CSV 自动导出\n- 飞书机器人通知（需配置 Webhook）\n\n## 安装\n\n```bash\ncd 小红书监控\npython3 -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\nplaywright install chromium\n\ncp config/config.example.yaml config/config.yaml   # 若尚未复制\ncp .env.example .env                               # 可选，后续填 Key\n```\n\n## 使用\n\n```bash\nsource .venv/bin/activate\nexport PYTHONPATH=src\n\n# 1. 小号扫码登录（首次 & 过期时）\npython -m xhs_monitor login\n\n# 2. 查看状态\npython -m xhs_monitor status\n\n# 3. 执行采集（8 关键词全跑）\npython -m xhs_monitor run\n\n# 4. 仅跑单个关键词\npython -m xhs_monitor run --source 雅思\n\n# 5. 飞书测试（配置 Webhook 后）\npython -m xhs_monitor notify-test\n```\n\n或双击 macOS 脚本：\n\n- `scripts/login.command` — 扫码登录\n- `scripts/run.command` — 执行采集\n\n## 输出位置\n\n| 路径 | 说明 |\n|------|------|\n| `data/db/xhs_monitor.db` | SQLite 数据库 |\n| `data/export/*.csv` | 导出文件 |\n| `data/session/storage_state.json` | 登录态（勿分享） |\n| `data/logs/` | 运行日志 |\n\n## 环境变量（.env）\n\n```env\nOPENAI_API_KEY=           # LLM 总结（后续提供）\nFEISHU_WEBHOOK_URL=       # 飞书通知（后续提供）\n```\n\n未配置时：采集与 CSV 正常；总结与飞书自动跳过。\n\n## 文档\n\n- [docs/PRD.md](docs/PRD.md)\n- [docs/技术方案.md](docs/技术方案.md)\n- [docs/待确认事项.md](docs/待确认事项.md)\n",
+        "parsed": {
+          "title": "小红书话题监控",
+          "excerpt": "# 小红书话题监控\n\n本机偶尔运行的小红书关键词/话题笔记采集工具。\n\n## 功能\n\n- Playwright 浏览器采集（8 个关键词，100 条/词/次）\n- 笔记链接 + 正文 + 去重并更新互动数\n- 每条笔记 AI 总结（需配置 LLM Key）\n- CSV 自动导出\n- 飞书机器人通知（需配置 Webhook）\n\n## 安装\n\n```bash\ncd 小红书监控\npython3 -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\nplaywright install chromium\n\ncp config/config.example.yaml config/config.yaml   # 若尚未复制\ncp .env.example .env                               # 可选，后续填 Key\n```\n\n## 使用\n\n```bash\nsource .venv/bin/activate\nexport PYTHONPATH=src\n\n# 1. 小号扫码登录（首次 & 过期时）\npython -m xhs_monitor login\n\n# 2. 查看状态\npython -m xhs_monitor status\n\n# 3. 执行采集（8 关键词全跑）\npython -m xhs_monitor run\n\n# 4. 仅跑单个关键词\npython -m xhs_monitor run --source 雅思\n\n# 5. 飞书测试（配置 Webhook 后）\npython -m xhs_monitor notify-test\n```\n\n或双击 macOS 脚本：\n\n- `scripts/login.command` — 扫码登录\n- `scripts/run.command` — 执行采集\n\n## 输出位置\n\n| 路径 | 说明 |\n|------|------|\n| `data/db/xhs_monitor.db` | SQLite 数据库 |\n| `data/export/*.csv` | 导出文件 |\n| `data/session/storage_state.json` | 登录态（勿分享） |\n| `data/logs/` | 运行日志 |\n\n## 环境变量（.env）\n\n```env\nOPENAI_API_KEY=           # LLM 总结（后续提供）\nFEISHU_WEBHOOK_URL=       # 飞书通知（后续提供）\n```\n\n未配置时：采集与 CSV 正常；总结与飞书自动跳过。\n\n## 文档\n\n- [docs/PRD.md](docs/PRD.md)\n- [docs/技术方案.md](docs/技术方案.md)\n- [docs/待确认事项.md](docs/待确认事项.md)\n",
+          "sections": {
+            "小红书话题监控": "本机偶尔运行的小红书关键词/话题笔记采集工具。",
+            "功能": "- Playwright 浏览器采集（8 个关键词，100 条/词/次）\n- 笔记链接 + 正文 + 去重并更新互动数\n- 每条笔记 AI 总结（需配置 LLM Key）\n- CSV 自动导出\n- 飞书机器人通知（需配置 Webhook）",
+            "安装": "```bash\ncd 小红书监控\npython3 -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\nplaywright install chromium\n\ncp config/config.example.yaml config/config.yaml   # 若尚未复制\ncp .env.example .env                               # 可选，后续填 Key\n```",
+            "使用": "```bash\nsource .venv/bin/activate\nexport PYTHONPATH=src",
+            "1. 小号扫码登录（首次 & 过期时）": "python -m xhs_monitor login",
+            "2. 查看状态": "python -m xhs_monitor status",
+            "3. 执行采集（8 关键词全跑）": "python -m xhs_monitor run",
+            "4. 仅跑单个关键词": "python -m xhs_monitor run --source 雅思",
+            "5. 飞书测试（配置 Webhook 后）": "python -m xhs_monitor notify-test\n```\n\n或双击 macOS 脚本：\n\n- `scripts/login.command` — 扫码登录\n- `scripts/run.command` — 执行采集",
+            "输出位置": "| 路径 | 说明 |\n|------|------|\n| `data/db/xhs_monitor.db` | SQLite 数据库 |\n| `data/export/*.csv` | 导出文件 |\n| `data/session/storage_state.json` | 登录态（勿分享） |\n| `data/logs/` | 运行日志 |",
+            "环境变量（.env）": "```env\nOPENAI_API_KEY=           # LLM 总结（后续提供）\nFEISHU_WEBHOOK_URL=       # 飞书通知（后续提供）\n```\n\n未配置时：采集与 CSV 正常；总结与飞书自动跳过。",
+            "文档": "- [docs/PRD.md](docs/PRD.md)\n- [docs/技术方案.md](docs/技术方案.md)\n- [docs/待确认事项.md](docs/待确认事项.md)"
+          },
+          "background": "",
+          "goals": "",
+          "pains": "",
+          "features": [
+            "Playwright 浏览器采集（8 个关键词，100 条/词/次）",
+            "笔记链接 + 正文 + 去重并更新互动数",
+            "每条笔记 AI 总结（需配置 LLM Key）",
+            "`data/db/xhs_monitor.db`：SQLite 数据库",
+            "`data/export/*.csv`：导出文件",
+            "`data/session/storage_state.json`：登录态（勿分享）",
+            "`data/logs/`：运行日志"
+          ],
+          "section_titles": [
+            "小红书话题监控",
+            "功能",
+            "安装",
+            "使用",
+            "1. 小号扫码登录（首次 & 过期时）",
+            "2. 查看状态",
+            "3. 执行采集（8 关键词全跑）",
+            "4. 仅跑单个关键词",
+            "5. 飞书测试（配置 Webhook 后）",
+            "输出位置",
+            "环境变量（.env）",
+            "文档"
+          ]
+        }
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects",
+        "relative_path": "小红书监控",
         "commits_recent": 0,
         "authors_recent": [],
         "last_commit_date": null,
@@ -1869,11 +1934,11 @@
     }
   ],
   "transcripts": {
-    "scanned_files": 5,
+    "scanned_files": 2,
     "project_keys": [
       ".cursor"
     ],
-    "unmapped_count": 3,
+    "unmapped_count": 1,
     "from_digest": false,
     "digest_updated_at": null
   }

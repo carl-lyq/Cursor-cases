@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-01T03:02:02+00:00",
+  "updated_at": "2026-07-01T03:07:55+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
-  "scanned_files_last_run": 5,
-  "unmapped_count": 3,
+  "scanned_files_last_run": 2,
+  "unmapped_count": 1,
   "projects": {
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-07-01T11:02:00.251103",
+        "mtime": "2026-07-01T11:07:51.266912",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
-        "last_assistant": "**案例库运维 — 请选择要执行的操作** **A · 重载定时任务** 卸载并重新加载本机 22:00 定时任务（改过 plist 或仓库路径时用）。 **什么时候用**：调整过 ；换了案例库目录；想确保 launchd 用的是最新配置。 **会做什么**： → 复制新 plist → **不会**：立刻执行同步（若要马上同步请选 **B**）。 **说明**：首次安装定时任务见 （本 skill 不提供该项）。 **B · 同步并推送（最常用）** 本机全量扫描 + 对话脱敏 + 更新案例卡 + **提交并 push 到 **。 **什么时候用**…",
+        "last_assistant": "**「小红书监控」目前不在案例库里**——不是被忽略了，是扫描范围根本没覆盖到它。 原因 案例库只扫 ** 下的子项目**（以及 里的一层嵌套）。 而「小红书监控」实际路径是： 所以： - 里**没有**对应案例卡 - 里**不会出现** - 昨天 B 同步的 22 个项目里**不包含**它 项目本身是存在的，而且有 PRD、技术方案和 MVP 代码（Playwright 采集、SQLite、CSV 导出等），只是**目录位置在扫描范围外**。 和「小红书」相关的现有内容 案例库里只有**别的项目里提到小红书**，不是独立项目： | 案例卡 | 关系 …",
         "touched_paths": [
           "projects",
           "image-eca5ce20-37ce-4f99-b4e9-3be58aea1b96.png",
