@@ -151,7 +151,8 @@
   "小红书监控": {
     "case_file": "小红书监控.md",
     "content_hash": "f7d4a572f3ad",
-    "status": "draft",
-    "updated_at": "2026-07-01T03:18:49+00:00"
+    "status": "locked",
+    "updated_at": "2026-07-01T03:18:49+00:00",
+    "note": "案例卡已按 PRD 人工修订，锁定防自动覆盖"
   }
 }
