@@ -12,8 +12,8 @@
 
 ### 近期产出
 
+- daily repo scan 2026-07-01
 - 恢复小红书监控人工修订案例卡并锁定
-- daily local scan with sanitized sessions 2026-07-01
 - daily local scan with sanitized sessions 2026-07-01
 - daily local scan with sanitized sessions 2026-07-01
 
@@ -26,11 +26,11 @@
 ### 用 Cursor 之后
 
 
-近 90 天仓库有 **17** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。
+近 90 天仓库有 **18** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。
 
 ## 提效与业务价值
 
-- **迭代速度**：近 90 天 **17** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。
+- **迭代速度**：近 90 天 **18** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。
 
 ## Cursor / AI 能力与工具
 
@@ -40,15 +40,15 @@
 
 ## 仓库活跃信号
 
-- 近 90 天 **17** 次提交
+- 近 90 天 **18** 次提交
 - 最近提交：2026-07-01
 - 近期改动方向：
+  - chore(portfolio): daily repo scan 2026-07-01
   - fix(portfolio): 恢复小红书监控人工修订案例卡并锁定
-  - chore(portfolio): daily local scan with sanitized sessions 2026-07-01
   - chore(portfolio): daily local scan with sanitized sessions 2026-07-01
   - chore(portfolio): daily local scan with sanitized sessions 2026-07-01
 - 主要产出类型：其他 7 个 · 配置/数据 4 个
 
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：无 · 生成于 2026-07-01*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：无 · 生成于 2026-07-02*
