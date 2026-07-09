@@ -157,56 +157,56 @@
   },
   "cases": {
     "case_file": "cases.md",
-    "content_hash": "324560b2a2de",
+    "content_hash": "7e3504e8eadf",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "docs": {
     "case_file": "docs.md",
-    "content_hash": "1c6d1ff8c43c",
+    "content_hash": "f4600e411f84",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "draft": {
     "case_file": "draft.md",
-    "content_hash": "4126af6c18b6",
+    "content_hash": "585f50cedd20",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "inbox": {
     "case_file": "inbox.md",
-    "content_hash": "ec889a550462",
+    "content_hash": "f48a2ce8519d",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "published": {
     "case_file": "published.md",
-    "content_hash": "c79de45bc8f1",
+    "content_hash": "bf7632c3b64c",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "reviews": {
     "case_file": "reviews.md",
-    "content_hash": "66182be976ae",
+    "content_hash": "9e1b8dc04e02",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "scripts": {
     "case_file": "scripts.md",
-    "content_hash": "a18b27e072f9",
+    "content_hash": "cfdeb40fe828",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "state": {
     "case_file": "state.md",
-    "content_hash": "b0da17d17e1f",
+    "content_hash": "809b6ed69fd7",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   },
   "templates": {
     "case_file": "templates.md",
-    "content_hash": "c842ff2a4160",
+    "content_hash": "689db716a94c",
     "status": "draft",
-    "updated_at": "2026-07-08T04:13:50+00:00"
+    "updated_at": "2026-07-09T04:51:51+00:00"
   }
 }
