@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-01T03:18:49+00:00",
+  "updated_at": "2026-07-24T04:13:15+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
-  "scanned_files_last_run": 2,
-  "unmapped_count": 1,
+  "scanned_files_last_run": 32,
+  "unmapped_count": 18,
   "projects": {
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-07-01T11:18:45.346316",
+        "mtime": "2026-07-24T12:13:06.190651",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
-        "last_assistant": "已根据 （v0.3）和 重写 ，主要变化如下： 改写要点 | 章节 | 内容来源 | |------|----------| | **业务背景** | PRD §1、§3：个人选题研究、8 个雅思/AI 编程相关关键词 | | **工作痛点** | 手工搜词不可扩展、去重更新、缺结构化与 AI 摘要 | | **项目要做什么** | PRD §2、§4：监控词、输入/产出、去重、CSV、飞书、明确不做 | | **工作方式对比** | 传统刷 App vs Cursor 调研→PRD→MVP 试跑 | | **提效与业务价值** | 规模、结构化、洞察…",
+        "last_assistant": "**B · 同步并推送** 已完成，并处理了一个副作用。 本次结果 | 步骤 | 结果 | |------|------| | 全量 scan + push | 已推送到 | | 人工修订案例卡 | scan **覆盖**了改写内容 → 已**恢复**并 push | 为防止再被覆盖 1. ****：已恢复为按 PRD 写的版本 2. ****：该项目已标 ****，以后跑 B 不会自动改这篇正文 3. **项目内** 新增 （在 ，供以后扫描读事实） 当前 Git - 最新 commit： — 恢复小红书监控案例卡并锁定 - 分支： 已与远端同步 打…",
         "touched_paths": [
           "projects",
           "image-eca5ce20-37ce-4f99-b4e9-3be58aea1b96.png",
@@ -26,60 +26,185 @@
     ],
     "Miscs": [
       {
-        "session_id": "5e1b7ffb-6553-4163-a775-e4f623446d65",
-        "mtime": "2026-06-27T12:26:27.485385",
+        "session_id": "171e77e1-6e11-48ad-8e45-1cfeb86c3998",
+        "mtime": "2026-07-20T20:48:47.583366",
         "score": 6,
-        "first_query": "我要去惠灵顿中学给学生们做一场关于AI在企业场景应用的讲座。查询杭州新通教育总部大楼到惠灵顿中学杭州校区路线图，分析不同路线在周五下午的出行速度，选择最快的一条，并把这条路线图略微抽象化和风格化，加上沿途的标志性建筑地标，并用GPT image 2做成活动海报。 注意： 1.海报上的路线、地图需要是基于实际路线截图的，要看起来像一个地图导航，基本的方位、形状都需要准确。 2.海报上不需要推荐路线部分。 3.注意地图坐标位置的准确性。",
-        "last_assistant": "终点在开源地图里对应到“杭州惠立学校 / Wellington 校区”一带，坐标源之间有少量差异；我会优先用官方地址与学校 POI 边界，并在最终图上把终点落在学知路2399号校区范围内。 **Validating coordinates** It looks like Nominatim found Huilin School, but not Wellington. The coordinates for Huilin are 120.3379, 30.2307, which differs from the earlier search of a…",
-        "touched_paths": []
+        "first_query": "把2026世界杯最终完整排名列出来",
+        "last_assistant": "已删掉\"命中率\"的金色背景框，现在只保留深金色文字强调，PDF 和长图都已重新生成。",
+        "touched_paths": [
+          "image-29f7787b-dc05-465c-81e3-822eeab4f84d.png",
+          "image-2c43779e-4e6e-41c5-8006-61a057d0dc3b.png",
+          "image-927047f8-ca6e-4daa-8952-d4a7cef775fd.png",
+          "image-a1453ac2-ccfe-49a0-86aa-fd1b918ae18c.png",
+          "404859.txt",
+          "772873.txt",
+          "世界杯宣传",
+          "trophy.png"
+        ]
       },
       {
-        "session_id": "3b29282f-ba64-4c1d-beab-596f4b2f81e7",
-        "mtime": "2026-06-26T11:24:41.228307",
+        "session_id": "2daf55dd-4433-42f2-ba29-da3227644849",
+        "mtime": "2026-07-19T15:37:03.287537",
         "score": 7,
-        "first_query": "讲座大纲：未来企业工作模式——AI智能体应用简介 适用对象：国际高中学生 | 时长：60-90分钟 核心灵魂：AI不再是“对话框”，而是有手有脚、能自己干活的“数字员工” 第一部分：破冰——重新认识AI（5分钟） · 灵魂拷问：你用的ChatGPT是“学霸”还是“实习生”？（它能告诉你答案，但能帮你把PPT做了吗？） · 认知颠覆：我们正从 ChatGPT时代 跨入 Agent（智能体）时代——AI从“回答问题”进化到“接受目标，自主完成”。 第二部分：拆解智能体（Agent）——它到底长什么样？（20分钟） 具象化理解（重点） · 传统AI = 大脑…",
-        "last_assistant": "已对地点和日期做了设计： - 整体做成一个胶囊徽章，带半透明背景、细边框和毛玻璃效果，和封面整体风格一致。 - 地点前加了定位图标，日期前加了日历图标，图标用主题强调色。 - 中间用一个发光圆点分隔，比原来的「·」更精致。 检查无报错。",
+        "first_query": "这张海报，用GPT image 2进行修改：金额改成25600，日期7月15日，对应的类别和头像右下边的图改成海豹，别的不变，海报尺寸布局全都不变",
+        "last_assistant": "已生成：头像为李阳，日期 7月18日，金额 32,000 元，类别鲨鱼；头像右侧及底部高亮等级均已调整为鲨鱼。",
         "touched_paths": [
-          "___X____-51b5fb04-2da6-4424-b794-40cbea79818f.png",
-          "image-595dadbd-8cfe-4f17-bd64-46e32a92aac0.png",
-          "image-a583ec8d-b101-4a4e-b49c-2a8695cda337.png",
-          "image-b7e242a9-6d5c-49f3-a299-02fc1c90d207.png",
-          "image-e9625436-35dc-4dc0-b832-ec7577daf8a7.png",
-          "SKILL.md",
-          "Miscs",
-          "wellington-ai-lecture"
+          "263d83cadfabeeda8a39bd341c10f1b8_origin-1c13635f-785f-4ea6-abb6-5bd814497eaf.png",
+          "c421a952e70acceb626d9995aa1ca7b6-43e0a716-249d-41a5-8086-704e21a3353b.png",
+          "image-63ad68f0-24ff-4b81-95bd-98e661233e4a.png",
+          "wecom-temp-145655-9b6634d63915da24ae566cdd792dc7b4-5a7100aa-c554-4af5-8c6b-2b752a03798e.png"
         ]
       },
       {
-        "session_id": "42959279-b9ba-4d00-b0ef-9d2aa272b0d4",
-        "mtime": "2026-06-26T10:55:10.529298",
-        "score": 8,
-        "first_query": "我要去惠灵顿中学给学生们做一场关于AI在企业场景应用的讲座。查询杭州新通教育总部大楼到惠灵顿中学杭州校区路线图，分析不同路线在周五下午的出行速度，选择最快的一条，并把这条路线图略微抽象化和风格化，加上沿途的标志性建筑地标，并用GPT image 2做成活动海报。 注意： 1.海报上的路线、地图需要是基于实际路线截图的，要看起来像一个地图导航，基本的方位、形状都需要准确。 2.海报上不需要推荐路线部分。 3.注意地图坐标位置的准确性。",
-        "last_assistant": "路线分析结论 **起点：** 新通教育总部大厦，西湖区西溪路528号（120.1037°E, 30.2673°N） **终点：** 惠灵顿中学杭州校区，萧山区学知路2399号（120.3398°E, 30.2340°N） 基于 OSRM 路网数据，对比了 4 条常见驾车路线，并结合杭州周五下午（15:00–17:30）晚高峰路况做了估算： | 排名 | 路线方案 | 里程 | 平峰 | 周五下午预估 | |------|----------|------|------|--------------| | **1（推荐）** | **钱塘快速路 → 空港…",
+        "session_id": "2060e873-7a5b-4c97-b44a-8fee66f9afc7",
+        "mtime": "2026-07-03T13:54:19.247391",
+        "score": 5,
+        "first_query": "怎么在cursor里面管理git？最好是简单的、可视化、界面化的",
+        "last_assistant": "Cursor 基于 VS Code，**自带一套可视化 Git 界面**，日常提交、分支、对比改动基本不用敲命令。下面按「最简单 → 稍进阶」说明。 1. 最推荐：左侧「源代码管理」面板 这是 Cursor 里最主要的 Git 界面。 **打开方式：** - 点击左侧活动栏的 **分支/圆点图标**（Source Control） - 或快捷键：**** **日常流程（全在界面里完成）：** | 操作 | 怎么做 | |------|--------| | 看改了哪些文件 | 面板里「更改 / Changes」列表 | | 暂存（Stage） | 文件…",
         "touched_paths": [
-          "wellington-ai-lecture-poster-v2.png",
-          "wellington-ai-lecture-poster.png",
-          "Miscs",
-          "wellington-ai-lecture",
-          "route-map.html",
-          "route-screenshot.png"
+          ".cursor",
+          "cursor-app-control",
+          "SKILL.md"
         ]
-      },
+      }
+    ],
+    "BC落地页": [
       {
-        "session_id": "6fcc8b8c-3cbe-4c09-85bd-c913ac62d4b2",
-        "mtime": "2026-06-26T10:37:28.554115",
+        "session_id": "b15f03aa-1314-4dcf-a407-12f560a8e2ac",
+        "mtime": "2026-07-23T14:38:42.845597",
         "score": 9,
-        "first_query": "我要去惠灵顿中学给学生们做一场关于AI在企业场景应用的讲座。查询杭州新通教育总部大楼到惠灵顿中学杭州校区路线图，分析不同路线在周五下午的出行速度，选择最快的一条，并把这条路线图抽象化和风格化，并用GPT image 2做成活动海报。",
-        "last_assistant": "**问题原因：** 之前误用了「萧山高教园」的坐标（约 30.185°N），那是浙江建设职业技术学院一带的学知路，不是惠灵顿所在位置。 **正确位置：** 惠灵顿/惠立校区在 **萧山科技城 · 宁围街道 · 学知路2399号**，传化科创大厦南侧（约 **120.3388°E, 30.2340°N**），在钱塘江以东、偏东北方向。 **已更新文件：** - 路线截图： - 海报 v3： 地图上惠灵顿现在应落在萧山区东部、钱塘江以南的正确位置。若你本地打开后仍觉得有偏差，可以说一下你期望的参照物（例如「应在传化科创大厦附近」），我可以再微调坐标。 [R…",
+        "first_query": "我现在在cursor内置浏览器里打开了一个网站，这是一个BC的雅思模考网站，我现在将要走完整个模考流程并测试。我想你监控和记录整个流程，获取全部可以获取的数据，包括前台、后台、交互等数据，最后我需要你出具一个详细的分析报告，呈现整个网站的结构、交互方式、内容和潜在的bug、缺陷、隐患等。先分析可行性，再进行准备。",
+        "last_assistant": "已整理成 **audit/05-高亮与笔记信息整理.md**。要点如下： 两套相关能力（别混） 1. **顶栏 Notes（笔图标）**：右侧 ，空态写明 *Select text to highlight or create a note.* 2. **题目 collect/书签**：题旁丝带图标，可切到 ；另有 **annotation API** 已采到的 - 开/关侧栏、空态文案、 布局 - 写作框也叫 → 测笔记时曾误改答卷（D07） - collect 可点； GET/POST 存在且出现过成功请求 没采到的（重要缺口） 划词后出现高亮菜单…",
         "touched_paths": [
-          "wellington-ai-lecture-poster-v2.png",
-          "wellington-ai-lecture-poster-v2.png`",
-          "wellington-ai-lecture-poster-v3.png",
-          "wellington-ai-lecture-poster.png",
-          "wellington-ai-lecture-poster.png`",
+          "image-04ce7aa4-88ca-4e95-a633-01bba699bacc.png",
+          "image-ab03b102-7d47-4307-b403-adb608bc117e.png",
+          "tools",
+          "browser_cdp.json",
+          "browser_click.json",
+          "browser_lock.json",
+          "browser_mouse_click_xy.json",
+          "browser_snapshot.json"
+        ]
+      }
+    ],
+    ".": [
+      {
+        "session_id": "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81",
+        "mtime": "2026-07-24T11:59:56.347445",
+        "score": 7,
+        "first_query": "AI Projects/留存相关数据/躺着学每日登录ID.csv 这是每日登录网站的用户ID，AI Projects/留存相关数据/手机号ID对照表.csv 这是ID和手机号的对应关系。把ID去重后，把无法对应到手机号的ID整理出来。",
+        "last_assistant": "归一已完成，对照了网站路由和 导航配置。 **结果概览** - 原始 URL：**174** → 归一键：**68** - 名称来源：路由 + 导航文案（线上是 SPA， 几乎都一样，不能用来区分页面） **主要规则** | 处理 | 示例 | |------|------| | 域名合并 | // → ； 单独 | | 路径别名 | →，→，→ | | 动态段 | → | | 去参数 | 、追踪参数、做题/回放实例参数（/ 等） | **注意**： 在代码里是**个人中心首页**，不是官网首页；官网首页是 。 **合并最多的页** - 剑雅-做题页 …",
+        "touched_paths": [
+          "agent-transcripts",
+          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81.jsonl",
+          "image-b99d3075-c262-4fdb-9b95-b96001be1484.png",
+          "image-ef77321e-2f4c-481a-ab8c-92d0a17f8adf.png",
+          "tangzx-xt-vs-non-metrics.canvas.tsx",
+          "tangzx-xt-vs-non-metrics.canvas.tsx)（Canvas",
+          "419973.txt",
+          "419974.txt"
+        ]
+      },
+      {
+        "session_id": "407d153c-359b-469e-88a5-1fef966c1169",
+        "mtime": "2026-07-18T22:22:45.651785",
+        "score": 7,
+        "first_query": "我现在有大量pdf，比如这个：AI Projects/题库对比/ZYZ/七月高频次高频文章/P1次高频/10. P1 - Maori Fish Hooks 毛利鱼钩.pdf ，需要进行批量OCR，并把内容整理为格式化csv，先调研可行的工具",
+        "last_assistant": "项目里的 CSV 可以分成三类：**题库本体**、**对应关系**、**核验/备份**。 题库本体（日常真正用的数据） | 文件 | 是什么 | |---|---| | | 躺着学阅读**文章**表：218 篇。字段含所属教材/单元/篇目/章节、材料内容（HTML）。 | | | 躺着学阅读**题目**表：2860 题。含题号、题型、题干、答案、解析等。 | | | 从 ZYZ PDF 抽出来的**文章**表：281 篇（含 32 篇背景知识）。结构与躺着学篇目表对齐。 | | | 从 ZYZ PDF 抽出来的**题目**表：2249 题。结构与躺着学…",
+        "touched_paths": [
+          "tz-zyz-bank-compare.canvas.tsx",
+          "221580.txt",
+          "221581.txt",
+          "221582.txt",
+          "221583.txt",
+          "221584.txt",
+          "221585.txt",
+          "221586.txt"
+        ]
+      },
+      {
+        "session_id": "74e856f0-806d-47e8-af7d-1d5d2b3cde04",
+        "mtime": "2026-07-14T03:20:44.597616",
+        "score": 7,
+        "first_query": "You verify extracted IELTS reading CSV answers against OCR. Read: AI Projects/题库对比/ZYZ/_verify_pack/verify_batch_5.jsonl For EVERY question in EVERY chapter, judge whether CSV 答案/解析 matches OCR + IELTS type rules (判断题 TRUE/FALSE/NOT GIVEN; 选段意 Roman; 匹配 A…",
+        "last_assistant": "Batch 5 verification is done: **29 chapters / 274 questions** checked against OCR. **Results:** wrong **15** · uncertain **1** · source_anomaly **0** Findings are in . Main patterns: stem/heading text in answers (e.g. Conformity blanks, ), OCR junk (), paragraph letter instead o…",
+        "touched_paths": [
+          "7480237b-cacf-4bc4-8b10-398fee31c25e.txt",
+          "agent-transcripts",
           "AI",
-          "Miscs",
-          "route-map-screenshot.png"
+          "ZYZ",
+          "_verify_pack",
+          "ch00_compare.json",
+          "ch10.json",
+          "ch15_ocr_focus.txt"
+        ]
+      },
+      {
+        "session_id": "6f9995f6-73a5-443a-9b1b-b8e2ddd92b91",
+        "mtime": "2026-07-14T03:19:14.638368",
+        "score": 7,
+        "first_query": "You verify extracted IELTS reading CSV answers against OCR. Read: AI Projects/题库对比/ZYZ/_verify_pack/verify_batch_3.jsonl For EVERY question in EVERY chapter, judge whether CSV 答案/解析 matches OCR + IELTS type rules (判断题 TRUE/FALSE/NOT GIVEN; 选段意 Roman; 匹配 A…",
+        "last_assistant": "Batch 3 verification is done. All 29 chapters (265 questions) were checked against OCR; non-ok items are in . **wrong: 15 | uncertain: 0 | source_anomaly: 3**",
+        "touched_paths": [
+          "bb557343-ca74-4136-b3c6-e8a7136195b6.txt",
+          "AI",
+          "题库对比",
+          "ZYZ",
+          "_verify_pack",
+          "meta.json",
+          "programmatic_issues.json",
+          "verify_batch_3.jsonl"
+        ]
+      },
+      {
+        "session_id": "d7bdbbbc-d947-43fd-90b2-7c03eb070fff",
+        "mtime": "2026-07-07T13:50:14.834463",
+        "score": 6,
+        "first_query": "我想做一个自动监控收集小红书相关话题帖子的工具，先做一轮初步可行性调研",
+        "last_assistant": "**不正常。** 进程还在跑，但已经过了「有效采集」阶段，基本在空转。 时间线 | 阶段 | 时间 | 状态 | |------|------|------| | 启动 | 12:26 | 正常：登录 OK，签名搜索可用 | | 第 1 轮前半 | 12:26–12:33 | **正常**：前 3 条路由各采到 **25 条**（） | | 第 1 轮后半 | 12:34 起 | **开始出问题**：大量 | | 第 1 轮结束 | 13:05 | 合并 **77 条 raw**，语料 **29 条**，入库+详情完成 | | 第 2–3 轮 | 13…",
+        "touched_paths": [
+          "mac",
+          "terminals",
+          "21.txt",
+          "21.txt:12:24",
+          "23.txt",
+          "23.txt:7:25",
+          "24.txt:1042:1066",
+          "27.txt"
+        ]
+      },
+      {
+        "session_id": "b13b37f7-e411-44ce-9631-a954fd5010a3",
+        "mtime": "2026-07-03T14:55:04.210022",
+        "score": 9,
+        "first_query": "我们公司将要参加创客中国创业大赛，现需要根据材料整理申报内容。 先根据这个网页（https://zj87.jxt.zj.gov.cn/scfw//message/detail?id=304207）、这个文档第十一届“创客中国” 浙江赛区暨“ 浙江好项目“中小企业创新创业大赛实施方案.docx 、截图里的申报页面所需信息，搜索其他网络相关信息，整合、整理大赛背景信息、申报要求，并分析申报材料所需要包含的内容、适合的风格、需要达成的目的，放入一个markdown文档，为后续结合公司信息生成申报材料做准备。 一步步来，需要做得透彻、专业。",
+        "last_assistant": "四个正文章节和参考资料已写好，完整版保存在 [](14-躺着学雅思百度百科正文成稿.md)。下面可直接复制到百科编辑器。 --- 发展历程 2022年，新通教育集团启动「躺着学」项目研发，开始构建面向出国语言考试的AI学习技术底座。 2024年4月，「躺着学」雅思学习产品以小程序形式上线，面向雅思考生提供AI学习规划、智能批改、模考训练等数字化备考服务。 2024年7月，「躺着学」雅思网页版正式上线，产品形成覆盖移动端与PC端的在线学习入口。上线后用户规模快速增长，产品逐步从新通教育内部孵化项目发展为独立运营的教育科技品牌。 2024年，杭州天目躺云科…",
+        "touched_paths": [
+          "28281f71-fcdb-4269-99b9-4bab85d6e7c9.txt",
+          "af167097-84c7-4821-a2bd-9eacf1b5f8cc.txt",
+          "b13b37f7-e411-44ce-9631-a954fd5010a3.jsonl",
+          "image-00e0c0ed-4b57-47f3-8f34-5bdd68681f6f.png",
+          "image-236ddc7c-0121-43e6-aba0-c6e8e695ea70.png",
+          "image-342731a4-51fb-4d01-9422-ddc7105fcb74.png",
+          "image-34ec5291-7a5d-495e-9cdf-965d007cf4b2.png",
+          "image-455136e3-5af8-43b6-a297-ef5284d4bba6.png"
+        ]
+      },
+      {
+        "session_id": "d1cd0061-9a7f-4183-b208-662651ffacc7",
+        "mtime": "2026-07-03T14:17:11.206203",
+        "score": 6,
+        "first_query": "帮我对master进行更新，并拉一个新的分支",
+        "last_assistant": "这是 Cursor 3 里两种**并列的界面**，不是上下级关系，而是**同一套工作在不同「视角」下的两种打开方式**。 一句话关系 两者**共用同一个 workspace**（你打开的是哪个文件夹，两边就是哪个项目），但**界面布局和侧重点不同**。 --- 各自是什么 | | **Editor Window** | **Agents Window** | |---|------------------|-------------------| | **定位** | 经典 VS Code 式编辑器 | Agent 优先的工作台 | | **适合** …",
+        "touched_paths": [
+          ".cursor",
+          "image-e2c7d09e-285d-4a08-947e-a4e2ef0b2d79.png",
+          "cursor-app-control",
+          "SKILL.md",
+          "AI",
+          "AI Projects",
+          "躺着学网站",
+          "会员0元购路径"
         ]
       }
     ]
