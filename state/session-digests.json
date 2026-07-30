@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-24T04:13:15+00:00",
+  "updated_at": "2026-07-30T11:41:19+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
-  "scanned_files_last_run": 32,
-  "unmapped_count": 18,
+  "scanned_files_last_run": 16,
+  "unmapped_count": 5,
   "projects": {
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-07-24T12:13:06.190651",
+        "mtime": "2026-07-30T19:40:11.752018",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
-        "last_assistant": "**B · 同步并推送** 已完成，并处理了一个副作用。 本次结果 | 步骤 | 结果 | |------|------| | 全量 scan + push | 已推送到 | | 人工修订案例卡 | scan **覆盖**了改写内容 → 已**恢复**并 push | 为防止再被覆盖 1. ****：已恢复为按 PRD 写的版本 2. ****：该项目已标 ****，以后跑 B 不会自动改这篇正文 3. **项目内** 新增 （在 ，供以后扫描读事实） 当前 Git - 最新 commit： — 恢复小红书监控案例卡并锁定 - 分支： 已与远端同步 打…",
+        "last_assistant": "**B · 同步并推送** 已完成。 扫描结果 | 项 | 结果 | |----|------| | 项目 | **27** 个 | | 新案例 | **5**（、、、、） | | 更新 | **14** | | 待办 | · | Git | 项 | 结果 | |----|------| | Commit | — daily local scan 2026-07-24 | | Push | 已推送到 | 云端 Action 先推了一版导致冲突；已 rebase，冲突的自动生成文件保留了**本机全量扫描**结果。 小红书监控 仍为 ****，人工修订版未…",
         "touched_paths": [
           "projects",
           "image-eca5ce20-37ce-4f99-b4e9-3be58aea1b96.png",
@@ -26,185 +26,126 @@
     ],
     "Miscs": [
       {
-        "session_id": "171e77e1-6e11-48ad-8e45-1cfeb86c3998",
-        "mtime": "2026-07-20T20:48:47.583366",
-        "score": 6,
-        "first_query": "把2026世界杯最终完整排名列出来",
-        "last_assistant": "已删掉\"命中率\"的金色背景框，现在只保留深金色文字强调，PDF 和长图都已重新生成。",
+        "session_id": "8abfb6f1-78a9-4912-9b91-56aa9b1db274",
+        "mtime": "2026-07-30T19:38:15.735868",
+        "score": 7,
+        "first_query": "用GPT image 2修改图片，去除背景水印，把图片改成黑白灰，并把左右两个图表改成上下排布（右边的在下面）",
+        "last_assistant": "已处理： 1. **水印抠成透明底**（去掉白底） 2. **去掉旧水印后重新叠加** 12 个 透明水印素材也已保存： - - 成品已同步到 。",
         "touched_paths": [
-          "image-29f7787b-dc05-465c-81e3-822eeab4f84d.png",
-          "image-2c43779e-4e6e-41c5-8006-61a057d0dc3b.png",
-          "image-927047f8-ca6e-4daa-8952-d4a7cef775fd.png",
-          "image-a1453ac2-ccfe-49a0-86aa-fd1b918ae18c.png",
-          "404859.txt",
-          "772873.txt",
-          "世界杯宣传",
-          "trophy.png"
+          "assets",
+          "_______5b3bf995-01c1-469d-9be5-76acc548d1ce-7773620e-99a8-4279-a7ba-926ba8dd2092.png",
+          "driving-license-charts-grayscale-vertical.png",
+          "driving-license-charts-grayscale-vertical.png`",
+          "image-5950365f-320d-452e-a59c-9ae1453150ed.png",
+          "image-5fbcd57a-dc12-4cca-b1e8-1208a5dac43a.png",
+          "image-88bc3ff8-c733-41ea-b0dd-3a6d147f224f.png",
+          "student-rooms-floorplan-hd.png"
         ]
       },
       {
         "session_id": "2daf55dd-4433-42f2-ba29-da3227644849",
-        "mtime": "2026-07-19T15:37:03.287537",
+        "mtime": "2026-07-30T15:40:35.313397",
         "score": 7,
         "first_query": "这张海报，用GPT image 2进行修改：金额改成25600，日期7月15日，对应的类别和头像右下边的图改成海豹，别的不变，海报尺寸布局全都不变",
-        "last_assistant": "已生成：头像为李阳，日期 7月18日，金额 32,000 元，类别鲨鱼；头像右侧及底部高亮等级均已调整为鲨鱼。",
+        "last_assistant": "已确认，后续太空风格海报将以当前 v3 成品为固定模板，仅替换指定信息与对应类别视觉。",
         "touched_paths": [
           "263d83cadfabeeda8a39bd341c10f1b8_origin-1c13635f-785f-4ea6-abb6-5bd814497eaf.png",
+          "_______17833298146158-708dc0a3-1552-4ed0-9904-7cb95b183b23.png",
           "c421a952e70acceb626d9995aa1ca7b6-43e0a716-249d-41a5-8086-704e21a3353b.png",
+          "image-24f15a53-373b-4e36-8f78-94f101fc37ff.png",
           "image-63ad68f0-24ff-4b81-95bd-98e661233e4a.png",
-          "wecom-temp-145655-9b6634d63915da24ae566cdd792dc7b4-5a7100aa-c554-4af5-8c6b-2b752a03798e.png"
-        ]
-      },
-      {
-        "session_id": "2060e873-7a5b-4c97-b44a-8fee66f9afc7",
-        "mtime": "2026-07-03T13:54:19.247391",
-        "score": 5,
-        "first_query": "怎么在cursor里面管理git？最好是简单的、可视化、界面化的",
-        "last_assistant": "Cursor 基于 VS Code，**自带一套可视化 Git 界面**，日常提交、分支、对比改动基本不用敲命令。下面按「最简单 → 稍进阶」说明。 1. 最推荐：左侧「源代码管理」面板 这是 Cursor 里最主要的 Git 界面。 **打开方式：** - 点击左侧活动栏的 **分支/圆点图标**（Source Control） - 或快捷键：**** **日常流程（全在界面里完成）：** | 操作 | 怎么做 | |------|--------| | 看改了哪些文件 | 面板里「更改 / Changes」列表 | | 暂存（Stage） | 文件…",
-        "touched_paths": [
-          ".cursor",
-          "cursor-app-control",
-          "SKILL.md"
+          "image-cda99aa9-32dc-4620-8b3d-907894c1b22d.png",
+          "wecom-temp-145655-9b6634d63915da24ae566cdd792dc7b4-5a7100aa-c554-4af5-8c6b-2b752a03798e.png",
+          "Miscs"
         ]
       }
     ],
     "BC落地页": [
       {
         "session_id": "b15f03aa-1314-4dcf-a407-12f560a8e2ac",
-        "mtime": "2026-07-23T14:38:42.845597",
+        "mtime": "2026-07-30T19:16:19.609473",
         "score": 9,
         "first_query": "我现在在cursor内置浏览器里打开了一个网站，这是一个BC的雅思模考网站，我现在将要走完整个模考流程并测试。我想你监控和记录整个流程，获取全部可以获取的数据，包括前台、后台、交互等数据，最后我需要你出具一个详细的分析报告，呈现整个网站的结构、交互方式、内容和潜在的bug、缺陷、隐患等。先分析可行性，再进行准备。",
-        "last_assistant": "已整理成 **audit/05-高亮与笔记信息整理.md**。要点如下： 两套相关能力（别混） 1. **顶栏 Notes（笔图标）**：右侧 ，空态写明 *Select text to highlight or create a note.* 2. **题目 collect/书签**：题旁丝带图标，可切到 ；另有 **annotation API** 已采到的 - 开/关侧栏、空态文案、 布局 - 写作框也叫 → 测笔记时曾误改答卷（D07） - collect 可点； GET/POST 存在且出现过成功请求 没采到的（重要缺口） 划词后出现高亮菜单…",
+        "last_assistant": "双方均有分的 **7 篇**均值： | 指标 | BC | 扣子 | Δ | |------|---:|-----:|--:| | 总分 | 6.43 | 6.36 | −0.07 | | TA | 5.43 | 5.43 | 0 | | CC | 6.71 | 6.43 | −0.29 | | LR | 6.86 | 6.43 | −0.43 | | GRA | 7.14 | 7.14 | 0 | TA / GRA 均值持平；扣子在 CC、LR 上略低。已写入 。",
         "touched_paths": [
+          "0bda2091-d7ac-481e-82ab-53fa1a42cac3.txt",
+          "795970e4-ed6c-4804-bc12-ed1c8502f792.txt",
+          "9ed05371-4e0c-4fc0-9c9f-74cec8b38b9f.txt",
+          "b15f03aa-1314-4dcf-a407-12f560a8e2ac",
           "image-04ce7aa4-88ca-4e95-a633-01bba699bacc.png",
+          "image-a6236f70-9ff7-470a-a33b-5640fc4c93b2.png",
           "image-ab03b102-7d47-4307-b403-adb608bc117e.png",
-          "tools",
-          "browser_cdp.json",
-          "browser_click.json",
-          "browser_lock.json",
-          "browser_mouse_click_xy.json",
-          "browser_snapshot.json"
+          "tools"
         ]
       }
     ],
     ".": [
       {
-        "session_id": "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81",
-        "mtime": "2026-07-24T11:59:56.347445",
+        "session_id": "a3a4f562-c087-45c6-a262-6028ad0cd922",
+        "mtime": "2026-07-30T14:40:42.287472",
         "score": 7,
         "first_query": "AI Projects/留存相关数据/躺着学每日登录ID.csv 这是每日登录网站的用户ID，AI Projects/留存相关数据/手机号ID对照表.csv 这是ID和手机号的对应关系。把ID去重后，把无法对应到手机号的ID整理出来。",
-        "last_assistant": "归一已完成，对照了网站路由和 导航配置。 **结果概览** - 原始 URL：**174** → 归一键：**68** - 名称来源：路由 + 导航文案（线上是 SPA， 几乎都一样，不能用来区分页面） **主要规则** | 处理 | 示例 | |------|------| | 域名合并 | // → ； 单独 | | 路径别名 | →，→，→ | | 动态段 | → | | 去参数 | 、追踪参数、做题/回放实例参数（/ 等） | **注意**： 在代码里是**个人中心首页**，不是官网首页；官网首页是 。 **合并最多的页** - 剑雅-做题页 …",
+        "last_assistant": "正在按雅思口语口径汇总 4/10～5/17 的金额，算完直接给你数字。",
         "touched_paths": [
+          "agent-tools",
           "agent-transcripts",
+          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81",
           "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81.jsonl",
-          "image-b99d3075-c262-4fdb-9b95-b96001be1484.png",
-          "image-ef77321e-2f4c-481a-ab8c-92d0a17f8adf.png",
-          "tangzx-xt-vs-non-metrics.canvas.tsx",
-          "tangzx-xt-vs-non-metrics.canvas.tsx)（Canvas",
-          "419973.txt",
-          "419974.txt"
+          "image-0608ef7d-9c9a-44b9-bfdd-dd27f6f6e964.png",
+          "image-11bc43d3-6915-4d0a-9b31-e0a7071cf1c7.png",
+          "image-1d950c29-1da9-4e52-86e6-b8d162035af5.png",
+          "image-26e01941-0856-4cfa-b045-ea526ce6d580.png"
         ]
       },
       {
-        "session_id": "407d153c-359b-469e-88a5-1fef966c1169",
-        "mtime": "2026-07-18T22:22:45.651785",
+        "session_id": "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81",
+        "mtime": "2026-07-30T13:59:09.657766",
         "score": 7,
-        "first_query": "我现在有大量pdf，比如这个：AI Projects/题库对比/ZYZ/七月高频次高频文章/P1次高频/10. P1 - Maori Fish Hooks 毛利鱼钩.pdf ，需要进行批量OCR，并把内容整理为格式化csv，先调研可行的工具",
-        "last_assistant": "项目里的 CSV 可以分成三类：**题库本体**、**对应关系**、**核验/备份**。 题库本体（日常真正用的数据） | 文件 | 是什么 | |---|---| | | 躺着学阅读**文章**表：218 篇。字段含所属教材/单元/篇目/章节、材料内容（HTML）。 | | | 躺着学阅读**题目**表：2860 题。含题号、题型、题干、答案、解析等。 | | | 从 ZYZ PDF 抽出来的**文章**表：281 篇（含 32 篇背景知识）。结构与躺着学篇目表对齐。 | | | 从 ZYZ PDF 抽出来的**题目**表：2249 题。结构与躺着学…",
+        "first_query": "AI Projects/留存相关数据/躺着学每日登录ID.csv 这是每日登录网站的用户ID，AI Projects/留存相关数据/手机号ID对照表.csv 这是ID和手机号的对应关系。把ID去重后，把无法对应到手机号的ID整理出来。",
+        "last_assistant": "将把项目根目录从「留存相关数据」重命名为「躺着学数据」，并更新工作区与路径引用。",
         "touched_paths": [
-          "tz-zyz-bank-compare.canvas.tsx",
-          "221580.txt",
-          "221581.txt",
-          "221582.txt",
-          "221583.txt",
-          "221584.txt",
-          "221585.txt",
-          "221586.txt"
-        ]
-      },
-      {
-        "session_id": "74e856f0-806d-47e8-af7d-1d5d2b3cde04",
-        "mtime": "2026-07-14T03:20:44.597616",
-        "score": 7,
-        "first_query": "You verify extracted IELTS reading CSV answers against OCR. Read: AI Projects/题库对比/ZYZ/_verify_pack/verify_batch_5.jsonl For EVERY question in EVERY chapter, judge whether CSV 答案/解析 matches OCR + IELTS type rules (判断题 TRUE/FALSE/NOT GIVEN; 选段意 Roman; 匹配 A…",
-        "last_assistant": "Batch 5 verification is done: **29 chapters / 274 questions** checked against OCR. **Results:** wrong **15** · uncertain **1** · source_anomaly **0** Findings are in . Main patterns: stem/heading text in answers (e.g. Conformity blanks, ), OCR junk (), paragraph letter instead o…",
-        "touched_paths": [
-          "7480237b-cacf-4bc4-8b10-398fee31c25e.txt",
+          "agent-tools",
           "agent-transcripts",
-          "AI",
-          "ZYZ",
-          "_verify_pack",
-          "ch00_compare.json",
-          "ch10.json",
-          "ch15_ocr_focus.txt"
+          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81",
+          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81.jsonl",
+          "image-0608ef7d-9c9a-44b9-bfdd-dd27f6f6e964.png",
+          "image-11bc43d3-6915-4d0a-9b31-e0a7071cf1c7.png",
+          "image-1d950c29-1da9-4e52-86e6-b8d162035af5.png",
+          "image-26e01941-0856-4cfa-b045-ea526ce6d580.png"
         ]
       },
       {
-        "session_id": "6f9995f6-73a5-443a-9b1b-b8e2ddd92b91",
-        "mtime": "2026-07-14T03:19:14.638368",
+        "session_id": "34cb5f2b-0c14-40d8-92b6-31bc93361310",
+        "mtime": "2026-07-27T23:18:21.402011",
         "score": 7,
-        "first_query": "You verify extracted IELTS reading CSV answers against OCR. Read: AI Projects/题库对比/ZYZ/_verify_pack/verify_batch_3.jsonl For EVERY question in EVERY chapter, judge whether CSV 答案/解析 matches OCR + IELTS type rules (判断题 TRUE/FALSE/NOT GIVEN; 选段意 Roman; 匹配 A…",
-        "last_assistant": "Batch 3 verification is done. All 29 chapters (265 questions) were checked against OCR; non-ok items are in . **wrong: 15 | uncertain: 0 | source_anomaly: 3**",
-        "touched_paths": [
-          "bb557343-ca74-4136-b3c6-e8a7136195b6.txt",
-          "AI",
-          "题库对比",
-          "ZYZ",
-          "_verify_pack",
-          "meta.json",
-          "programmatic_issues.json",
-          "verify_batch_3.jsonl"
-        ]
-      },
-      {
-        "session_id": "d7bdbbbc-d947-43fd-90b2-7c03eb070fff",
-        "mtime": "2026-07-07T13:50:14.834463",
-        "score": 6,
-        "first_query": "我想做一个自动监控收集小红书相关话题帖子的工具，先做一轮初步可行性调研",
-        "last_assistant": "**不正常。** 进程还在跑，但已经过了「有效采集」阶段，基本在空转。 时间线 | 阶段 | 时间 | 状态 | |------|------|------| | 启动 | 12:26 | 正常：登录 OK，签名搜索可用 | | 第 1 轮前半 | 12:26–12:33 | **正常**：前 3 条路由各采到 **25 条**（） | | 第 1 轮后半 | 12:34 起 | **开始出问题**：大量 | | 第 1 轮结束 | 13:05 | 合并 **77 条 raw**，语料 **29 条**，入库+详情完成 | | 第 2–3 轮 | 13…",
+        "first_query": "任务 在项目 中，对**百度统计数据做完整更新**，截止到 **2026-07-26（含）**。 关键澄清（必须遵守） - **百度与微信数据完全分开**：本次只动百度相关目录/脚本/文档；不要改微信拉取脚本或混写微信周更。 - 用户明确要求「完整更新」——上次只补了核心报表 7/23–7/26，但有缺口未完成，必须补齐。 上次已知未完成项（必须处理） 参考上次更新结果： 1. **页面月趋势（Top30 并集 / URL 归一）**：上次仅把文件名后缀改到 ，**月聚合同步未重跑**。本次必须按既有流程用 API **真正重拉并重算**，不要只改文件…",
+        "last_assistant": "后台那次 在「概况趋势」全量分页时卡住后被中止了；分页补拉（含入口页 2 万行）其实已经写完。 后续用 按月修好了概况趋势与按天趋势，并完成了热力图、登录率和下载清单。完整更新结果以之前那份汇总为准：数据已对齐到 **2026-07-26**。",
         "touched_paths": [
           "mac",
-          "terminals",
-          "21.txt",
-          "21.txt:12:24",
-          "23.txt",
-          "23.txt:7:25",
-          "24.txt:1042:1066",
-          "27.txt"
+          "agent-transcripts",
+          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81",
+          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81.jsonl",
+          "28fa1041-7315-45c5-9ecf-55928b8a17e7.jsonl",
+          "144560.txt",
+          "144561.txt",
+          "144562.txt"
         ]
       },
       {
-        "session_id": "b13b37f7-e411-44ce-9631-a954fd5010a3",
-        "mtime": "2026-07-03T14:55:04.210022",
+        "session_id": "3f5aa711-847f-42f9-aa61-e3994f56c5d6",
+        "mtime": "2026-07-27T10:36:34.612190",
         "score": 9,
-        "first_query": "我们公司将要参加创客中国创业大赛，现需要根据材料整理申报内容。 先根据这个网页（https://zj87.jxt.zj.gov.cn/scfw//message/detail?id=304207）、这个文档第十一届“创客中国” 浙江赛区暨“ 浙江好项目“中小企业创新创业大赛实施方案.docx 、截图里的申报页面所需信息，搜索其他网络相关信息，整合、整理大赛背景信息、申报要求，并分析申报材料所需要包含的内容、适合的风格、需要达成的目的，放入一个markdown文档，为后续结合公司信息生成申报材料做准备。 一步步来，需要做得透彻、专业。",
-        "last_assistant": "四个正文章节和参考资料已写好，完整版保存在 [](14-躺着学雅思百度百科正文成稿.md)。下面可直接复制到百科编辑器。 --- 发展历程 2022年，新通教育集团启动「躺着学」项目研发，开始构建面向出国语言考试的AI学习技术底座。 2024年4月，「躺着学」雅思学习产品以小程序形式上线，面向雅思考生提供AI学习规划、智能批改、模考训练等数字化备考服务。 2024年7月，「躺着学」雅思网页版正式上线，产品形成覆盖移动端与PC端的在线学习入口。上线后用户规模快速增长，产品逐步从新通教育内部孵化项目发展为独立运营的教育科技品牌。 2024年，杭州天目躺云科…",
+        "first_query": "我希望做一个雅思写作的自动批改工具。批改结果需要看着像真人用word批改的样子。输出需要是一个word文档，批改记录在原文基础上显示，用word内置的标记方式（比如下划线、字体颜色、高亮、批注或直接在原文内部或最后添加文字评语等方式）展示批改结果。批改样式参考@批改 中的真人老师的word格式批改文档。 先进行调研，确认技术上是否能够实现生成带各种批改标记的word文档。",
+        "last_assistant": "**结论**：现在只能部署「可点的 Demo」。要让其他老师真正批改作文，还缺整条后端与批改流水线；产品边界里有几处必须你拍板。 --- 已有 vs 目标差距 | 层 | 现状 | 「老师能用」需要 | |----|------|------------------| | 前端 | 静态原型，流程可走通 | 接真实 API；正式版去掉水滴/Tweaks | | 批改引擎 | 本地 Python 出 demo docx | 在线服务：上传→LLM JSON→渲染 docx→下载 | | AI | 有《批改规范-AI接入》schema | 真实模型调用、队…",
         "touched_paths": [
-          "28281f71-fcdb-4269-99b9-4bab85d6e7c9.txt",
-          "af167097-84c7-4821-a2bd-9eacf1b5f8cc.txt",
-          "b13b37f7-e411-44ce-9631-a954fd5010a3.jsonl",
-          "image-00e0c0ed-4b57-47f3-8f34-5bdd68681f6f.png",
-          "image-236ddc7c-0121-43e6-aba0-c6e8e695ea70.png",
-          "image-342731a4-51fb-4d01-9422-ddc7105fcb74.png",
-          "image-34ec5291-7a5d-495e-9cdf-965d007cf4b2.png",
-          "image-455136e3-5af8-43b6-a297-ef5284d4bba6.png"
-        ]
-      },
-      {
-        "session_id": "d1cd0061-9a7f-4183-b208-662651ffacc7",
-        "mtime": "2026-07-03T14:17:11.206203",
-        "score": 6,
-        "first_query": "帮我对master进行更新，并拉一个新的分支",
-        "last_assistant": "这是 Cursor 3 里两种**并列的界面**，不是上下级关系，而是**同一套工作在不同「视角」下的两种打开方式**。 一句话关系 两者**共用同一个 workspace**（你打开的是哪个文件夹，两边就是哪个项目），但**界面布局和侧重点不同**。 --- 各自是什么 | | **Editor Window** | **Agents Window** | |---|------------------|-------------------| | **定位** | 经典 VS Code 式编辑器 | Agent 优先的工作台 | | **适合** …",
-        "touched_paths": [
-          ".cursor",
-          "image-e2c7d09e-285d-4a08-947e-a4e2ef0b2d79.png",
-          "cursor-app-control",
+          "3f5aa711-847f-42f9-aa61-e3994f56c5d6",
+          "image-cdae9d7f-a32c-4d7f-b7b0-08686ff793e9.png",
+          "image-da8f1bc5-31b6-4fc0-b86b-37a70cc991e0.png",
+          "image-e02f4900-33fd-4f14-98f8-9e3e0e556573.png",
+          "cursor-ide-browser",
+          "575385.txt",
           "SKILL.md",
-          "AI",
-          "AI Projects",
-          "躺着学网站",
-          "会员0元购路径"
+          "SKILL.md"
         ]
       }
     ]
