@@ -12,10 +12,10 @@
 
 ### 近期产出
 
+- daily repo scan 2026-07-31
 - daily local scan with sanitized sessions 2026-07-30
 - daily repo scan 2026-07-30
 - daily repo scan 2026-07-29
-- daily repo scan 2026-07-28
 
 ## 工作方式对比
 
@@ -27,11 +27,11 @@
 
 以 **`2026-06-23-review.md`** 为需求入口，让 Agent 先理解业务背景与验收标准，再协助改文档、写原型或补代码。
 
-近 90 天仓库有 **47** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。
+近 90 天仓库有 **48** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。
 
 ## 提效与业务价值
 
-- **迭代速度**：近 90 天 **47** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。
+- **迭代速度**：近 90 天 **48** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。
 
 ## Cursor / AI 能力与工具
 
@@ -41,15 +41,15 @@
 
 ## 仓库活跃信号
 
-- 近 90 天 **47** 次提交
-- 最近提交：2026-07-30
+- 近 90 天 **48** 次提交
+- 最近提交：2026-07-31
 - 近期改动方向：
+  - chore(portfolio): daily repo scan 2026-07-31
   - chore(portfolio): daily local scan with sanitized sessions 2026-07-30
   - chore(portfolio): daily repo scan 2026-07-30
   - chore(portfolio): daily repo scan 2026-07-29
-  - chore(portfolio): daily repo scan 2026-07-28
 - 主要产出类型：文档 30 个
 
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：2026-06-23-review.md · 生成于 2026-07-31*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：2026-06-23-review.md · 生成于 2026-08-01*
