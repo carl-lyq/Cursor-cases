@@ -62,4 +62,4 @@ git checkout -b portfolio-draft git push -u origin portfolio-draft ```
 
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：00-设置说明.md · 生成于 2026-08-04*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：00-设置说明.md · 生成于 2026-08-05*
