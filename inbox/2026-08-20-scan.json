@@ -1,0 +1,540 @@
+{
+  "run_id": "2026-08-20",
+  "mode": "repo-only",
+  "finished_at": "2026-08-20T02:16:08+00:00",
+  "projects": [
+    {
+      "id": "cases",
+      "name": "cases",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/cases",
+      "relative_to_ai_projects": "cases",
+      "doc": {
+        "source": "cases.md",
+        "title": "BC WriteUp 雅思写作落地页",
+        "excerpt": "# BC WriteUp 雅思写作落地页\n\n> 项目路径：`cases` · 领域：产品与设计\n\n## 业务背景\n\n**谁在用**：产品经理、UI 设计、前端、增长运营 **典型场景**：BC WriteUp 外链引流落地，需在有限页面内完成信任建立、需求匹配与转化 学生从英国文化协会 WriteUp 进入后，要在短时间内感受到：平台懂写作问题、 诉求被看见、有清晰可信的下一步（课程/计划/咨询）。页面是 WriteUp 与躺着学主站之间的 「承接 → 诊断 → 推荐 → 转化」桥梁。\n\n## 工作痛点\n\n- 需求文档长、结构复杂，评审时难以一眼看清\n- 原型、文档、埋点分散维护，改版要对齐多份材料\n- 产品、设计、研发信息不同步，会议反复对齐\n\n## 项目要做什么\n\n从业务视角，本项目最终要交付的是：\n\n### 核心功能\n\n- 原型水滴（备注/待办）与 Tweaks 调试面板——仅 Demo 层，正式版移除\n- **耗时**：一版可评审原型 + PRD 对齐常需 1–2 周\n- **质量/口径**：易不一致、难复用\n\n### 近期产出\n\n- daily repo scan 2026-08-18\n- daily repo scan 2026-08-17\n- daily repo scan 2026-08-16\n- daily repo scan 2026-08-15\n\n## 工作方式对比\n\n### 传统方式\n\n- 需求文档长、结构复杂，评审时难以一眼看清 - 原型、文档、埋点分散维护，改版要对齐多份材料 - 产品、设计、研发信息不同步，会议反复对齐\n\n### 用 Cursor 之后\n\n以 **`cases.md`** 为需求入口，让 Agent 先理解业务背景与验收标准，再协助改文档、写原型或补代码。\n\n近 90 天仓库有 **66** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。\n\n## 提效与业务价值\n\n- **业务覆盖**：已落地或规划 3 项核心能力（见上文「项目要做什么」）。\n- **迭代速度**：近 90 天 **66** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。\n\n## Cursor / AI 能力与工具\n\n### Cursor / AI 能力\n\n- Cursor Agent 对话式协作（读项目上下文、生成/修改文件）\n\n## 仓库活跃信号\n\n- 近 90 天 **66** 次提交\n- 最近提交：2026-08-18\n- 近期改动方向：\n  - chore(portfolio): daily repo scan 2026-08-18\n  - chore(portfolio): daily repo scan 2026-08-17\n  - chore(portfolio): daily repo scan 2026-08-16\n  - chore(portfolio): daily repo scan 2026-08-15\n- 主要产出类型：文档 30 个\n\n---\n\n*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：cases.md · 生成于 2026-08-19*\n",
+        "parsed": {
+          "title": "BC WriteUp 雅思写作落地页",
+          "excerpt": "# BC WriteUp 雅思写作落地页\n\n> 项目路径：`cases` · 领域：产品与设计\n\n## 业务背景\n\n**谁在用**：产品经理、UI 设计、前端、增长运营 **典型场景**：BC WriteUp 外链引流落地，需在有限页面内完成信任建立、需求匹配与转化 学生从英国文化协会 WriteUp 进入后，要在短时间内感受到：平台懂写作问题、 诉求被看见、有清晰可信的下一步（课程/计划/咨询）。页面是 WriteUp 与躺着学主站之间的 「承接 → 诊断 → 推荐 → 转化」桥梁。\n\n## 工作痛点\n\n- 需求文档长、结构复杂，评审时难以一眼看清\n- 原型、文档、埋点分散维护，改版要对齐多份材料\n- 产品、设计、研发信息不同步，会议反复对齐\n\n## 项目要做什么\n\n从业务视角，本项目最终要交付的是：\n\n### 核心功能\n\n- 原型水滴（备注/待办）与 Tweaks 调试面板——仅 Demo 层，正式版移除\n- **耗时**：一版可评审原型 + PRD 对齐常需 1–2 周\n- **质量/口径**：易不一致、难复用\n\n### 近期产出\n\n- daily repo scan 2026-08-18\n- daily repo scan 2026-08-17\n- daily repo scan 2026-08-16\n- daily repo scan 2026-08-15\n\n## 工作方式对比\n\n### 传统方式\n\n- 需求文档长、结构复杂，评审时难以一眼看清 - 原型、文档、埋点分散维护，改版要对齐多份材料 - 产品、设计、研发信息不同步，会议反复对齐\n\n### 用 Cursor 之后\n\n以 **`cases.md`** 为需求入口，让 Agent 先理解业务背景与验收标准，再协助改文档、写原型或补代码。\n\n近 90 天仓库有 **66** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。\n\n## 提效与业务价值\n\n- **业务覆盖**：已落地或规划 3 项核心能力（见上文「项目要做什么」）。\n- **迭代速度**：近 90 天 **66** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。\n\n## Cursor / AI 能力与工具\n\n### Cursor / AI 能力\n\n- Cursor Agent 对话式协作（读项目上下文、生成/修改文件）\n\n## 仓库活跃信号\n\n- 近 90 天 **66** 次提交\n- 最近提交：2026-08-18\n- 近期改动方向：\n  - chore(portfolio): daily repo scan 2026-08-18\n  - chore(portfolio): daily repo scan 2026-08-17\n  - chore(portfolio): daily repo scan 2026-08-16\n  - chore(portfolio): daily repo scan 2026-08-15\n- 主要产出类型：文档 30 个\n\n---\n\n*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：cases.md · 生成于 2026-08-19*\n",
+          "sections": {
+            "BC WriteUp 雅思写作落地页": "> 项目路径：`cases` · 领域：产品与设计",
+            "业务背景": "**谁在用**：产品经理、UI 设计、前端、增长运营 **典型场景**：BC WriteUp 外链引流落地，需在有限页面内完成信任建立、需求匹配与转化 学生从英国文化协会 WriteUp 进入后，要在短时间内感受到：平台懂写作问题、 诉求被看见、有清晰可信的下一步（课程/计划/咨询）。页面是 WriteUp 与躺着学主站之间的 「承接 → 诊断 → 推荐 → 转化」桥梁。",
+            "工作痛点": "- 需求文档长、结构复杂，评审时难以一眼看清\n- 原型、文档、埋点分散维护，改版要对齐多份材料\n- 产品、设计、研发信息不同步，会议反复对齐",
+            "项目要做什么": "从业务视角，本项目最终要交付的是：",
+            "核心功能": "- 原型水滴（备注/待办）与 Tweaks 调试面板——仅 Demo 层，正式版移除\n- **耗时**：一版可评审原型 + PRD 对齐常需 1–2 周\n- **质量/口径**：易不一致、难复用",
+            "近期产出": "- daily repo scan 2026-08-18\n- daily repo scan 2026-08-17\n- daily repo scan 2026-08-16\n- daily repo scan 2026-08-15",
+            "传统方式": "- 需求文档长、结构复杂，评审时难以一眼看清 - 原型、文档、埋点分散维护，改版要对齐多份材料 - 产品、设计、研发信息不同步，会议反复对齐",
+            "用 Cursor 之后": "以 **`cases.md`** 为需求入口，让 Agent 先理解业务背景与验收标准，再协助改文档、写原型或补代码。\n\n近 90 天仓库有 **66** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。",
+            "提效与业务价值": "- **业务覆盖**：已落地或规划 3 项核心能力（见上文「项目要做什么」）。\n- **迭代速度**：近 90 天 **66** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。",
+            "Cursor / AI 能力": "- Cursor Agent 对话式协作（读项目上下文、生成/修改文件）",
+            "仓库活跃信号": "- 近 90 天 **66** 次提交\n- 最近提交：2026-08-18\n- 近期改动方向：\n  - chore(portfolio): daily repo scan 2026-08-18\n  - chore(portfolio): daily repo scan 2026-08-17\n  - chore(portfolio): daily repo scan 2026-08-16\n  - chore(portfolio): daily repo scan 2026-08-15\n- 主要产出类型：文档 30 个\n\n---\n\n*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：cases.md · 生成于 2026-08-19*"
+          },
+          "background": "**谁在用**：产品经理、UI 设计、前端、增长运营 **典型场景**：BC WriteUp 外链引流落地，需在有限页面内完成信任建立、需求匹配与转化 学生从英国文化协会 WriteUp 进入后，要在短时间内感受到：平台懂写作问题、 诉求被看见、有清晰可信的下一步（课程/计划/咨询）。页面是 WriteUp 与躺着学主站之间的 「承接 → 诊断 → 推荐 → 转化」桥梁。",
+          "goals": "",
+          "pains": "- 需求文档长、结构复杂，评审时难以一眼看清 - 原型、文档、埋点分散维护，改版要对齐多份材料 - 产品、设计、研发信息不同步，会议反复对齐",
+          "features": [
+            "原型水滴（备注/待办）与 Tweaks 调试面板——仅 Demo 层，正式版移除",
+            "**耗时**：一版可评审原型 + PRD 对齐常需 1–2 周",
+            "**质量/口径**：易不一致、难复用"
+          ],
+          "section_titles": [
+            "BC WriteUp 雅思写作落地页",
+            "业务背景",
+            "工作痛点",
+            "项目要做什么",
+            "核心功能",
+            "近期产出",
+            "传统方式",
+            "用 Cursor 之后",
+            "提效与业务价值",
+            "Cursor / AI 能力",
+            "仓库活跃信号"
+          ]
+        }
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "cases",
+        "commits_recent": 67,
+        "authors_recent": [
+          "Carl Lu",
+          "portfolio-bot"
+        ],
+        "last_commit_date": "2026-08-19 02:17:16 +0000",
+        "changed_files_recent": [
+          "\"cases/BC\\346\\250\\241\\350\\200\\203.md\"",
+          "\"cases/BC\\350\\220\\275\\345\\234\\260\\351\\241\\265.md\"",
+          "\"cases/Miscs-PRD\\350\\275\\254\\345\\217\\257\\350\\247\\206\\345\\214\\226\\350\\257\\204\\345\\256\\241\\351\\241\\265.md\"",
+          "\"cases/Miscs-WanLi\\346\\224\\271\\351\\200\\240.md\"",
+          "\"cases/Miscs-\\344\\270\\226\\347\\225\\214\\346\\235\\257\\345\\256\\243\\344\\274\\240.md\"",
+          "\"cases/Miscs-\\344\\272\\247\\345\\223\\201Demo\\351\\207\\215\\345\\244\\215\\345\\267\\245\\344\\275\\234\\346\\265\\201\\347\\232\\204\\346\\212\\200\\350\\203\\275\\345\\214\\226\\345\\260\\201\\350\\243\\205.md\"",
+          "\"cases/Miscs-\\346\\212\\274\\351\\242\\230\\347\\217\\255\\347\\224\\273\\345\\203\\217.md\"",
+          "\"cases/Miscs-\\347\\244\\276\\345\\214\\272Skill\\345\\256\\211\\350\\243\\205\\344\\270\\216\\345\\277\\253\\351\\200\\237\\351\\252\\214\\350\\257\\201.md\"",
+          "\"cases/Miscs-\\347\\255\\276\\350\\275\\254.md\"",
+          "\"cases/Miscs-\\350\\247\\206\\351\\242\\221\\345\\210\\206\\346\\236\\220.md\"",
+          "\"cases/Miscs-\\350\\257\\276\\347\\250\\213\\350\\220\\245\\351\\224\\200\\350\\257\\235\\346\\234\\257\\350\\222\\270\\351\\246\\217.md\"",
+          "\"cases/Miscs-\\350\\272\\272\\347\\235\\200\\345\\255\\246\\347\\224\\250\\346\\210\\267\\347\\224\\273\\345\\203\\217.md\"",
+          "\"cases/Miscs-\\351\\224\\200\\345\\224\\256\\346\\265\\267\\346\\212\\245.md\"",
+          "\"cases/Miscs-\\351\\224\\200\\345\\224\\256\\347\\255\\276\\350\\275\\254\\347\\216\\207\\350\\241\\250\\346\\240\\274\\346\\225\\260\\346\\215\\256\\345\\277\\253\\351\\200\\237\\345\\244\\204\\347\\220\\206\\344\\270\\216\\347\\224\\273\\345\\233\\276.md\"",
+          "\"cases/\\344\\270\\255\\345\\233\\275\\347\\225\\231\\345\\255\\246\\346\\225\\260\\346\\215\\256\\345\\272\\223.md\"",
+          "\"cases/\\345\\205\\266\\344\\273\\226.md\"",
+          "\"cases/\\345\\210\\233\\345\\256\\242\\344\\270\\255\\345\\233\\275\\347\\224\\263\\346\\212\\245.md\"",
+          "\"cases/\\345\\210\\233\\345\\256\\242\\344\\270\\255\\345\\233\\275\\351\\241\\271\\347\\233\\256\\347\\224\\263\\346\\212\\245.md\"",
+          "\"cases/\\345\\260\\217\\347\\272\\242\\344\\271\\246\\347\\233\\221\\346\\216\\247.md\"",
+          "\"cases/\\347\\225\\231\\345\\255\\230\\347\\233\\270\\345\\205\\263\\346\\225\\260\\346\\215\\256.md\"",
+          "\"cases/\\347\\275\\221\\347\\273\\234\\346\\225\\260\\346\\215\\256\\347\\210\\254\\345\\217\\226\\345\\271\\266\\346\\225\\264\\347\\220\\206\\346\\210\\220\\347\\224\\265\\345\\255\\220\\344\\271\\246.md\"",
+          "\"cases/\\350\\272\\272\\347\\235\\200\\345\\255\\246\\345\\221\\275\\344\\270\\255\\346\\225\\260\\346\\215\\256\\345\\272\\223.md\"",
+          "\"cases/\\350\\272\\272\\347\\235\\200\\345\\255\\246\\346\\225\\260\\346\\215\\256.md\"",
+          "\"cases/\\350\\272\\272\\347\\235\\200\\345\\255\\246\\346\\234\\254\\345\\234\\260\\344\\273\\243\\347\\240\\201\\344\\273\\223\\345\\272\\223.md\"",
+          "\"cases/\\350\\272\\272\\347\\235\\200\\345\\255\\246\\347\\210\\254\\350\\231\\253.md\"",
+          "\"cases/\\350\\272\\272\\347\\235\\200\\345\\255\\246\\347\\275\\221\\347\\253\\231.md\"",
+          "\"cases/\\350\\272\\272\\347\\235\\200\\345\\255\\246\\350\\265\\204\\350\\256\\257\\351\\241\\2652-0-OpenSpec.md\"",
+          "\"cases/\\350\\272\\272\\347\\235\\200\\345\\255\\246\\350\\265\\204\\350\\256\\257\\351\\241\\2652-0-SpecKit.md\"",
+          "\"cases/\\351\\233\\205\\346\\200\\235\\345\\206\\231\\344\\275\\234\\344\\273\\277\\344\\272\\272\\345\\267\\245\\346\\211\\271\\346\\224\\271.md\"",
+          "\"cases/\\351\\233\\205\\346\\200\\235\\345\\260\\217\\344\\275\\234\\346\\226\\207\\345\\210\\266\\344\\275\\234.md\""
+        ],
+        "recent_subjects": [
+          "chore(portfolio): daily repo scan 2026-08-19",
+          "chore(portfolio): daily repo scan 2026-08-18",
+          "chore(portfolio): daily repo scan 2026-08-17",
+          "chore(portfolio): daily repo scan 2026-08-16",
+          "chore(portfolio): daily repo scan 2026-08-15"
+        ]
+      }
+    },
+    {
+      "id": "docs",
+      "name": "docs",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/docs",
+      "relative_to_ai_projects": "docs",
+      "doc": {
+        "source": "00-设置说明.md",
+        "title": "设置说明",
+        "excerpt": "# 设置说明\n\n## 1. 首次扫描（已完成可跳过）\n\n```bash\ncd \"/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Cursor案例库\"\npip3 install -r requirements.txt\npython3 scripts/portfolio.py scan\n```\n\n## 2. 关联 GitHub 远程仓库\n\n```bash\ngit remote add origin git@github.com:<组织>/cursor-portfolio.git\ngit add .\ngit commit -m \"chore: init Cursor 案例库\"\ngit push -u origin main\n\ngit checkout -b portfolio-draft\ngit push -u origin portfolio-draft\n```\n\n## 3. 日常节奏\n\n| 时机 | 操作 |\n|------|------|\n| 完成重要协作后 | `python3 scripts/portfolio.py scan` |\n| 每天 22:00（北京时间，建议） | 本机 `scripts/daily-local-sync.sh`（脱敏对话 + push draft），见 [07-本机每日对话同步.md](07-本机每日对话同步.md) |\n| 每天 09:00 | GitHub Action 自动 `--repo-only`（读已推送的 digest） |\n| 出差回来 | `scan --transcripts-only` 补对话 |\n| 要汇报前 | 读 `reviews/LATEST.md` → `确认 portfolio` |\n\n## 4. 后续待办（你可自行安排）\n\n- [ ] 配置 GitHub remote 并首次 push（已完成可勾选）\n- [ ] 飞书通知：见 [docs/05-飞书通知（待接入）.md](docs/05-飞书通知（待接入）.md)\n- [ ] 为重点子项目添加 `.cursor/ai-impact.yaml`（模板见 `templates/`）\n- [ ] 安装本机每日对话同步：见 [docs/07-本机每日对话同步.md](07-本机每日对话同步.md)\n",
+        "parsed": {
+          "title": "设置说明",
+          "excerpt": "# 设置说明\n\n## 1. 首次扫描（已完成可跳过）\n\n```bash\ncd \"/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Cursor案例库\"\npip3 install -r requirements.txt\npython3 scripts/portfolio.py scan\n```\n\n## 2. 关联 GitHub 远程仓库\n\n```bash\ngit remote add origin git@github.com:<组织>/cursor-portfolio.git\ngit add .\ngit commit -m \"chore: init Cursor 案例库\"\ngit push -u origin main\n\ngit checkout -b portfolio-draft\ngit push -u origin portfolio-draft\n```\n\n## 3. 日常节奏\n\n| 时机 | 操作 |\n|------|------|\n| 完成重要协作后 | `python3 scripts/portfolio.py scan` |\n| 每天 22:00（北京时间，建议） | 本机 `scripts/daily-local-sync.sh`（脱敏对话 + push draft），见 [07-本机每日对话同步.md](07-本机每日对话同步.md) |\n| 每天 09:00 | GitHub Action 自动 `--repo-only`（读已推送的 digest） |\n| 出差回来 | `scan --transcripts-only` 补对话 |\n| 要汇报前 | 读 `reviews/LATEST.md` → `确认 portfolio` |\n\n## 4. 后续待办（你可自行安排）\n\n- [ ] 配置 GitHub remote 并首次 push（已完成可勾选）\n- [ ] 飞书通知：见 [docs/05-飞书通知（待接入）.md](docs/05-飞书通知（待接入）.md)\n- [ ] 为重点子项目添加 `.cursor/ai-impact.yaml`（模板见 `templates/`）\n- [ ] 安装本机每日对话同步：见 [docs/07-本机每日对话同步.md](07-本机每日对话同步.md)\n",
+          "sections": {
+            "1. 首次扫描（已完成可跳过）": "```bash\ncd \"/Users/mac/Library/CloudStorage/OneDrive-个人/AI Projects/Cursor案例库\"\npip3 install -r requirements.txt\npython3 scripts/portfolio.py scan\n```",
+            "2. 关联 GitHub 远程仓库": "```bash\ngit remote add origin git@github.com:<组织>/cursor-portfolio.git\ngit add .\ngit commit -m \"chore: init Cursor 案例库\"\ngit push -u origin main\n\ngit checkout -b portfolio-draft\ngit push -u origin portfolio-draft\n```",
+            "3. 日常节奏": "| 时机 | 操作 |\n|------|------|\n| 完成重要协作后 | `python3 scripts/portfolio.py scan` |\n| 每天 22:00（北京时间，建议） | 本机 `scripts/daily-local-sync.sh`（脱敏对话 + push draft），见 [07-本机每日对话同步.md](07-本机每日对话同步.md) |\n| 每天 09:00 | GitHub Action 自动 `--repo-only`（读已推送的 digest） |\n| 出差回来 | `scan --transcripts-only` 补对话 |\n| 要汇报前 | 读 `reviews/LATEST.md` → `确认 portfolio` |",
+            "4. 后续待办（你可自行安排）": "- [ ] 配置 GitHub remote 并首次 push（已完成可勾选）\n- [ ] 飞书通知：见 [docs/05-飞书通知（待接入）.md](docs/05-飞书通知（待接入）.md)\n- [ ] 为重点子项目添加 `.cursor/ai-impact.yaml`（模板见 `templates/`）\n- [ ] 安装本机每日对话同步：见 [docs/07-本机每日对话同步.md](07-本机每日对话同步.md)"
+          },
+          "background": "",
+          "goals": "",
+          "pains": "",
+          "features": [
+            "时机：操作",
+            "完成重要协作后：",
+            "每天 22:00（北京时间，建议）：本机 （脱敏对话 + push draft），见 07-本机每日对话同步.md",
+            "每天 09:00：GitHub Action 自动 （读已推送的 digest）",
+            "出差回来：补对话",
+            "要汇报前：读 →"
+          ],
+          "section_titles": [
+            "1. 首次扫描（已完成可跳过）",
+            "2. 关联 GitHub 远程仓库",
+            "3. 日常节奏",
+            "4. 后续待办（你可自行安排）"
+          ]
+        }
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "docs",
+        "commits_recent": 4,
+        "authors_recent": [
+          "Carl Lu"
+        ],
+        "last_commit_date": "2026-06-24 00:25:45 +0800",
+        "changed_files_recent": [
+          "\"docs/00-\\350\\256\\276\\347\\275\\256\\350\\257\\264\\346\\230\\216.md\"",
+          "\"docs/01-\\346\\236\\266\\346\\236\\204\\350\\257\\264\\346\\230\\216.md\"",
+          "\"docs/02-\\344\\275\\277\\347\\224\\250\\346\\211\\213\\345\\206\\214.md\"",
+          "\"docs/03-\\347\\241\\256\\350\\256\\244\\345\\217\\221\\345\\270\\203\\346\\265\\201\\347\\250\\213.md\"",
+          "\"docs/04-GitHub\\344\\270\\216\\345\\210\\206\\346\\224\\257\\347\\255\\226\\347\\225\\245.md\"",
+          "\"docs/05-\\351\\243\\236\\344\\271\\246\\351\\200\\232\\347\\237\\245\\357\\274\\210\\345\\276\\205\\346\\216\\245\\345\\205\\245\\357\\274\\211.md\"",
+          "\"docs/06-\\346\\234\\254\\351\\234\\200\\346\\261\\202\\345\\257\\271\\350\\257\\235\\350\\256\\260\\345\\275\\225\\344\\270\\216\\345\\206\\263\\347\\255\\226\\346\\221\\230\\350\\246\\201.md\"",
+          "\"docs/07-\\346\\234\\254\\346\\234\\272\\346\\257\\217\\346\\227\\245\\345\\257\\271\\350\\257\\235\\345\\220\\214\\346\\255\\245.md\"",
+          "docs/PRD.md"
+        ],
+        "recent_subjects": [
+          "docs: PRD v1.5 与 portfolio-owner-ops 运维 Skill",
+          "feat: 本机对话脱敏同步与 session-digests",
+          "将 portfolio 自动扫描从每周改为每天执行。",
+          "Initial commit: Cursor 案例库扫描、合成与发布流程。"
+        ]
+      }
+    },
+    {
+      "id": "draft",
+      "name": "draft",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/draft",
+      "relative_to_ai_projects": "draft",
+      "doc": {
+        "source": "AI-Projects-Portfolio.md",
+        "title": "AI Projects · Cursor 提效案例集（草稿）",
+        "excerpt": "# AI Projects · Cursor 提效案例集（草稿）\n\n**草稿版**：未经确认，请勿直接用于对外汇报。\n\n*生成时间：2026-08-19 02:17*\n\n## 案例目录\n\n- [BC落地页](cases/BC落地页.md)（`BC落地页`）\n- [BC WriteUp 雅思写作落地页](cases/cases.md)（`cases`）\n- [设置说明](cases/docs.md)（`docs`）\n- [AI Projects · Cursor 提效案例集（草稿）](cases/draft.md)（`draft`）\n- [inbox](cases/inbox.md)（`inbox`）\n- [正式版案例总览](cases/published.md)（`published`）\n- [案例库更新待确认 · 2026-06-23](cases/reviews.md)（`reviews`）\n- [scripts](cases/scripts.md)（`scripts`）\n- [state](cases/state.md)（`state`）\n- [templates](cases/templates.md)（`templates`）\n\n---\n\n## 阅读说明\n\n- 每个案例包含：**业务背景 → 工作痛点 → 项目要做什么 → 工作方式对比 → 提效与业务价值 → Cursor/AI 能力与工具**\n- 标注 `draft` 的为自动草稿，需在 Cursor 中确认后才会进入正式版\n- 确认方式见 [docs/03-确认发布流程.md](docs/03-确认发布流程.md)\n",
+        "parsed": {
+          "title": "AI Projects · Cursor 提效案例集（草稿）",
+          "excerpt": "# AI Projects · Cursor 提效案例集（草稿）\n\n**草稿版**：未经确认，请勿直接用于对外汇报。\n\n*生成时间：2026-08-19 02:17*\n\n## 案例目录\n\n- [BC落地页](cases/BC落地页.md)（`BC落地页`）\n- [BC WriteUp 雅思写作落地页](cases/cases.md)（`cases`）\n- [设置说明](cases/docs.md)（`docs`）\n- [AI Projects · Cursor 提效案例集（草稿）](cases/draft.md)（`draft`）\n- [inbox](cases/inbox.md)（`inbox`）\n- [正式版案例总览](cases/published.md)（`published`）\n- [案例库更新待确认 · 2026-06-23](cases/reviews.md)（`reviews`）\n- [scripts](cases/scripts.md)（`scripts`）\n- [state](cases/state.md)（`state`）\n- [templates](cases/templates.md)（`templates`）\n\n---\n\n## 阅读说明\n\n- 每个案例包含：**业务背景 → 工作痛点 → 项目要做什么 → 工作方式对比 → 提效与业务价值 → Cursor/AI 能力与工具**\n- 标注 `draft` 的为自动草稿，需在 Cursor 中确认后才会进入正式版\n- 确认方式见 [docs/03-确认发布流程.md](docs/03-确认发布流程.md)\n",
+          "sections": {
+            "AI Projects · Cursor 提效案例集（草稿）": "**草稿版**：未经确认，请勿直接用于对外汇报。\n\n*生成时间：2026-08-19 02:17*",
+            "案例目录": "- [BC落地页](cases/BC落地页.md)（`BC落地页`）\n- [BC WriteUp 雅思写作落地页](cases/cases.md)（`cases`）\n- [设置说明](cases/docs.md)（`docs`）\n- [AI Projects · Cursor 提效案例集（草稿）](cases/draft.md)（`draft`）\n- [inbox](cases/inbox.md)（`inbox`）\n- [正式版案例总览](cases/published.md)（`published`）\n- [案例库更新待确认 · 2026-06-23](cases/reviews.md)（`reviews`）\n- [scripts](cases/scripts.md)（`scripts`）\n- [state](cases/state.md)（`state`）\n- [templates](cases/templates.md)（`templates`）\n\n---",
+            "阅读说明": "- 每个案例包含：**业务背景 → 工作痛点 → 项目要做什么 → 工作方式对比 → 提效与业务价值 → Cursor/AI 能力与工具**\n- 标注 `draft` 的为自动草稿，需在 Cursor 中确认后才会进入正式版\n- 确认方式见 [docs/03-确认发布流程.md](docs/03-确认发布流程.md)"
+          },
+          "background": "",
+          "goals": "",
+          "pains": "",
+          "features": [],
+          "section_titles": [
+            "AI Projects · Cursor 提效案例集（草稿）",
+            "案例目录",
+            "阅读说明"
+          ]
+        }
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "draft",
+        "commits_recent": 68,
+        "authors_recent": [
+          "Carl Lu",
+          "portfolio-bot"
+        ],
+        "last_commit_date": "2026-08-19 02:17:16 +0000",
+        "changed_files_recent": [
+          "draft/AI-Projects-Portfolio.md"
+        ],
+        "recent_subjects": [
+          "chore(portfolio): daily repo scan 2026-08-19",
+          "chore(portfolio): daily repo scan 2026-08-18",
+          "chore(portfolio): daily repo scan 2026-08-17",
+          "chore(portfolio): daily repo scan 2026-08-16",
+          "chore(portfolio): daily repo scan 2026-08-15"
+        ]
+      }
+    },
+    {
+      "id": "inbox",
+      "name": "inbox",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/inbox",
+      "relative_to_ai_projects": "inbox",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null,
+        "parsed": {}
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "inbox",
+        "commits_recent": 68,
+        "authors_recent": [
+          "Carl Lu",
+          "portfolio-bot"
+        ],
+        "last_commit_date": "2026-08-19 02:17:16 +0000",
+        "changed_files_recent": [
+          "inbox/2026-06-23-scan.json",
+          "inbox/2026-06-24-scan.json",
+          "inbox/2026-06-25-scan.json",
+          "inbox/2026-06-26-scan.json",
+          "inbox/2026-06-27-scan.json",
+          "inbox/2026-06-28-scan.json",
+          "inbox/2026-06-29-scan.json",
+          "inbox/2026-06-30-scan.json",
+          "inbox/2026-07-01-scan.json",
+          "inbox/2026-07-02-scan.json",
+          "inbox/2026-07-03-scan.json",
+          "inbox/2026-07-04-scan.json",
+          "inbox/2026-07-05-scan.json",
+          "inbox/2026-07-06-scan.json",
+          "inbox/2026-07-07-scan.json",
+          "inbox/2026-07-08-scan.json",
+          "inbox/2026-07-09-scan.json",
+          "inbox/2026-07-10-scan.json",
+          "inbox/2026-07-11-scan.json",
+          "inbox/2026-07-12-scan.json",
+          "inbox/2026-07-13-scan.json",
+          "inbox/2026-07-14-scan.json",
+          "inbox/2026-07-15-scan.json",
+          "inbox/2026-07-16-scan.json",
+          "inbox/2026-07-17-scan.json",
+          "inbox/2026-07-18-scan.json",
+          "inbox/2026-07-19-scan.json",
+          "inbox/2026-07-20-scan.json",
+          "inbox/2026-07-21-scan.json",
+          "inbox/2026-07-22-scan.json"
+        ],
+        "recent_subjects": [
+          "chore(portfolio): daily repo scan 2026-08-19",
+          "chore(portfolio): daily repo scan 2026-08-18",
+          "chore(portfolio): daily repo scan 2026-08-17",
+          "chore(portfolio): daily repo scan 2026-08-16",
+          "chore(portfolio): daily repo scan 2026-08-15"
+        ]
+      }
+    },
+    {
+      "id": "published",
+      "name": "published",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/published",
+      "relative_to_ai_projects": "published",
+      "doc": {
+        "source": "AI-Projects-Portfolio.md",
+        "title": "正式版案例总览",
+        "excerpt": "# 正式版案例总览\n\n确认发布前为空。运行 `python3 scripts/portfolio.py scan` 后查看 `draft/`，确认后内容会出现在此文件。\n\n参见 [docs/03-确认发布流程.md](../docs/03-确认发布流程.md)。\n",
+        "parsed": {
+          "title": "正式版案例总览",
+          "excerpt": "# 正式版案例总览\n\n确认发布前为空。运行 `python3 scripts/portfolio.py scan` 后查看 `draft/`，确认后内容会出现在此文件。\n\n参见 [docs/03-确认发布流程.md](../docs/03-确认发布流程.md)。\n",
+          "sections": {
+            "正式版案例总览": "确认发布前为空。运行 `python3 scripts/portfolio.py scan` 后查看 `draft/`，确认后内容会出现在此文件。\n\n参见 [docs/03-确认发布流程.md](../docs/03-确认发布流程.md)。"
+          },
+          "background": "",
+          "goals": "",
+          "pains": "",
+          "features": [],
+          "section_titles": [
+            "正式版案例总览"
+          ]
+        }
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "published",
+        "commits_recent": 1,
+        "authors_recent": [
+          "Carl Lu"
+        ],
+        "last_commit_date": "2026-06-23 19:32:11 +0800",
+        "changed_files_recent": [
+          "published/AI-Projects-Portfolio.md"
+        ],
+        "recent_subjects": [
+          "Initial commit: Cursor 案例库扫描、合成与发布流程。"
+        ]
+      }
+    },
+    {
+      "id": "reviews",
+      "name": "reviews",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/reviews",
+      "relative_to_ai_projects": "reviews",
+      "doc": {
+        "source": "2026-06-23-review.md",
+        "title": "案例库更新待确认 · 2026-06-23",
+        "excerpt": "# 案例库更新待确认 · 2026-06-23\n\n## 本次扫描概况\n\n- **扫描时间**：2026-06-23T15:51:57+00:00\n- **扫描模式**：full\n- **项目总数**：20\n- **新增 Agent 会话（建议关注）**：1\n\n> ⚠️ 本次包含 **积压对话补扫**（电脑曾关机或离线期间的新会话）。\n\n**本次无案例卡变更。** 若你刚完成重要协作，可稍后再跑一次扫描。\n\n## 快速操作\n\n在 Cursor 对话中说：\n\n- `确认 portfolio` — 发布本次全部待确认案例\n- `确认 portfolio <项目名>` — 只发布指定项目（如 `确认 portfolio 押题班画像`）\n\n或在本仓库执行：\n\n```bash\npython3 scripts/portfolio.py confirm\npython3 scripts/portfolio.py confirm --cases 押题班画像\n```\n\n## 文件位置\n\n- 草稿总览：[draft/AI-Projects-Portfolio.md](../draft/AI-Projects-Portfolio.md)\n- 正式总览：[published/AI-Projects-Portfolio.md](../published/AI-Projects-Portfolio.md)\n",
+        "parsed": {
+          "title": "案例库更新待确认 · 2026-06-23",
+          "excerpt": "# 案例库更新待确认 · 2026-06-23\n\n## 本次扫描概况\n\n- **扫描时间**：2026-06-23T15:51:57+00:00\n- **扫描模式**：full\n- **项目总数**：20\n- **新增 Agent 会话（建议关注）**：1\n\n> ⚠️ 本次包含 **积压对话补扫**（电脑曾关机或离线期间的新会话）。\n\n**本次无案例卡变更。** 若你刚完成重要协作，可稍后再跑一次扫描。\n\n## 快速操作\n\n在 Cursor 对话中说：\n\n- `确认 portfolio` — 发布本次全部待确认案例\n- `确认 portfolio <项目名>` — 只发布指定项目（如 `确认 portfolio 押题班画像`）\n\n或在本仓库执行：\n\n```bash\npython3 scripts/portfolio.py confirm\npython3 scripts/portfolio.py confirm --cases 押题班画像\n```\n\n## 文件位置\n\n- 草稿总览：[draft/AI-Projects-Portfolio.md](../draft/AI-Projects-Portfolio.md)\n- 正式总览：[published/AI-Projects-Portfolio.md](../published/AI-Projects-Portfolio.md)\n",
+          "sections": {
+            "本次扫描概况": "- **扫描时间**：2026-06-23T15:51:57+00:00\n- **扫描模式**：full\n- **项目总数**：20\n- **新增 Agent 会话（建议关注）**：1\n\n> ⚠️ 本次包含 **积压对话补扫**（电脑曾关机或离线期间的新会话）。\n\n**本次无案例卡变更。** 若你刚完成重要协作，可稍后再跑一次扫描。",
+            "快速操作": "在 Cursor 对话中说：\n\n- `确认 portfolio` — 发布本次全部待确认案例\n- `确认 portfolio <项目名>` — 只发布指定项目（如 `确认 portfolio 押题班画像`）\n\n或在本仓库执行：\n\n```bash\npython3 scripts/portfolio.py confirm\npython3 scripts/portfolio.py confirm --cases 押题班画像\n```",
+            "文件位置": "- 草稿总览：[draft/AI-Projects-Portfolio.md](../draft/AI-Projects-Portfolio.md)\n- 正式总览：[published/AI-Projects-Portfolio.md](../published/AI-Projects-Portfolio.md)"
+          },
+          "background": "",
+          "goals": "",
+          "pains": "",
+          "features": [],
+          "section_titles": [
+            "本次扫描概况",
+            "快速操作",
+            "文件位置"
+          ]
+        }
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "reviews",
+        "commits_recent": 68,
+        "authors_recent": [
+          "Carl Lu",
+          "portfolio-bot"
+        ],
+        "last_commit_date": "2026-08-19 02:17:16 +0000",
+        "changed_files_recent": [
+          "reviews/2026-06-23-review.md",
+          "reviews/2026-06-24-review.md",
+          "reviews/2026-06-25-review.md",
+          "reviews/2026-06-26-review.md",
+          "reviews/2026-06-27-review.md",
+          "reviews/2026-06-28-review.md",
+          "reviews/2026-06-29-review.md",
+          "reviews/2026-06-30-review.md",
+          "reviews/2026-07-01-review.md",
+          "reviews/2026-07-02-review.md",
+          "reviews/2026-07-03-review.md",
+          "reviews/2026-07-04-review.md",
+          "reviews/2026-07-05-review.md",
+          "reviews/2026-07-06-review.md",
+          "reviews/2026-07-07-review.md",
+          "reviews/2026-07-08-review.md",
+          "reviews/2026-07-09-review.md",
+          "reviews/2026-07-10-review.md",
+          "reviews/2026-07-11-review.md",
+          "reviews/2026-07-12-review.md",
+          "reviews/2026-07-13-review.md",
+          "reviews/2026-07-14-review.md",
+          "reviews/2026-07-15-review.md",
+          "reviews/2026-07-16-review.md",
+          "reviews/2026-07-17-review.md",
+          "reviews/2026-07-18-review.md",
+          "reviews/2026-07-19-review.md",
+          "reviews/2026-07-20-review.md",
+          "reviews/2026-07-21-review.md",
+          "reviews/2026-07-22-review.md"
+        ],
+        "recent_subjects": [
+          "chore(portfolio): daily repo scan 2026-08-19",
+          "chore(portfolio): daily repo scan 2026-08-18",
+          "chore(portfolio): daily repo scan 2026-08-17",
+          "chore(portfolio): daily repo scan 2026-08-16",
+          "chore(portfolio): daily repo scan 2026-08-15"
+        ]
+      }
+    },
+    {
+      "id": "scripts",
+      "name": "scripts",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/scripts",
+      "relative_to_ai_projects": "scripts",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null,
+        "parsed": {}
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "scripts",
+        "commits_recent": 2,
+        "authors_recent": [
+          "Carl Lu"
+        ],
+        "last_commit_date": "2026-06-23 23:44:59 +0800",
+        "changed_files_recent": [
+          "scripts/config.py",
+          "scripts/confirm.py",
+          "scripts/daily-local-sync.sh",
+          "scripts/generate_review.py",
+          "scripts/lib/git_signals.py",
+          "scripts/lib/sanitize.py",
+          "scripts/lib/utils.py",
+          "scripts/portfolio.py",
+          "scripts/scan_projects.py",
+          "scripts/scan_transcripts.py",
+          "scripts/synthesize_cases.py"
+        ],
+        "recent_subjects": [
+          "feat: 本机对话脱敏同步与 session-digests",
+          "Initial commit: Cursor 案例库扫描、合成与发布流程。"
+        ]
+      }
+    },
+    {
+      "id": "state",
+      "name": "state",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/state",
+      "relative_to_ai_projects": "state",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null,
+        "parsed": {}
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "state",
+        "commits_recent": 70,
+        "authors_recent": [
+          "Carl Lu",
+          "portfolio-bot"
+        ],
+        "last_commit_date": "2026-08-19 02:17:16 +0000",
+        "changed_files_recent": [
+          "state/PENDING_REVIEW",
+          "state/case-status.json",
+          "state/last-scan.json",
+          "state/logs/daily-sync-20260623.log",
+          "state/logs/daily-sync-20260624.log",
+          "state/logs/daily-sync-20260630.log",
+          "state/logs/daily-sync-20260701.log",
+          "state/logs/daily-sync-20260724.log",
+          "state/logs/daily-sync-20260730.log",
+          "state/logs/daily-sync-20260813.log",
+          "state/logs/launchd-stderr.log",
+          "state/logs/launchd-stdout.log",
+          "state/project-overrides.json",
+          "state/session-digests.json"
+        ],
+        "recent_subjects": [
+          "chore(portfolio): daily repo scan 2026-08-19",
+          "chore(portfolio): daily repo scan 2026-08-18",
+          "chore(portfolio): daily repo scan 2026-08-17",
+          "chore(portfolio): daily repo scan 2026-08-16",
+          "chore(portfolio): daily repo scan 2026-08-15"
+        ]
+      }
+    },
+    {
+      "id": "templates",
+      "name": "templates",
+      "path": "/home/runner/work/Cursor-cases/Cursor-cases/templates",
+      "relative_to_ai_projects": "templates",
+      "doc": {
+        "source": null,
+        "title": null,
+        "excerpt": null,
+        "parsed": {}
+      },
+      "ai_impact": null,
+      "git": {
+        "has_git": true,
+        "repo_root": "/home/runner/work/Cursor-cases/Cursor-cases",
+        "relative_path": "templates",
+        "commits_recent": 3,
+        "authors_recent": [
+          "Carl Lu"
+        ],
+        "last_commit_date": "2026-06-24 00:25:45 +0800",
+        "changed_files_recent": [
+          "templates/ai-impact.example.yaml",
+          "templates/com.cursor.portfolio-daily-sync.plist"
+        ],
+        "recent_subjects": [
+          "docs: PRD v1.5 与 portfolio-owner-ops 运维 Skill",
+          "feat: 本机对话脱敏同步与 session-digests",
+          "Initial commit: Cursor 案例库扫描、合成与发布流程。"
+        ]
+      }
+    }
+  ],
+  "transcripts": {
+    "scanned_files": 0,
+    "project_keys": [
+      ".cursor",
+      "Miscs",
+      "BC落地页",
+      "."
+    ],
+    "unmapped_count": 0,
+    "from_digest": true,
+    "digest_updated_at": "2026-08-12T19:45:38+00:00"
+  }
+}
