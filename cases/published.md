@@ -46,4 +46,4 @@
 
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：AI-Projects-Portfolio.md · 生成于 2026-08-22*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：AI-Projects-Portfolio.md · 生成于 2026-08-23*
