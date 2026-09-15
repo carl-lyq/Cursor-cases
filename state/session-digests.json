@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-12T19:45:38+00:00",
+  "updated_at": "2026-09-15T11:14:03+00:00",
   "sanitized": true,
   "note": "仅含脱敏后的对话摘要，不含原始 transcript；勿提交密钥或客户隐私原文",
-  "scanned_files_last_run": 33,
-  "unmapped_count": 18,
+  "scanned_files_last_run": 42,
+  "unmapped_count": 5,
   "projects": {
     ".cursor": [
       {
         "session_id": "79745b84-4618-4375-a579-13d2cee887db",
-        "mtime": "2026-08-13T03:44:10.036601",
+        "mtime": "2026-09-15T19:13:19.756374",
         "score": 7,
         "first_query": "github代码库链接：https://github.com/carl-lyq/Cursor-cases.git 提交并推送",
-        "last_assistant": "**B · 同步并推送** 已完成。 中间本地卡在 7/24 旧提交上，与远端差 31 个提交；已重置到远端后再跑同步，push 成功。 扫描结果 | 项 | 结果 | |----|------| | 项目 | **28** 个 | | 新案例 | **2**（、） | | 更新 | **18** | | 待办 | · | Git | 项 | 结果 | |----|------| | Commit | — daily local scan 2026-07-30 | | Push | 已推送到 | 小红书监控 仍为 ****，人工修订版未被覆盖。",
+        "last_assistant": "**案例库运维 — 请选择要执行的操作** **A · 重载定时任务** 卸载并重新加载本机 22:00 定时任务（改过 plist 或仓库路径时用）。 **什么时候用**：调整过 ；换了案例库目录；想确保 launchd 用的是最新配置。 **会做什么**： → 复制新 plist → **不会**：立刻执行同步（若要马上同步请选 **B**）。 **说明**：首次安装定时任务见 （本 skill 不提供该项）。 **B · 同步并推送（最常用）** 本机全量扫描 + 对话脱敏 + 更新案例卡 + **提交并 push 到 **。 **什么时候用**…",
         "touched_paths": [
           "projects",
           "image-eca5ce20-37ce-4f99-b4e9-3be58aea1b96.png",
@@ -26,59 +26,146 @@
     ],
     "Miscs": [
       {
+        "session_id": "afa35c49-b62d-4410-ac42-fad4a912f606",
+        "mtime": "2026-09-12T22:01:35.674290",
+        "score": 6,
+        "first_query": "用GPT image 2修复这张老照片",
+        "last_assistant": "重生成了一版，这次 prompt 里把「人脸不变」写成了最高优先级：五官、脸型、发型、表情都按原图保留，只做去划痕、去背景、提亮对比、锐化这些技术修复。 新文件在这里： 已经帮你打开了，可以和原图左右对比看。 说实话，GPT Image 2 这类生成模型在修老照片时，人脸还是有可能被轻微改动。如果你对比后觉得还是不像，更稳的做法是用传统修复工具（比如 Photoshop 的修复画笔、Topaz Photo AI）在原图上局部处理，人脸基本不会变。你要的话我可以按这个思路再帮你做一版。 [REDACTED]",
+        "touched_paths": [
+          "image-cf25e58c-b93d-4aa4-be0c-c22f154d383c.jpg",
+          "old-photo-restored-v2.png",
+          "old-photo-restored.png",
+          "SKILL.md"
+        ]
+      },
+      {
+        "session_id": "7e5a89c8-c6ff-4e1a-84c2-afdbd5679cba",
+        "mtime": "2026-09-08T20:00:31.981826",
+        "score": 7,
+        "first_query": "帮我全局安装飞书 CLI：https://open.feishu.cn/document/no_class/mcp-archive/feishu-cli-installation-guide.md",
+        "last_assistant": "已经装好了。28 个飞书 Skills 现在在用户级目录 ，Cursor 所有项目都能用。 现在全局可用的是这两层： - **CLI 命令**：（系统全局） - **登录态**：（已登录陆雨奇） - **Agent Skills**：（刚装的全局版） 换到别的项目，Agent 也能直接操作飞书文档、消息、日历、审批这些能力。 新开一个 Cursor 聊天窗口就能生效。如果当前窗口还是旧的，重开一下更稳。 [REDACTED]",
+        "touched_paths": [
+          "mac",
+          ".cursor",
+          "1bed0a5f-8a56-485e-aeab-9c9a733a7098.txt",
+          "766885.txt",
+          "766886.txt",
+          "766887.txt",
+          "Miscs",
+          "SKILL.md"
+        ]
+      },
+      {
+        "session_id": "22818647-7a8c-4f44-8889-5b464d82917c",
+        "mtime": "2026-09-08T17:39:39.928359",
+        "score": 6,
+        "first_query": "《增值电信业务经营许可证》（核准服务项目包含“在线数据处理与交易处理业务”）这个需要申请哪一类的增值电信业务经营许可证？",
+        "last_assistant": "要申请的是**第二类增值电信业务经营许可证**，业务代码 **B21**，行业里常叫 **EDI 证**。 依据是工信部《电信业务分类目录（2015年版）》： - **B2 第二类增值电信业务** - **B21 在线数据处理与交易处理业务** 目录里的定义是：利用与公用通信网或互联网相连的数据与交易/事务处理应用平台，为用户提供在线数据处理和交易/事务处理。下面又分三类： 1. **交易处理业务**（电商平台、入驻商城、票务、在线交易撮合等） 2. **电子数据交换业务**（企业间结构化数据交换，即狭义 EDI） 3. **网络/电子设备数据处理业务…",
+        "touched_paths": [
+          "SKILL.md"
+        ]
+      },
+      {
+        "session_id": "de271be0-28ac-44a3-bc59-58aea382401d",
+        "mtime": "2026-09-08T17:33:50.531289",
+        "score": 4,
+        "first_query": "帮我安装飞书 CLI：https://open.feishu.cn/document/no_class/mcp-archive/feishu-cli-installation-guide.md",
+        "last_assistant": "先 [REDACTED]",
+        "touched_paths": []
+      },
+      {
+        "session_id": "5cb6fced-2376-4306-982c-398ffd09a7fa",
+        "mtime": "2026-09-01T20:32:36.166763",
+        "score": 6,
+        "first_query": "查找杭州、长沙的详细地势图/等高线图。然后找到原始数据（需要有地理坐标的）。",
+        "last_assistant": "默认改成平面 2D 了：打开是正射俯视，「三维」默认关，需要时再开。 路网信息也加了一层： - **行政区名**：市、镇、社区/片区 - **路名**：主干道更早出现，支路放大后显示 - **水体**：湖、江、河道名 - **公园、山峰** - **POI**：景点、车站、学校、医院、商场、酒店等；放大后还有餐馆、银行、邮局等 - **建筑轮廓**：放大到街区级能看到块面 - **CARTO 地名层**：热力图也换成更密的 voyager 标注 线上已更新：**http://124.71.183.148/elevation/** 刷新一下看。放大到西湖…",
+        "touched_paths": [
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "42c25ea0-ad51-4446-8612-c5e8566e276e.txt",
+          "4c5c5268-965c-46ce-bb1e-0ad954fb7fdb.txt"
+        ]
+      },
+      {
+        "session_id": "588674a6-d842-4d86-a6f3-88c33408f626",
+        "mtime": "2026-08-29T16:46:59.498750",
+        "score": 9,
+        "first_query": "有一个学生开学后要去港中深读大一，需要确定选什么专业/学院。调研港中深大一可选的学院和相关政策、港中深这些学院的实力和优劣势、这些专业方向在将来的发展前景（区分科研和就业），并给出选择建议。 尽可能全面、完整、深入。 最终需要生成一份可在手机上打开的报告，部署上线，但这部分先不做，先做调研。",
+        "last_assistant": "这一版已经换成书面语，地址没变：http://124.71.183.148/cuhk-advice2/ 原来的阅读版还在 http://124.71.183.148/cuhk-advice/。 「我更倾向」「我猜」「别把成绩弄砸」这类说法拿掉了，改成完整的书面句，比如「建议优先选择数据科学学院」。结论没动。",
+        "touched_paths": [
+          "deep-research",
+          "SKILL.md",
+          "methodology.md",
+          "quality-gates.md",
+          "report-assembly.md",
+          "citation_manager.py",
+          "evidence_store.py",
+          "validate_report.py"
+        ]
+      },
+      {
+        "session_id": "6a306b2f-db8f-4fb2-9656-aca3eefadc63",
+        "mtime": "2026-08-29T16:37:37.494704",
+        "score": 7,
+        "first_query": "你的中文表达能力太弱了，是不是因为现在模型的代码能力更强了但作为代价自然语言能力变弱了？进行调研，然后给出解决方案。",
+        "last_assistant": "是，全局可用。 装在 ，作用域是 **global**，给 **Cursor** 用。这台电脑上换项目都能读到，不用每个仓库再装一遍。 它不会每句话自动改。你说「去 AI 味」「改成人话」，或让它审一段已经写成的中文时，才会动用。日常聊天还是那条用户规则在管。",
+        "touched_paths": [
+          "skills",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "humanizer-zh",
+          "SKILL.md",
+          ".cursor",
+          "SKILL.md"
+        ]
+      },
+      {
+        "session_id": "c4c1e66e-d6e0-4cff-9dd4-e46917172f02",
+        "mtime": "2026-08-14T12:25:36.251055",
+        "score": 9,
+        "first_query": "我需要以这个为主题做一个20分钟的演讲。先帮我做调研、找数据、列提纲。 AI时代的职场与升学语言进阶。 由资深语言培训专家主讲，围绕当下青年在就业与升学中普遍面临的\"语言瓶颈\"，从实用角度出发，帮助认识语言能力在个人发展中的战略价值，并提供可落地的提升路径。",
+        "last_assistant": "已改成统一的文字条目版：证据不再用图表、数据卡或截图，数字用红色标出。各页共用同一套版式：编号、标题、一句论点、条目、来源、底部章节进度。 新文件： - PPT： - PDF 预览： - HTML： 结构和章节没改，仍是 27 页 / 27 屏。HTML 继续支持章节导航和键盘翻页。PRD 已同步到 v0.9。",
+        "touched_paths": [
+          "/System/Library/Fonts",
+          "node_modules.",
+          "SKILL.md",
+          "pptx",
+          "SKILL.md",
+          ".cursor",
+          "snapshot-2026-08-13T17-03-13-708Z-44z73p.log",
+          "47327543-bd09-4070-888d-b6d28be87c70.txt"
+        ]
+      },
+      {
         "session_id": "846dce05-35aa-41b8-8e48-5390f025b8d9",
-        "mtime": "2026-08-13T03:41:47.508633",
+        "mtime": "2026-08-13T11:44:08.637705",
         "score": 7,
         "first_query": "这张海报，用GPT image 2进行修改：金额改成25600，日期7月15日，对应的类别和头像右下边的图改成海豹，别的不变，海报尺寸布局全都不变",
-        "last_assistant": "部署方案已改为你的服务器： - **部署方式**： 读取 凭证（不进部署包、不进文档），用 macOS 自带 expect 驱动 rsync 同步到 web 根目录下的 ，访问地址就是 。国内自有服务器，企微里打开比 Vercel 稳定得多。 - **投票计票**：不再用 Upstash，改为同服务器上的轻量接口——优先 PHP 单文件 + JSON 文件计票（零配置）；若服务器没有 PHP，就用 python3 微服务加一条反代。首次部署前会先 SSH 探测服务器栈再落定。票数文件在同步时排除，重新部署不清零。 - **免手动**：不再需要任何登录授…",
+        "last_assistant": "海洋主题已重新设计并上线： - 新增海面光束、鲸群、虎鲸、发光水母、深海遗迹、珊瑚及远景海龙。 - 增加动态焦散、气泡与光柱层。 - 降低卡片不透明度，让背景可见且保持文字清晰。 - 已同步主 PRD。 查看线上效果 !新版海洋主题",
         "touched_paths": [
+          "SKILL.md",
           "销售海报星耀网页_820fbad3.plan.md",
           "Users-mac-Library-CloudStorage-OneDrive-AI-Projects-Miscs",
           "8b6825ea-06a1-4ec9-8b93-fc8daeaf2e68.jsonl",
           "assets",
           "263d83cadfabeeda8a39bd341c10f1b8_origin-1c13635f-785f-4ea6-abb6-5bd814497eaf.png",
           "263d83cadfabeeda8a39bd341c10f1b8_origin-e71fcff5-7e25-4d38-86de-0c764f86d114-8c74be2e-d255-4e89-a2ef-ecd540681472.png",
-          "WeChatWorkScreenshot_40cbdb33-e255-4187-8a8d-3f01d035b7d7-4cbd0253-3d18-4566-bf0f-bfb844778888.png",
-          "WeChatWorkScreenshot_e4b9a927-379c-4aed-85b7-77ed4938f3f9-7aa0bf08-639d-4ab1-9eed-a0b9037cd925.png"
-        ]
-      },
-      {
-        "session_id": "2daf55dd-4433-42f2-ba29-da3227644849",
-        "mtime": "2026-08-13T02:40:03.645654",
-        "score": 7,
-        "first_query": "这张海报，用GPT image 2进行修改：金额改成25600，日期7月15日，对应的类别和头像右下边的图改成海豹，别的不变，海报尺寸布局全都不变",
-        "last_assistant": "已全部改名，格式为 。 示例： - - - 战队区间： 信息表和提示词库已同步；以后归档也按这套命名。",
-        "touched_paths": [
-          "Users-mac-Library-CloudStorage-OneDrive-AI-Projects-Miscs",
-          "8b6825ea-06a1-4ec9-8b93-fc8daeaf2e68.jsonl",
-          "assets",
-          "263d83cadfabeeda8a39bd341c10f1b8_origin-1c13635f-785f-4ea6-abb6-5bd814497eaf.png",
-          "263d83cadfabeeda8a39bd341c10f1b8_origin-e71fcff5-7e25-4d38-86de-0c764f86d114-8c74be2e-d255-4e89-a2ef-ecd540681472.png",
-          "WeChatWorkScreenshot_40cbdb33-e255-4187-8a8d-3f01d035b7d7-4cbd0253-3d18-4566-bf0f-bfb844778888.png",
-          "WeChatWorkScreenshot_e4b9a927-379c-4aed-85b7-77ed4938f3f9-7aa0bf08-639d-4ab1-9eed-a0b9037cd925.png",
-          "WeChatWorkScreenshot_e4b9a927-379c-4aed-85b7-77ed4938f3f9-7ad26a74-c487-489f-a8a2-32520c0d8bd4-0a6bdc09-1f20-4be3-a0c4-a1f3386aa462.png"
-        ]
-      },
-      {
-        "session_id": "ffcab1b4-ae43-4f0e-808c-8be51a80ae6c",
-        "mtime": "2026-08-11T17:54:03.464684",
-        "score": 6,
-        "first_query": "这张证书，把Shinytest改成CHILLPREP，把上海纽约大学的logo和名字放大，其他都不变。用GPT image 2",
-        "last_assistant": "已改好，主要两处： 1. **SHINYTEST → CHILLPREP** 2. **底部上海纽约大学 logo 与名称已放大** 其余版式、正文、签名和金色花纹保持原样。文件在： 若 NYU logo 还想再大一点，告诉我即可。",
-        "touched_paths": [
-          "NYU-Certificate-CHILLPREP.png",
-          "NYU-Certificate-CHILLPREP.png`",
-          "___NYU-7266f7b6-ed6c-4568-b759-fed2681c2699.png"
+          "WeChatWorkScreenshot_40cbdb33-e255-4187-8a8d-3f01d035b7d7-4cbd0253-3d18-4566-bf0f-bfb844778888.png"
         ]
       }
     ],
     "BC落地页": [
       {
         "session_id": "b15f03aa-1314-4dcf-a407-12f560a8e2ac",
-        "mtime": "2026-07-30T19:16:19.609473",
+        "mtime": "2026-09-07T18:57:23.479356",
         "score": 9,
         "first_query": "我现在在cursor内置浏览器里打开了一个网站，这是一个BC的雅思模考网站，我现在将要走完整个模考流程并测试。我想你监控和记录整个流程，获取全部可以获取的数据，包括前台、后台、交互等数据，最后我需要你出具一个详细的分析报告，呈现整个网站的结构、交互方式、内容和潜在的bug、缺陷、隐患等。先分析可行性，再进行准备。",
-        "last_assistant": "双方均有分的 **7 篇**均值： | 指标 | BC | 扣子 | Δ | |------|---:|-----:|--:| | 总分 | 6.43 | 6.36 | −0.07 | | TA | 5.43 | 5.43 | 0 | | CC | 6.71 | 6.43 | −0.29 | | LR | 6.86 | 6.43 | −0.43 | | GRA | 7.14 | 7.14 | 0 | TA / GRA 均值持平；扣子在 CC、LR 上略低。已写入 。",
+        "last_assistant": "都整理好了，开发可以直接看这个文件夹： **** --- 给开发先看什么 | 文件 | 内容 | |------|------| | | 总索引 + 速查表 | | | Writing DOM、API、缺陷 D07 | | | Notes / 划词高亮 / collect / annotation | | | Writing + Notes 机读摘要 | --- 包里有什么（共 58 个文件） - **7 份文档**：完整 、高亮笔记专题、顶栏测试记录等 - **6 份 JSON**：基线探测、流程进度、顶栏结构、机读汇总 + 新建的 Writing/…",
         "touched_paths": [
           "0bda2091-d7ac-481e-82ab-53fa1a42cac3.txt",
           "795970e4-ed6c-4804-bc12-ed1c8502f792.txt",
@@ -93,150 +180,328 @@
     ],
     ".": [
       {
-        "session_id": "1b533343-a7e6-4e81-a772-901faa8b8d2c",
-        "mtime": "2026-08-13T03:31:14.157989",
-        "score": 7,
-        "first_query": "你能读取这个链接里的内容吗？https://applink.feishu.cn/client/message/link/open?[已脱敏]",
-        "last_assistant": "已完成： - 项目根目录新增私密 ，包含 6 项部署配置 - 权限设为 - 已排除 - 新增脱敏模板 - PRD、数据规则及部署文档已同步 - 已验证凭证未出现在其他项目文件中 跨项目时可直接本地复制 ，再调整远程目录和访问地址。 注意：旧密码曾出现在历史对话中，仍建议尽快更换并改用 SSH 密钥。 **Updating environment configuration** I'm focusing on updating the file without storing any compromised root passwords. Even th…",
-        "touched_paths": [
-          "agent-transcripts",
-          "SKILL.md",
-          "AI Projects",
-          "躺着学数据",
-          ".env.example",
-          "PRD.md",
-          "数据处理规则.md",
-          "README.md"
-        ]
-      },
-      {
         "session_id": "a3a4f562-c087-45c6-a262-6028ad0cd922",
-        "mtime": "2026-08-12T13:59:07.248110",
+        "mtime": "2026-09-01T15:15:03.076883",
         "score": 7,
         "first_query": "AI Projects/留存相关数据/躺着学每日登录ID.csv 这是每日登录网站的用户ID，AI Projects/留存相关数据/手机号ID对照表.csv 这是ID和手机号的对应关系。把ID去重后，把无法对应到手机号的ID整理出来。",
-        "last_assistant": "正在把完整 ID 映射、断档告警和周更验收清单固化进流程与文档。",
+        "last_assistant": "第一次推送走代理卡住了，已经停掉。真正生效的是后面那次直连 GitHub， 已经在远程。",
         "touched_paths": [
           "SKILL.md",
+          "待选图表新页_ea0a6763.plan.md",
           "agent-tools",
-          "agent-transcripts",
-          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81",
-          "6f7a3ef1-7ff0-4fca-aadf-9cc6b150be81.jsonl",
-          "image-0608ef7d-9c9a-44b9-bfdd-dd27f6f6e964.png",
-          "image-0b30a9c7-5a2f-4cd6-a763-66f7fcef534d.png",
-          "image-0c766d75-ec78-40bd-aff1-8395d1d3f403.png"
+          "08250e5b-d6d9-4160-841b-a0fc3742153a.txt",
+          "d1706996-5df0-4ed1-a065-02ccfb8bfbbf.txt",
+          "dc0f56f0-6d93-43ca-ba19-0ce6b2772781.txt",
+          "f698175f-822f-43bf-b681-5fffcc5a5b38.txt",
+          "agent-transcripts"
         ]
       },
       {
-        "session_id": "b1325695-c445-4bfe-8be9-68070fab5a39",
-        "mtime": "2026-08-10T13:12:40.354458",
-        "score": 6,
-        "first_query": "跑数据时经常跳出这个弹窗，什么原因？",
-        "last_assistant": "已改好。 现在会在导入 pyplot 前强制使用 后端。 其余画图脚本（、、）本来就有这行，无需改动。之后再跑热力图应不会再弹这个崩溃窗。",
+        "session_id": "1b533343-a7e6-4e81-a772-901faa8b8d2c",
+        "mtime": "2026-09-01T14:35:19.770974",
+        "score": 7,
+        "first_query": "你能读取这个链接里的内容吗？https://applink.feishu.cn/client/message/link/open?[已脱敏]",
+        "last_assistant": "这个报错是 Cursor 切工作区时去拉远程 ，你们仓库没有这条远程分支。我先在新路径上看 git 状态，再告诉你怎么打开项目。",
         "touched_paths": [
-          "image-aea70537-ac15-40e8-85f3-142f31d570a6.png",
-          "躺着学数据",
-          "generate_heatmaps.py"
+          "mac",
+          "SKILL.md",
+          "plans",
+          "图表高度拖拽_01bb42bf.plan.md",
+          "SKILL.md",
+          "113febbe-bcb7-4033-a0ca-feff98bbe8ce.txt",
+          "270ea8e7-722c-4cd3-bef6-d04241716df6.txt",
+          "479c4643-5ee5-45aa-9ea7-05f158c5f79a.txt"
         ]
       },
       {
-        "session_id": "9d4ff271-1ea3-47fb-ace7-db16cc587a0e",
-        "mtime": "2026-08-09T21:40:26.640870",
-        "score": 6,
-        "first_query": "给我具体的在线跑数据拉取脚本（可能需要几个小时）的方法",
-        "last_assistant": "都是让脚本在「你关掉终端之后还能继续跑」的工具。 ****（no hang up） - 把命令丢到后台跑，并忽略「终端关闭」信号。 - 你关掉 SSH / Cursor 终端，进程一般还在。 - 输出通常重定向到日志文件（如 ）。 - 用法简单；想再看进度就 。 **** - 开一个可「挂起再回来」的会话。 - 再按 ：脱离会话，脚本继续跑。 - ：重新连回去，能直接看实时输出。 - 比 更适合需要时常盯进度的长任务。 对比： | | nohup | screen | |--|-------|--------| | 关终端后继续跑 | 是 | 是 | …",
+        "session_id": "3f5aa711-847f-42f9-aa61-e3994f56c5d6",
+        "mtime": "2026-08-13T10:05:25.131778",
+        "score": 9,
+        "first_query": "我希望做一个雅思写作的自动批改工具。批改结果需要看着像真人用word批改的样子。输出需要是一个word文档，批改记录在原文基础上显示，用word内置的标记方式（比如下划线、字体颜色、高亮、批注或直接在原文内部或最后添加文字评语等方式）展示批改结果。批改样式参考@批改 中的真人老师的word格式批改文档。 先进行调研，确认技术上是否能够实现生成带各种批改标记的word文档。",
+        "last_assistant": "复核完成，无需追加修复： - 错误字段红框持续显示，且未被顶栏遮挡。 - 390px 下全主路径无横向溢出；此前 622px 为测试环境异常。 - 批改进度 2.5 秒内从 0% 推进至 30%，步骤同步更新。 - 本地文件选择失败属于测试工具限制。 临时浏览器任务已正常清理，代码与线上版本无需变更。 **Analyzing viewport metrics** I discovered that the subagent detected a viewport scale of 0.627, but it seems our current onli…",
+        "touched_paths": [
+          "3f5aa711-847f-42f9-aa61-e3994f56c5d6",
+          "image-cdae9d7f-a32c-4d7f-b7b0-08686ff793e9.png",
+          "image-da8f1bc5-31b6-4fc0-b86b-37a70cc991e0.png",
+          "image-e02f4900-33fd-4f14-98f8-9e3e0e556573.png",
+          "cursor-ide-browser",
+          "122529.txt",
+          "411876.txt",
+          "411877.txt"
+        ]
+      },
+      {
+        "session_id": "6dc4afc2-b1a8-4149-980e-248b1e16bf0f",
+        "mtime": "2026-08-13T09:53:55.724422",
+        "score": 9,
+        "first_query": "在本地仓库 中，恢复并严格实现最新版 v2.1 精确版，解决 OneDrive 把先前实现回滚成旧版的问题。 必须先读： - - - 需要时读 reference/TROUBLESHOOTING/templates/examples 当前项目是 vanilla JS hash-router，不是 React。现状： 已有 （被 demo-only 标记包裹）， 启动调用 、路由渲染后调用 ； 使用 。当前 约 290 行、CSS 347 行，只是旧版系统滴，缺 v2.1 手写层/列表/导出等。 只允许修改/新增以下文件，绝对不要动其他文件（特别不要动 …",
+        "last_assistant": "首次预览服务因端口 8123 被占用而失败；已改用 8124 完成测试并关闭，无需后续操作。 **Wrapping up server update** I see that the first server failed because the port was occupied, but when I retried with port 8124, it succeeded. I should keep my response brief. The user wants an update with no additional tools need…",
+        "touched_paths": [
+          "agent-transcripts",
+          "3f5aa711-847f-42f9-aa61-e3994f56c5d6.jsonl",
+          "6dc4afc2-b1a8-4149-980e-248b1e16bf0f.jsonl",
+          "terminals",
+          "122529.txt",
+          "182692.txt",
+          "182693.txt",
+          "2.txt"
+        ]
+      }
+    ],
+    "本地AI项目": [
+      {
+        "session_id": "4dbcfb56-5a53-4241-b2e7-7d984a70d451",
+        "mtime": "2026-09-15T19:09:12.968633",
+        "score": 7,
+        "first_query": "原始数据/每周更新/20260824-20260830-留存数据.xlsx 原始数据/每周更新/订单2026.8.24-8.30.xlsx 原始数据/每周更新/注册26.8.24-8.30.xlsx 原始数据/每周更新/IELTSBuddy登录手机号_2026-08-24_至_2026-08-30.xlsx根据这些新表和原始数据下其他最近更新的表，更新相关数据和看板，直接发上线",
+        "last_assistant": "口径与写作相同：数据截止 **2026-09-06**，周 **8/10–9/06** 共 4 周；次数 = 当周该科 **做题量** 合计，人数 = 当周 **总做题量 > 0 且该科做题量 > 0** 的用户，人均 = 次数 ÷ 人数。 听力 | 周 | 练习次数 | 练习人数 | 人均次数 | |----|--------:|--------:|---------:| | 8/10 – 8/16 | 275,626 | 2,982 | 92.43 | | 8/17 – 8/23 | 230,757 | 2,582 | 89.37 | | 8/24…",
         "touched_paths": [
           "SKILL.md",
-          "AI",
-          "躺着学数据",
-          "run_pipeline.py",
-          "README.md",
-          "全量页面趋势拉取指引.md",
-          "page_granular_trend.py"
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "lark-shared-identity-and-permissions.md",
+          "SKILL.md",
+          "lark-sheets-read-data.md",
+          "lark-sheets-workbook.md"
         ]
       },
       {
-        "session_id": "6d60e4f9-5244-4368-8bab-f5e70cc6701f",
-        "mtime": "2026-08-03T10:51:12.971545",
-        "score": 7,
-        "first_query": "任务 更新项目中的 **百度** 与 **微信** 后台导出数据到最新可用日（今天按 **2026-08-03**，数据通常到 **昨天 2026-08-02**）。 项目根： 硬性约定 - **百度与微信分开**处理，可并行脚本但目录勿混 - **默认只改本地，不要部署到 124.71.183.148**（用户未说发线上） - 凭证留在各自 ，勿写入文档正文 - 同步 变更记录（百度/微信各相关说明若末日变了要更新） - 不要 git commit 百度（完整更新流程，见 ） 在仓库根目录依次（或按 README 完整 6 步）： 若某步失败：记录原…",
-        "last_assistant": "本次周更已完成，摘要如下： **百度** → **2026-08-02**，6 步全跑完；按天趋势 748 天无缺口。 / 的 已改为动态「昨天」。 **微信** → **2026-08-02**。We分析 1 个窗口失败（ 的 ）；经典月留存 8 月窗口失败属预期（月未闭合）。 **登录率**仍停在 **2026-07-26**，因 未合并 7/27～8/2 增量。有登录数据后跑 ，再 和 即可补齐。 看板 JSON 已 rebuild（截止 2026-07-26）； 与 已同步。未部署线上、未 git commit。 [REDACTED]",
+        "session_id": "b9448ac1-d054-44e9-bce4-5d3989a6aab1",
+        "mtime": "2026-09-15T01:36:37.054956",
+        "score": 8,
+        "first_query": "调研开源的iPhone duo的毛玻璃效果复刻，在词卡翻转上实现",
+        "last_assistant": "已经发到线上，服务在跑。 打开：http://124.71.183.148/vocab-camp/ 刚才脚本结束时页面还是 502，是 uvicorn 刚重启还没起来。现在首页 200，登录接口也会正常回 401（探测账号本来就不存在）。刷新一次就能看到「给点提示」和翻页近大远小。",
         "touched_paths": [
-          "Users-mac-Library-CloudStorage-OneDrive-AI-Projects",
-          "751457.txt",
-          "751458.txt",
-          "AI",
-          "躺着学数据",
-          "微信数据",
-          "1000102006_访问核心指标趋势.csv",
-          "1000502001_各页面_访问指标趋势.csv"
+          "SKILL.md",
+          "SKILL.md",
+          "1e8ea38f-dda3-484b-b79e-d06d67c53282.txt",
+          "b9448ac1-d054-44e9-bce4-5d3989a6aab1",
+          "b9448ac1-d054-44e9-bce4-5d3989a6aab1.jsonl",
+          "ae97a57f-e29c-41e1-8e9f-deb08f98640a.jsonl",
+          "image-648ba450-7069-4535-8bff-10c36d88092f.png",
+          "terminals"
         ]
       },
       {
-        "session_id": "bdcfdeff-1134-47cc-b5f5-5d7f086f94d2",
-        "mtime": "2026-08-03T03:01:58.511288",
+        "session_id": "c641ca65-a121-47f3-bc13-d27484d476e2",
+        "mtime": "2026-09-15T01:15:34.443419",
         "score": 7,
-        "first_query": "问题 用户问：热力图的 UV **为什么都没有数字**？ 项目： 主要： 排查并修复 1. 读当前 piecewise/continuous visualMap：是否 、formatter 空、pieces 无 label、刻度被样式裁掉 2. 色阶图例每一段必须显示 **UV 数值范围**（如 或 ），并有「UV」字样 3. 悬停 tooltip 必须有 **中文名 + UV: 数字**（千分位）——若也丢了一并修 4. 国家/不含中国/省份三 Tab 都要有数字 5. bump；同步线上 http://124.71.183.148/ ；不要 git…",
-        "last_assistant": "**Browser inspection didn't run** — Playwright/Chromium wasn't available in the environment, so we couldn't auto-verify the rendered labels. The UV fix itself is already in place locally (CSS clipping + labels). To eyeball it, open after a hard refresh (). [REDACTED]",
+        "first_query": "我要搭一个简易版的背单词网页（H5适配），但需要有最基础的用户账号并记录背单词记录和进度。这个需要怎么设计和部署？",
+        "last_assistant": "已发到线上：http://124.71.183.148/vocab-camp/ 首页已恢复 200。手机上建议强刷或清缓存后再试：结算页点单词进巩固，用「返回结算」回来。 [REDACTED]",
         "touched_paths": [
-          "856350.txt",
-          "856352.txt",
-          "AI",
-          "躺着学数据",
-          "看板demo",
-          "README.md",
-          "style.css",
-          "index.html"
+          "SKILL.md",
+          "简易背单词方案_6bf42f8c.plan.md",
+          "SKILL.md",
+          "SKILL.md",
+          "Users-mac-AI",
+          "724d3d61-3934-47fa-b659-6aeb0cdfb5f0.txt",
+          "afd15946-466e-4745-aa51-d7bf66d912ec.txt",
+          "f59c8374-2168-4bc0-9391-c08d1cd5f6bc.txt"
         ]
       },
       {
-        "session_id": "47d0a03d-0dee-42c8-8d37-c5ab68753433",
-        "mtime": "2026-08-02T04:40:43.556153",
+        "session_id": "6fb4e759-601a-4914-8bdb-0fca219eba39",
+        "mtime": "2026-09-15T00:31:38.845523",
+        "score": 6,
+        "first_query": ".env里的DEPLOY_REMOTE_PATH是什么意思？",
+        "last_assistant": "已发线上。 **地址：** http://124.71.183.148/vocab-camp/ 本次包含收藏与收藏夹相关更新。外网检查正常（首页 200，API 401）。 说明：第一次 SSH 认证失败，重试后部署成功。若以后再出现同类情况，可检查 里的 是否与服务器一致。 [REDACTED]",
+        "touched_paths": [
+          "mac",
+          "terminals",
+          "687457.txt",
+          "SKILL.md",
+          "本地AI项目",
+          "简易背单词",
+          ".env",
+          ".env.example"
+        ]
+      },
+      {
+        "session_id": "1ffee31d-c495-41e3-9c96-acee5f1de6f1",
+        "mtime": "2026-09-14T22:42:27.169317",
         "score": 9,
-        "first_query": "任务 对看板 **百度访客 / 热力图页**（）重新梳理需求，并对照当前实现做验收；有缺口则修复。 项目： 一、请先输出「需求清单」（写入 ，并在 §1.6 用产品视角挂一句入口） 综合历史对话，需求应至少包含（你可润色表述，勿丢条）： 1. **嵌入页内**：热力图在看板内展示，不是默认整页跳转/强制新标签（可保留次要「新标签打开」） 2. **可互动**：悬停显示 **中文** 国家/省份名称 + **UV**（访客数） 3. **省份图也必须互动**（不能是静态图/假图） 4. **地图视觉现代年轻**（ECharts 或同等，非老旧 Plotl…",
-        "last_assistant": "百度热力图页（）需求梳理与验收已完成。 **结果**：11 条需求均已满足。主要修复是 tooltip/高亮标签改用中文国名省名（），visualMap 加宽至 220×14。 **文档**： - - §1.6 已挂入口 **本地查看**（须在 目录起服务）： 硬刷新： **注意**：若 8765 已被占用，换其它端口即可；服务 cwd 必须是 ，否则 JSON/地图资源会 404。 [REDACTED]",
+        "first_query": "给每个词写两个版本的例句，一个是正常雅思例句，一个是热门游戏相关的（把这个词放在热门游戏语境中造句，或直接用高识别度的角色台词等），游戏版本需要带上游戏名称和游戏图标。两个版本可随时切换，切换后记住上次选择。例句都需要有中文翻译。 调研热门游戏（以中国热门游戏为主），然后实现。",
+        "last_assistant": "已经按你的选择改完了。 **狂飙只留高启强。** 贾玲的贾晓玲、张译的安欣都拿掉。换成： - **张若昀 · 范闲 · 庆余年**（23 条：监察院、京都、陈萍萍） - **白鹿 · 姜雪宁 · 宁安如梦**（22 条：重生、薛府、谢危） 原先那 45 条例句都按新人设重写了，词头都还在英文句里。词卡来源会显示「范闲 · 庆余年」或「姜雪宁 · 宁安如梦」。 学习页硬刷新即可。要发上线跟我说一声。",
         "touched_paths": [
-          "611549.txt",
-          "611550.txt",
-          "AI",
-          "躺着学数据",
-          "数据处理规则.md",
-          "看板demo",
-          "style.css",
-          "baidu_geo.json"
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "Users-mac-AI",
+          "2d04f26d-e396-461c-ad16-782c9669560f.txt",
+          "3f008251-bed3-4003-89bb-11c84d75cdc2.txt",
+          "1ffee31d-c495-41e3-9c96-acee5f1de6f1",
+          "image-afb464b7-7a33-447a-b681-d81f26de2871.png"
         ]
       },
       {
-        "session_id": "c88d6209-9d62-40b1-99d7-be30e89a8e64",
-        "mtime": "2026-08-02T04:33:21.184248",
+        "session_id": "51be7326-8320-4822-b17b-fc3d0c3b7546",
+        "mtime": "2026-09-14T15:09:26.735681",
+        "score": 6,
+        "first_query": "调研可以挑选给AI参考风格的网站，我选我想要的风格，扔给AI照做",
+        "last_assistant": "已经按 那套苹果风改完了，功能没动，只换了皮。 打开就能看出差别：浅灰底、系统字体、没有暖黄纸色和投影。主按钮是胶囊实心蓝（开始背、认识、登录），「不认识」改成描边蓝，退出一类是文字链。词卡还是点开翻面，打卡标记改成胶囊「打卡 / 通关」，不再用红印章。 我在首页和词卡上都点过一遍，蓝圈今天、选中天数、进度条都对得上。PRD 也写成了这套视觉规则。",
+        "touched_paths": [
+          "SKILL.md",
+          "SKILL.md",
+          "c70ce673-5da9-41e3-b9cf-710a3b34dce7.txt",
+          "canvases",
+          "ai-style-reference-sites.canvas.tsx",
+          "ai-style-reference-sites.canvas.tsx)，按「现成给",
+          "terminals",
+          "SKILL.md"
+        ]
+      },
+      {
+        "session_id": "b7872be8-864a-4e00-bfcd-4aacafa19b38",
+        "mtime": "2026-09-14T12:06:28.892361",
+        "score": 6,
+        "first_query": "IB数据怎么是从8.25开始的？飞书表里7月就开始了，注意历史补录那张表",
+        "last_assistant": "在项目根目录： 本地有这个文件（权限 600），但被 忽略了，所以 Git 里看不到。 旁边有个模板 ，里面列了变量名，比如 、 等。AI 助手、部署脚本都会读根目录这份 。 加载方式： 线上部署不会上传整份 ，服务器上只用单独的 （主要是 ）。 [REDACTED]",
+        "touched_paths": [
+          "e0432ab7-369b-45bc-af7e-f9184fedf4c5.txt",
+          "4dbcfb56-5a53-4241-b2e7-7d984a70d451.jsonl",
+          "b7872be8-864a-4e00-bfcd-4aacafa19b38",
+          "b7872be8-864a-4e00-bfcd-4aacafa19b38.jsonl",
+          "_______17890317312765-a36fda8e-7169-410a-855c-3151942572ed.png",
+          "ai-assistant-icon.png",
+          "image-9401b244-74d0-4dfc-ab5f-66546ff84969.png",
+          "image-d5f588a3-3696-4a2b-97c1-ddb51fb081a6.png"
+        ]
+      },
+      {
+        "session_id": "906db6b2-452c-4d64-9e97-2702ea038867",
+        "mtime": "2026-09-14T12:06:09.398765",
         "score": 7,
-        "first_query": "问题 用户说看板默认仍是 **「叠加」**，他们要的是 **仅均线**（只要 7 日均线，不要原始+均线叠加）。 路径： 上一任务声称把 从 改成 ，但用户实测默认仍是叠加——请 **核实并真正修好**。 排查 1. 读 ： 初始值、所有赋值为 的地方、 / 对 // 的处理 2. 检查 HTML 里分段按钮是否写死 在「叠加」上 3. 检查是否有多个 state（如每页独立 mode）仍默认 both 4. 用 Playwright 或读源码确认：刷新后 ，按钮「7日均线」有 active，「叠加」无 active，图表只画均线系列 修复 - 全局默…",
-        "last_assistant": "结果 **根因**：源码里 已是 ，但浏览器缓存了旧版 （默认 ），所以刷新后仍显示「叠加」。 **已做**：在 的 css/js 加了 防缓存；README 补充了硬刷新说明。Playwright 实测：默认「7日均线」高亮，图表只画均线系列。 **验证**：本地起服后打开留存页，**Cmd+Shift+R** 硬刷新即可。 [REDACTED]",
+        "first_query": "根据欧标(C1,C2,B1,B2等），对躺着学语料库单词打上难度标签，然根据BNC/COCA词频表对躺着学语料库单词打上常用度标签。这两个标签之后需要展示且可筛选",
+        "last_assistant": "已改好。 **Demo**：学习流（作答卡、详解、从详解点「查看更多」）里原句下只保留「整句译文」和「本句词义」，「句法作用」不再渲染。 **PRD** 已同步（1.371）：背单词过程下线该字段。 词库单词详情里如果还有「句法作用」，那是浏览词库时的展示，不在本次「背单词过程」范围内。要一并去掉可以说一声。 [REDACTED]",
         "touched_paths": [
-          "AI",
-          "躺着学数据",
-          "看板demo",
-          "README.md",
-          "style.css",
-          "retention.json",
-          "index.html",
-          "app.js"
+          ".cursor",
+          "6cc78691-192e-4545-9f07-fb50c876b62b.txt",
+          "7ce0d400-5213-4da4-a687-940578353f1b.txt",
+          "8082abe0-f42b-4da9-ae12-8179c58d6355.txt",
+          "aebb551f-c344-4e91-b89b-bcf105db1f45.txt",
+          "agent-transcripts",
+          "906db6b2-452c-4d64-9e97-2702ea038867.jsonl",
+          "image-0af6ba5d-73d5-4a62-bc20-d17448a6e1fd.png"
         ]
       },
       {
-        "session_id": "0ba35997-e825-41ef-82e1-95ff695c3362",
-        "mtime": "2026-08-02T04:07:25.025360",
-        "score": 9,
-        "first_query": "任务 看板 demo 的 说明文案：用户要求 **只保留对「看数据的人」有用的解释**，去掉给产品/研发看的内部说明。 路径：（主要 ） 要删/弱化的（产品/内部向） - CSV 文件名、chart_id、接口名（We分析 / datacube）、JSON 路径 - 「与站内手机号留存口径不同」类对内口径对照（除非改写成用户能懂的一句「这是微信官方统计的小程序留存」） - 「虚线为 7 日移动平均」可保留（对看图有用）或并入控件理解 - 数据生成脚本、周更命令、技术实现细节 - 过长的维度枚举堆砌 要留的（用户向） - 这张图在看什么（指标含义） - …",
-        "last_assistant": "看板 demo 的 说明已改成**只看数用户**需要的 2～4 条要点，去掉了 CSV 文件名、We分析/datacube、数据来源拼接、站内口径对照等内部信息。 **加载卡死也已修复**：数据加载成功后会移除「正在加载数据」；页面渲染失败会显示错误提示，不再静默卡住。 **验收**：本地 HTTP 打开 ，用 硬刷新，点「小程序·留存」确认能出图、 文案无内部术语。 [REDACTED]",
+        "session_id": "83f7337e-f8f3-423f-b8f7-8603dbe6f853",
+        "mtime": "2026-09-12T00:45:57.107491",
+        "score": 6,
+        "first_query": "IB对比页，加上全部/新用户/老用户的切换",
+        "last_assistant": "改完了，104 条全部重写。硬刷新再看 。 现在每条是三条短句，比如 UV 默认那张： 1. 近90天访客在**往下走**，更像夏考后的正常回落，不像系统坏了。 2. 新用户掉得比老用户明显，说明**拉新在降温**，老用户盘还扛得住。 3. 最近一周已经走平，工作日还是比周末人多。先观察，不用慌。 去掉了「主矛盾」「熟客化」「变熟」这类词，改成「拉新」「老用户」「往下看」这种平时会说的。重点词还是黄底高亮，编号也还在。",
         "touched_paths": [
-          "AI",
-          "躺着学数据",
-          "数据处理规则.md",
-          "看板demo",
-          "README.md",
-          "style.css",
-          "wechat_retain.json",
-          "index.html"
+          "SKILL.md",
+          "snapshot-2026-09-10T05-50-15-505Z-4ek2z7.log",
+          "agent-transcripts",
+          "83f7337e-f8f3-423f-b8f7-8603dbe6f853",
+          "83f7337e-f8f3-423f-b8f7-8603dbe6f853.jsonl",
+          "image-45230c96-6e11-49e9-8f75-07049c3123d2.png",
+          "image-7137a7ea-6482-4640-95d9-2b9eac349bbf.png",
+          "image-e7800448-5a33-43c2-8001-974143f50102.png"
+        ]
+      },
+      {
+        "session_id": "2e8bc0b4-99e4-4bb5-8ec1-e7a5db151a27",
+        "mtime": "2026-09-11T14:34:25.001986",
+        "score": 7,
+        "first_query": "你能读取这个链接里的内容吗？https://applink.feishu.cn/client/message/link/open?[已脱敏]",
+        "last_assistant": "网站能把人留下来登录，但会员生意几乎不靠付费撑着。完整报告在 网站与会员体系分析，可以在聊天旁边打开，数字和图都在里面。 **核心判断** 近 90 天日均 UV 3051、登录率 65%，环比都还行；同比 UV 掉了 16%，新客更弱。在籍会员 9724 人里，付费只有 230 人（2.4%）。主体是赠送 SVIP（7512 人，九成是新通）和 0 元 VIP。 **几件比较确定的事** - 人在做题，不在买会员。近 13 周约 68% 的 PV 在真题/做题页；课程售卖 4.1%，会员中心还在掉。 - 0 元 VIP 把量做大了（近 90 天 49…",
+        "touched_paths": [
+          "mac",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          ".cursor",
+          "snapshot-2026-09-10T15-14-48-992Z-7ki6m0.log",
+          "snapshot-2026-09-10T15-22-41-165Z-i2rn5f.log",
+          "snapshot-2026-09-10T15-42-14-671Z-opy4uw.log"
+        ]
+      },
+      {
+        "session_id": "8c7c2c96-aa07-425c-ac6b-0237dc778860",
+        "mtime": "2026-09-09T14:21:17.784774",
+        "score": 6,
+        "first_query": "/git-update",
+        "last_assistant": "主 PRD 是： **[](product/PRD-项目主规范.md)** 项目级规范，管目标、模块边界和跨模块规则。学习 Demo 相关细则在模块 PRD： - [](product/vocabulary-learning/PRD-词汇学习.md)（躺着学背单词） - [](product/corpus-insights/PRD-语料洞察.md)（语料洞察） 有冲突时以主 PRD 为准，具体功能再下钻到对应模块 PRD。 [REDACTED]",
+        "touched_paths": [
+          "SKILL.md",
+          "SKILL.md",
+          "3b7950f1-9694-4b0f-b067-c6e7bcbd7239.txt",
+          "588899ac-5c67-4d67-8333-0ab9e2a1d16e.txt",
+          "9bbddec1-df95-4e05-ad39-1ba48b56034a.txt",
+          "9c173006-7443-4935-8722-497179b6ad76.txt",
+          "c8f64080-48d9-40f8-8ace-83e74dff31b4.txt",
+          "agent-transcripts"
+        ]
+      },
+      {
+        "session_id": "706af6e5-f130-4d11-9f20-1120107b2e22",
+        "mtime": "2026-09-08T14:50:06.472558",
+        "score": 7,
+        "first_query": "题库数据/听力和阅读.csv 题库数据/写作和口语.csv 按topicID（篇目ID），整理出四个科目的篇目清单（字段需要包含ID、科目、标题）",
+        "last_assistant": "业务表 共 **96** 条（全都 ），另有 36 条是 未启用。 和最新机考并集（普通机考 + UKVI，96 个大陆考场）一对，**启用清单只差长春工大**： | | 点 | |---|---| | 并集有、 没有 | **长春工业大学雅思机考考点**（IELTS 100305 / UKVI 100304） | | 有、并集没有 | **海外**（id=96，备注「海外考场」，不是大陆机考） | 长春工大其实已经在这份业务表里，是 **id=98、status=2**，9 月 1 日写入的，没启用。其余 95 个启用点和并集能对上。 已抽到 ，差额…",
+        "touched_paths": [
+          "SKILL.md",
+          "cdp-response-Runtime.evaluate-2026-09-08T06-23-36-985Z.json",
+          "172cc60d-4324-4270-ac44-2405a4b4e5ec.txt",
+          "1cc2add6-bf08-410b-a153-b3f5411b0200.txt",
+          "agent-transcripts",
+          "706af6e5-f130-4d11-9f20-1120107b2e22.jsonl",
+          "83c7bfb2-ae53-4212-8aeb-694afbb9e0e2",
+          "image-62361939-5ca8-424c-b5d3-dab9a11459e3.png"
+        ]
+      },
+      {
+        "session_id": "b1ae3b8c-7486-4058-b00b-8b61575c482e",
+        "mtime": "2026-09-08T14:15:52.018339",
+        "score": 7,
+        "first_query": "题库数据/听力和阅读.csv 题库数据/写作和口语.csv 按topicID（篇目ID），整理出四个科目的篇目清单（字段需要包含ID、科目、标题）",
+        "last_assistant": "不是考试院的库，也不是一份有名字的官方名单。 就是项目里这份 自己长成这样：字段是 ，95 条的创建、更新时间全是 **2026-05-08 11:08:48**。这是业务表一次性导入的样子，没有省份、城市，也没有 。 对照另外两份表就清楚了： - ：8 月底按考试院入场页重做，有 、 - ：有来源链接和截止日期 - ：做命中数据时就已经在项目里，后来没按考试院页重刷 所以「5 月那份库」只是从时间戳推的：大约 5 月 8 日进过某套业务考点表，再导出成这份 CSV。文档里没有写是哪个系统、谁导的。长春工大没在这份 95 条里，考试院 8 月页上有，但…",
+        "touched_paths": [
+          "SKILL.md",
+          "172cc60d-4324-4270-ac44-2405a4b4e5ec.txt",
+          "agent-transcripts",
+          "706af6e5-f130-4d11-9f20-1120107b2e22",
+          "706af6e5-f130-4d11-9f20-1120107b2e22.jsonl",
+          "83c7bfb2-ae53-4212-8aeb-694afbb9e0e2",
+          "canvases",
+          "course-bank-stats.canvas.tsx"
+        ]
+      },
+      {
+        "session_id": "30e4102d-0a83-4463-a420-59df19812e37",
+        "mtime": "2026-09-08T12:03:17.708926",
+        "score": 9,
+        "first_query": "我需要研发基于雅思题库语料库的背单词方法和产品，需要比如词频统计、意群切分、词汇关联度计算、词根词缀拆解等等。首先，我需要对语料库和自然语言处理相关的分析研究处理工具进行调研。要求：比较学术科学、便于使用、免费、可以在cursor中使用或调用。请进行完整和深入的调研和对比，并向我汇报。",
+        "last_assistant": "**不是**因为「返回时保存」和「保存计划」走了不同逻辑——两条路最后都进同一个 ，换书、重排今日队列的处理一样。 按钮什么时候会变灰 「学习」变灰的条件是： - 今天**还没打卡** - 今日官方学习队列里**没有剩余未学词**（ 为空） - 且当前**不在**进行中的学习组里 对应代码： 所以灰按钮 = 系统认为「今天这组新词已经排不出词了」，不是保存入口的问题。 换词本后常见的几种情况 **1. 换的书里「未学」词已经没了（正常）** 保存换书时会默认把和其它词本交叉、且已学过的词同步过来。如果新词本里的词大多在上一本已经学过，今日队列可能排不出…",
+        "touched_paths": [
+          "skills",
+          "CONTEXT-FORMAT.md",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "066c6da4-b5ce-4ad2-9c8e-ce2e9c5734b9.txt",
+          "09848ad4-3161-4014-a93e-cc1c8ae062b6.txt",
+          "139a5469-044c-403e-818e-a55add6ece25.txt"
+        ]
+      },
+      {
+        "session_id": "3fbd3d1b-cff4-4b86-ba2a-b77b46fb5eea",
+        "mtime": "2026-09-08T03:54:31.280291",
+        "score": 9,
+        "first_query": "我需要研发基于雅思题库语料库的背单词方法和产品，需要比如词频统计、意群切分、词汇关联度计算、词根词缀拆解等等。首先，我需要对语料库和自然语言处理相关的分析研究处理工具进行调研。要求：比较学术科学、便于使用、免费、可以在cursor中使用或调用。请进行完整和深入的调研和对比，并向我汇报。",
+        "last_assistant": "的 **2026-09-08** 条目已更新，主要改动： **词汇测试**（拆成五条，覆盖今天的方法说明 / FAQ 工作） - 选档页导语 - 两个说明入口 - 方法说明页：英文副标题、学术正文、APA 夹注、完整估计模型公式 - FAQ：英文副标题、七问卡片 - 说明页排版：字体统一、标题一行显示 **词汇测试结果页** - 「不可靠结果」从词库小节挪到这里，并补上「不计趋势图、不改推荐词本」 **词库** - 只保留首页标题和搜排筛吸顶两项 [REDACTED]",
+        "touched_paths": [
+          "skills",
+          "SKILL.md",
+          "CONTEXT-FORMAT.md",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md",
+          "SKILL.md"
         ]
       }
     ]
