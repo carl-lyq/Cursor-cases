@@ -19,13 +19,6 @@ git checkout -b portfolio-draft git push -u origin portfolio-draft ```
 - 出差回来：补对话
 - 要汇报前：读 →
 
-### 近期产出
-
-- docs: PRD v1.5 与 portfolio-owner-ops 运维 Skill
-- feat: 本机对话脱敏同步与 session-digests
-- 将 portfolio 自动扫描从每周改为每天执行。
-- Initial commit: Cursor 案例库扫描、合成与发布流程。
-
 ## 工作方式对比
 
 ### 传统方式
@@ -36,12 +29,9 @@ git checkout -b portfolio-draft git push -u origin portfolio-draft ```
 
 以 **`00-设置说明.md`** 为需求入口，让 Agent 先理解业务背景与验收标准，再协助改文档、写原型或补代码。
 
-近 90 天仓库有 **4** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。
-
 ## 提效与业务价值
 
 - **业务覆盖**：已落地或规划 6 项核心能力（见上文「项目要做什么」）。
-- **持续迭代**：仓库已有 **4** 次近期提交，产出在持续更新。
 
 ## Cursor / AI 能力与工具
 
@@ -49,17 +39,6 @@ git checkout -b portfolio-draft git push -u origin portfolio-draft ```
 
 - Cursor Agent 对话式协作（读项目上下文、生成/修改文件）
 
-## 仓库活跃信号
-
-- 近 90 天 **4** 次提交
-- 最近提交：2026-06-24
-- 近期改动方向：
-  - docs: PRD v1.5 与 portfolio-owner-ops 运维 Skill
-  - feat: 本机对话脱敏同步与 session-digests
-  - 将 portfolio 自动扫描从每周改为每天执行。
-  - Initial commit: Cursor 案例库扫描、合成与发布流程。
-- 主要产出类型：文档 9 个
-
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：00-设置说明.md · 生成于 2026-09-21*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：00-设置说明.md · 生成于 2026-09-22*
