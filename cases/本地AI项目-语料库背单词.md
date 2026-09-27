@@ -1,10 +1,10 @@
-# 语料库背单词
+# 当前交付：uni-app 学习 UI
 
 > 项目路径：`本地AI项目/语料库背单词` · 领域：综合
 
 ## 业务背景
 
-基于躺着学 IELTS 阅读题库的语料研究 + 词汇学习产品（**躺着学背单词**）。 **产品唯一真相来源**：product/PRD-项目主规范.md **全部文档索引**：DOC-INDEX.md
+当前维护工程为 apps/learning-uni，使用 uni-app、Vue 3 和 TypeScript，同时构建 H5 与微信小程序。旧 CSS 重构版不再作为运行或交付入口。
 
 ## 项目要做什么
 
@@ -12,19 +12,19 @@
 
 ### 核心功能
 
+- 分支交付说明：来源、范围、验证及未接入能力。
+- UI 变更清单 / 待合并草稿：评审差异继续待合并，推送分支不代表 UI 定稿或正式 PRD 已全部同步。
+- 当前账号 / 验证码为本地模拟，学习记录按账号保存在设备内；微信真机、真实身份接口及宿主配置仍待接入。
+- 线上评审预览：躺着学背单词。预览发布独立于 Codeup 分支推送。
 - 你想…：打开
 - **查全部文档（产品 / 调研 / 方法）**：**DOC-INDEX.md**
-- 看产品规范：product/PRD-项目主规范.md
-- 看产品更新了什么：product/产品更新日志.md
-- 玩学习 Demo：product/demos/ielts-vocabulary-learning.html
-- 看语料洞察页：research/reports/corpus-insights-v3.html
 
 ### 近期产出
 
-- fix: 测词结果测完即存，词本切换须点去学习确认
-- feat: 词汇测试结果页改版与测词引擎落地
-- feat: 同步 0906 Demo 体验与词库数据，并补齐线上部署学习包
-- merge: 将 origin/main 合入 corpus-data-260906
+- Record pending Sites publication after upload service errors
+- Move account identity below verification tabs
+- Group account identity with password settings
+- Fix post-login routing and restore account data before continuation
 
 ## 工作方式对比
 
@@ -36,12 +36,12 @@
 
 以 **`README.md`** 为需求入口，让 Agent 先理解业务背景与验收标准，再协助改文档、写原型或补代码。
 
-近 90 天仓库有 **13** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。
+近 90 天仓库有 **26** 次相关提交，说明人机协作产出在持续迭代，而非一次性交付。
 
 ## 提效与业务价值
 
-- **业务覆盖**：已落地或规划 6 项核心能力（见上文「项目要做什么」）。
-- **迭代速度**：近 90 天 **13** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。
+- **业务覆盖**：已落地或规划 8 项核心能力（见上文「项目要做什么」）。
+- **迭代速度**：近 90 天 **26** 次提交，文档/原型/代码同步演进，改版周期明显短于纯人工分段推进。
 
 ## Cursor / AI 能力与工具
 
@@ -51,15 +51,15 @@
 
 ## 仓库活跃信号
 
-- 近 90 天 **13** 次提交
-- 最近提交：2026-09-08
+- 近 90 天 **26** 次提交
+- 最近提交：2026-09-18
 - 近期改动方向：
-  - fix: 测词结果测完即存，词本切换须点去学习确认
-  - feat: 词汇测试结果页改版与测词引擎落地
-  - feat: 同步 0906 Demo 体验与词库数据，并补齐线上部署学习包
-  - merge: 将 origin/main 合入 corpus-data-260906
-- 主要产出类型：文档 12 个 · 其他 10 个 · 素材 5 个 · 配置/数据 2 个
+  - Record pending Sites publication after upload service errors
+  - Move account identity below verification tabs
+  - Group account identity with password settings
+  - Fix post-login routing and restore account data before continuation
+- 主要产出类型：文档 19 个 · 其他 7 个 · 配置/数据 2 个 · 页面原型 1 个
 
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：README.md · 生成于 2026-09-15*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：README.md · 生成于 2026-09-28*

@@ -3,3 +3,33 @@
   项目：44 · 新案例：1 · 更新：35
   待确认清单：reviews/LATEST.md
   状态：有待确认项 → state/PENDING_REVIEW
+[portfolio-draft 9e7e58e] chore(portfolio): daily local scan with sanitized sessions 2026-09-15
+ 48 files changed, 8284 insertions(+), 272 deletions(-)
+ create mode 100644 "cases/Miscs-AI\346\227\266\344\273\243\345\255\246\350\257\255\350\250\200\351\207\215\350\246\201\346\200\247\350\256\262\345\272\247.md"
+ create mode 100644 cases/Miscs-assets.md
+ create mode 100644 "cases/Miscs-\346\235\255\345\267\236\351\225\277\346\262\231\345\234\260\345\212\277\345\233\276.md"
+ create mode 100644 "cases/Miscs-\351\200\211\344\270\223\344\270\232.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\345\205\266\344\273\226\345\260\217\351\241\271\347\233\256-\345\237\216\345\270\202\347\272\277\347\272\247.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\345\205\266\344\273\226\345\260\217\351\241\271\347\233\256.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\345\220\254\345\212\233\351\242\230\345\272\223.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\345\221\275\344\270\255\346\225\260\346\215\256.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\347\256\200\346\230\223\350\203\214\345\215\225\350\257\215.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\350\257\255\346\226\231\345\272\223\350\203\214\345\215\225\350\257\215.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\350\272\272\347\235\200\345\255\246.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\350\272\272\347\235\200\345\255\246\346\225\260\346\215\256.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\350\272\272\347\235\200\345\255\246\347\275\221\347\253\231.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256-\351\224\200\345\224\256\346\225\260\346\215\256\345\210\206\346\236\220.md"
+ create mode 100644 "cases/\346\234\254\345\234\260AI\351\241\271\347\233\256.md"
+ create mode 100644 inbox/2026-09-14-scan.json
+ create mode 100644 inbox/2026-09-15-scan.json
+ create mode 100644 reviews/2026-09-14-review.md
+ create mode 100644 reviews/2026-09-15-review.md
+ create mode 100644 state/logs/daily-sync-20260915.log
+To github.com:carl-lyq/Cursor-cases.git
+ ! [rejected]        portfolio-draft -> portfolio-draft (fetch first)
+error: failed to push some refs to 'github.com:carl-lyq/Cursor-cases.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
