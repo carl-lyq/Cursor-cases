@@ -12,10 +12,10 @@
 
 ### 近期产出
 
+- daily local scan with sanitized sessions 2026-09-27
+- daily repo scan 2026-09-27
 - daily repo scan 2026-09-26
 - daily repo scan 2026-09-25
-- daily repo scan 2026-09-24
-- daily repo scan 2026-09-23
 
 ## 工作方式对比
 
@@ -41,14 +41,14 @@
 ## 仓库活跃信号
 
 - 近 90 天 **98** 次提交
-- 最近提交：2026-09-26
+- 最近提交：2026-09-28
 - 近期改动方向：
+  - chore(portfolio): daily local scan with sanitized sessions 2026-09-27
+  - chore(portfolio): daily repo scan 2026-09-27
   - chore(portfolio): daily repo scan 2026-09-26
   - chore(portfolio): daily repo scan 2026-09-25
-  - chore(portfolio): daily repo scan 2026-09-24
-  - chore(portfolio): daily repo scan 2026-09-23
-- 主要产出类型：其他 9 个 · 配置/数据 3 个
+- 主要产出类型：其他 8 个 · 配置/数据 3 个
 
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：无 · 生成于 2026-09-27*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：无 · 生成于 2026-09-28*
