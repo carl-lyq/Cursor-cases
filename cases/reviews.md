@@ -12,10 +12,10 @@
 
 ### 近期产出
 
+- daily repo scan 2026-10-14
 - daily repo scan 2026-10-13
 - daily repo scan 2026-10-12
 - daily repo scan 2026-10-11
-- daily repo scan 2026-10-10
 
 ## 工作方式对比
 
@@ -42,14 +42,14 @@
 ## 仓库活跃信号
 
 - 近 90 天 **94** 次提交
-- 最近提交：2026-10-13
+- 最近提交：2026-10-14
 - 近期改动方向：
+  - chore(portfolio): daily repo scan 2026-10-14
   - chore(portfolio): daily repo scan 2026-10-13
   - chore(portfolio): daily repo scan 2026-10-12
   - chore(portfolio): daily repo scan 2026-10-11
-  - chore(portfolio): daily repo scan 2026-10-10
 - 主要产出类型：文档 30 个
 
 ---
 
-*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：2026-06-23-review.md · 生成于 2026-10-14*
+*本卡由 Cursor 案例库自动整理 · 状态：draft · 文档来源：2026-06-23-review.md · 生成于 2026-10-15*
