@@ -1,9 +1,9 @@
 {
   "BC落地页": {
     "case_file": "BC落地页.md",
-    "content_hash": "338b9692a29c",
+    "content_hash": "06ebb96a5f17",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "Miscs": {
     "status": "ignored",
@@ -187,57 +187,57 @@
   },
   "cases": {
     "case_file": "cases.md",
-    "content_hash": "377fec069aae",
+    "content_hash": "835d285ade43",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "docs": {
     "case_file": "docs.md",
-    "content_hash": "ab48613c4560",
+    "content_hash": "95f68058b6e5",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "draft": {
     "case_file": "draft.md",
-    "content_hash": "696ee36c3242",
+    "content_hash": "cc898078b878",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "inbox": {
     "case_file": "inbox.md",
-    "content_hash": "6c324db7d0a7",
+    "content_hash": "6f85666c1bb7",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "published": {
     "case_file": "published.md",
-    "content_hash": "474939fb502c",
+    "content_hash": "26ae4797fe91",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "reviews": {
     "case_file": "reviews.md",
-    "content_hash": "41c7e0b92c62",
+    "content_hash": "8e31117dddd8",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "scripts": {
     "case_file": "scripts.md",
-    "content_hash": "c2840f9ecabe",
+    "content_hash": "a2ac9a13b17a",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "state": {
     "case_file": "state.md",
-    "content_hash": "c790ba316d47",
+    "content_hash": "1572c91f1fb1",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "templates": {
     "case_file": "templates.md",
-    "content_hash": "34c33e90771e",
+    "content_hash": "7dc322cb9508",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "躺着学数据": {
     "case_file": "躺着学数据.md",
@@ -343,9 +343,9 @@
   },
   "本地AI项目": {
     "case_file": "本地AI项目.md",
-    "content_hash": "1f6f62700d0c",
+    "content_hash": "6fb4842ba567",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   },
   "本地AI项目/2024出国留学考试报告": {
     "case_file": "本地AI项目-2024出国留学考试报告.md",
@@ -361,8 +361,8 @@
   },
   "本地AI项目/ieltsbuddy-content/content": {
     "case_file": "本地AI项目-ieltsbuddy-content-content.md",
-    "content_hash": "71722203961d",
+    "content_hash": "f71011a52e1b",
     "status": "draft",
-    "updated_at": "2026-10-23T05:44:49+00:00"
+    "updated_at": "2026-10-24T05:23:47+00:00"
   }
 }
